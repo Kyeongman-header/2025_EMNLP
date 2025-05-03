@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+  }
+  header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  h1 {
+    margin-bottom: 10px;
+  }
+  .prompt-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+  }
+  .prompt-list li {
+    margin: 0;
+  }
+  .prompt-list a {
+    text-decoration: none;
+    font-size: 1.2em;
+  }
+  .version-list {
+    list-style: none;
+    padding: 0;
+  }
+  .version-list li {
+    margin-bottom: 5px;
+  }
+  .version-list a {
+    text-decoration: none;
+  }
+  .story {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  #questions {
+    margin-top: 30px;
+  }
+  #questions ol {
+    margin-left: 20px;
+  }
