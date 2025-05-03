@@ -37,10 +37,14 @@ document.addEventListener('DOMContentLoaded', () => {
       })
       .then(data => {
         const answers = data.results[prompt - 1].answers;
-        answers.forEach((s, i) => {
+        // 10~15번째 원소만 선택 (인덱스 9~14)
+        const indices = [9,10,11,12,13,14].filter(i => i < answers.length);
+        indices.forEach(i => {
+          const storyNum = i + 1;
+          const s = answers[i];
           const div = document.createElement('div');
           div.className = 'story';
-          div.innerHTML = `<h3>Story ${i + 1}</h3><p>${s}</p>`;
+          div.innerHTML = `<h3>Story ${storyNum}</h3><p>${s}</p>`;
           storiesDiv.appendChild(div);
         });
 
