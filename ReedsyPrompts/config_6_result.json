@@ -1,0 +1,13 @@
+{
+  "model_name": "gpt-4o",
+  "prompt": "reedsyPrompts",
+  "neg_list": [],
+  "version": 6,
+  "beta_mode": "full",
+  "beta_max": 2.0,
+  "max_tokens": 200,
+  "top_k": 20,
+  "fixed_alpha": 0.5,
+  "temperature": 1.0,
+  "num_iterations": 15
+}
