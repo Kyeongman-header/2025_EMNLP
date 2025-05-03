@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
       .then(data => {
         const answers = data.results[prompt - 1].answers;
         // 10~15번째 원소만 선택 (인덱스 9~14)
-        const indices = [9,10,11,12,13,14].filter(i => i < answers.length);
+        const indices = [10,11,12,13,14].filter(i => i < answers.length);
         indices.forEach(i => {
           const storyNum = i + 1;
           const s = answers[i];
