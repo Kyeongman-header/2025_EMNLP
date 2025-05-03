@@ -5,10 +5,10 @@ body {
   margin: 0;
   padding: 20px;
   color: #333;
+  text-align: center;
 }
 /* index.html header */
 header {
-  text-align: center;
   margin-bottom: 40px;
 }
 header h1 {
@@ -18,20 +18,21 @@ header h1 {
 header p {
   font-size: 1.5em;
 }
-/* prompt.html global headings */
-body h1 {
+/* global headings */
+h1 {
   font-size: 2.8em;
   margin-bottom: 20px;
 }
-body h2 {
+h2 {
   font-size: 2.2em;
   margin-bottom: 15px;
 }
-body h3 {
+h3 {
   font-size: 1.6em;
   margin-top: 20px;
   margin-bottom: 10px;
 }
+/* prompt and index sections */
 .prompt-section {
   border: 1px solid #ddd;
   background: #f9f9f9;
@@ -39,15 +40,16 @@ body h3 {
   border-radius: 8px;
   margin-bottom: 30px;
 }
-.prompt-list {
+/* number list styling */
+.prompt-list,
+.version-list {
   list-style: none;
   padding: 0;
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 10px;
-}
-.prompt-list li {
-  margin: 0;
 }
 .prompt-list a {
   text-decoration: none;
@@ -67,29 +69,36 @@ body h3 {
   background: #e6e6e6;
   border-color: #888;
 }
-.version-list {
-  list-style: none;
-  padding: 0;
-}
-.version-list li {
-  margin-bottom: 10px;
-}
 .version-list a {
   text-decoration: none;
-  font-size: 1.2em;
+  font-size: 1.4em;
+  color: #0066cc;
 }
+.version-list a:hover {
+  text-decoration: underline;
+}
+/* story styling */
 .story {
   border: 1px solid #ccc;
   padding: 15px;
   margin-bottom: 20px;
   border-radius: 5px;
+  text-align: left;
+}
+.story h3 {
+  margin-top: 0;
 }
 .story p {
   font-size: 1.2em;
   white-space: pre-wrap;
 }
+/* questions */
 #questions {
   margin-top: 30px;
+  text-align: left;
+}
+#questions ol {
+  margin-left: 20px;
 }
 #questions ol li {
   font-size: 1.2em;
