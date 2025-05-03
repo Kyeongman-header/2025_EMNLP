@@ -53,10 +53,10 @@ document.addEventListener('DOMContentLoaded', () => {
         qDiv.innerHTML = `
           <h3>질문</h3>
           <ol>
-            <li>질문 1</li>
-            <li>질문 2</li>
-            <li>질문 3</li>
-            <li>질문 4</li>
+            <li>질문 1. 단순히 인물 이름이나 소재들 이름만 좀 변경된 것 말고, 얼마나 근본적으로 서로 다른 이야기인가? (1~5점)</li>
+            <li>질문 2. 전체적으로 얼마나 문장들이이 문법 및 어휘 체계가 파괴되지 않고 자연스러운가? (1~5점)</li>
+            <li>질문 3. 전체적으로 얼마나 흥미롭고 재미있으며 창의적인 이야기들을 만들었나? (1~5점)</li>
+            <li>질문 4. 각각의 story는 일관성 있는 이야기인가? (1~5점)</li>
           </ol>`;
         storiesDiv.appendChild(qDiv);
       })
