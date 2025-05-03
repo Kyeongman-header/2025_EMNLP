@@ -40,9 +40,8 @@ h3 {
   border-radius: 8px;
   margin-bottom: 30px;
 }
-/* number list styling */
-.prompt-list,
-.version-list {
+/* prompt list styling */
+.prompt-list {
   list-style: none;
   padding: 0;
   margin: 0 auto;
@@ -50,6 +49,27 @@ h3 {
   flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
+}
+
+/* version list styling: vertical, centered */
+.version-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+}
+.version-list li {
+  margin-bottom: 10px;
+}
+.version-list a {
+  text-decoration: none;
+  font-size: 1.4em;
+  color: #0066cc;
+  display: inline-block;
+  padding: 5px 0;
+}
+.version-list a:hover {
+  text-decoration: underline;
 }
 .prompt-list a {
   text-decoration: none;
