@@ -1,0 +1,19 @@
+{
+  "model_name": "GSAI-ML/LLaDA-8B-Instruct",
+  "prompt": null,
+  "num_iteration": 15,
+  "dataset": "writingPrompts",
+  "generation_length": 200,
+  "topk_k": 20,
+  "steps":200,
+  "temperature": 0,
+  "sim_penalty_version": "max",
+  "rep_penalty_version": "kl",
+  "use_rep_penalty": true,
+  "use_hidden_penalty": true,
+  "rep_max_constant": 1.766600988909141,
+  "hidden_max_constant": 1.0778783215191594,
+  "L0": 38,
+  "sharpness": 0.8024721387112292,
+  "degen_threshold": 1.0
+}

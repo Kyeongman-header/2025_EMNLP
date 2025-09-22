@@ -1,0 +1,19 @@
+{
+  "model_name": "meta-llama/Llama-3.2-3B-Instruct",
+  "prompt": null,
+  "num_iteration": 15,
+  "dataset": "writingPrompts",
+  "generation_length": 200,
+  "topk_k": 20,
+  "steps":200,
+  "temperature": 0,
+  "sim_penalty_version": "max",
+  "rep_penalty_version": "kl",
+  "use_rep_penalty": true,
+  "use_hidden_penalty": true,
+  "rep_max_constant": 0.5775396432904212,
+  "hidden_max_constant": 1.2068682767250465,
+  "L0": 6,
+  "sharpness": 0.21283966157119286,
+  "degen_threshold": 0.9
+}

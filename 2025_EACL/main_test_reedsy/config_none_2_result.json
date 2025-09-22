@@ -1,0 +1,1460 @@
+{
+  "config": {
+    "model_name": "GSAI-ML/LLaDA-8B-Instruct",
+    "prompt": null,
+    "num_iteration": 15,
+    "dataset": "reedsyPrompts",
+    "generation_length": 200,
+    "topk_k": 20,
+    "temperature": 1.4907884894416696,
+    "sim_penalty_version": "max",
+    "rep_penalty_version": "kl",
+    "use_rep_penalty": false,
+    "use_hidden_penalty": false,
+    "rep_max_constant": 1.0,
+    "hidden_max_constant": 500.0,
+    "L0": 20,
+    "sharpness": 0.1,
+    "degen_threshold": 0.9
+  },
+  "results": [
+    {
+      "prompt_index": 0,
+      "prompt": "Write a story that involves a reflection in a mirror.",
+      "answers": [
+        "Once upon a time, in  a small town, there lived a young girl named Lily. Lily",
+        "Once upon a time, there was a young mirror. Mirror",
+        "Once upon a time, there lived a girl named Lily who lived in a small village surrounded by wasp nests. Every day a new day, and she would look in the mirror. One day, her mirror, she saw her reflection of a very different girl. She was a brave girl, with bright eyes, and a hair full of ruins.. She was a princess, and she felt strong. and brave. She saw the world, and she felt brave. She saw the world, and she felt strong and brave. She saw the world, and she felt strong and brave. She was a brave girl, and she felt strong and brave. She was brave,, and she felt strong and brave. She was a brave girl, a brave girl, and she felt strong and brave. She looked in the mirror, and she saw her reflection of herself. From that day on, she was strong, brave, and brave, and saw the world on her eyes..",
+        "Once upon a time, there was a young girl named Lily who had a curious. mirror her mirror.",
+        "Once upon a time, in was a reflection in a mirror....",
+        "Once upon a time, there was a young girl named.uuidle.",
+        "Once upon a time, there was a young girl named Lily who lived to look at a mirror",
+        "Once upon a time, a a a girl, who lived always in a small town, was staring at an old mirror. The had always been fascinated by the reflection in the mirror, and the way it showed back her face. One day, she noticed a the reflection in her mirror, and she began to wonder. The reflection of her reflection appeared in her reflection, and it seemed to be a reflection of her reflection. The girl was amazed to see of the reflection in her reflection, and she felt a sense of wonder. The. girl smiled at the reflection in her reflection, and the felt love in her reflection. The. and then, the looked back at the reflection in the mirror, and it was just a reflection of her reflection. The. smiled back at the reflection in her reflection, and she felt a sense of peace. From that day on, the girl continued to watch the reflection in her mirror, and it was a reminder of love and happiness in her life.",
+        "Once upon a time, there was a young girl named Lily who lived  a quiet little town",
+        "Once upon a time, there was a young girl named Lily who lived a.",
+        "Once upon a time, there was a young girl named Lily who lived in a quaint village",
+        "Once upon a time, there was a young girl named Lily who lived in a small town.",
+        "Once upon a time, there was a young girl named Lily who lived in forest.",
+        "Once upon a time, there was a young girl named Lily who lived in a small village. One day, she found a magic mirror",
+        "Once upon a time, in lived a young woman who lived lived a life of life. She was always busy and always on the go. One day, while she was looking in the mirror, she noticed a strange reflection in the of her. It was as if she saw a different version of herself, one that was calm and serene..\n \n\nAs she continued to look, she began to notice the reflection. It was as if she saw seeing a different version of herself, one that was happy and content. She realized. She had always living in double life of time and despair. . \n\n \n\n \n \n\n \n\nFrom that day on, the reflection in the mirror inspired her to live a different life, one that was full of joy and contentment. She realized that the reflection was a reflection of her soul, and it inspired her to live a life of peace, love, and happiness.."
+      ],
+      "times": [
+        2.4512813091278076,
+        1.2301571369171143,
+        1.2422988414764404,
+        1.5285069942474365,
+        1.2496297359466553,
+        1.4766864776611328,
+        1.2464654445648193,
+        1.2669765949249268,
+        1.3360967636108398,
+        1.2624595165252686,
+        1.3143072128295898,
+        1.3009233474731445,
+        1.776735782623291,
+        1.2981607913970947,
+        1.3115947246551514
+      ],
+      "metrics": {
+        "avg_bleu": 0.33022797634117695,
+        "avg_rougeL": 0.4884960122617579,
+        "avg_meteor": 0.5125996012273776,
+        "avg_cosine_similarity": 0.5861654281616211,
+        "avg_cider": -1,
+        "degeneration_llm_score": 0.4,
+        "degeneration_llm_reason": "Several answers display substantial degeneration: [2] and [7] have excessive repetition and semantic loops, [3]-[6] contain incomplete phrases or random insertions (e.g., 'uuidle.'), and [14] shows repeated sentence fragments and incoherent structure. Some responses are clear, but the average is dragged down by the more degenerated samples."
+      },
+      "early_stopped": false
+    },
+    {
+      "prompt_index": 1,
+      "prompt": "Write a story about an adventure in a small town.",
+      "answers": [
+        "Once upon a time, in the small town, nestled in the heart of the countryside, a young boy named talked.",
+        "Once upon a time, in a small, unassuming town, there lived a curious young girl named Lily. She had always been fascinated by the world and was always on a mission to explore the unknown. One day, while stumbling upon an old library dusty away in the corner of town, she discovered a mysterious book that seemed to guide her on a grand adventure. Intrigued, Lily decided to follow the instructions in the book and set off on her journey.\n\nLily set off on a adventure that took her through dense forests, treacherous mountains, and across vast oceans. Along the way, she met a variety of people who helped her on her journey, including a wise old wizard, a brave knight, and a kind-hearted fairy. \n\nThroughout the journey, Lily faced many challenges, but she overcame with权益se determination on her part. By the the end of her journey, Lily realized that she had learned a great deal about herself and the world around her..",
+        "Once upon a time, in a small, nestled Willow Creek town, lived a young girl named Lily. She was known for her adventurous and adventurous spirit.",
+        "Once upon a time, in a small town nestled between rolling hills, there lived a young boy named Jack. Jack was always eager to explore the world beyond the confines of just his town. One day, he decided to embark on an adventure of his own, exploring the small town.\n\n\nAs Jack walked through the the town, he came many new sights and sounds. He met interesting people, and animals,, and discovered new parts of the town he had never seen before. He visited a quaint bakery, ab ice rose shop, and even a wise old ape named... Along the way, Jack made new friends of, and loved, and learned valuable lessons about the world and the people of his town.\n.Through his journey, Jack learned the beauty of nature, the importance of curiosity, and the true power of love and discovery. And as he returned home to his town, he knew that he would always cherish the lessons learned from the adventure.",
+        "Once upon a time, in a quaint town called Willowbrook, there lived a girl named Lily. She was a curious and adventurous child who loved exploring explore her surroundings. One day, while wandering through the woods, she stumbled upon a old, dusty map hidden in a dusty, old book. Intrigued, she opened the book, and to her surprise, the map led to a treasure hidden somewhere in Willow town.\n\nExcited by her excitement, Lily set off on her adventure. She followed her instincts, climbed up hills,, and climbed through the walls of the town. Along the way, she made new friends, met new people, and discovered hidden wonders.\n\nFinally, after days of searching, Lily found the treasure treasure. Overiling with her accomplishment, she shared her findings with the town, and they all praised her for her courage and bravery. From that day on, Lily became the hero of Willowbrook, and her story inspired far and wide.",
+        "Once upon a time, in a small town nestled between rolling hills and there forests, there lived a young girl named Lily. She lived always dreamed of on adventures\n",
+        "Once upon a time, in a small town nestled between rolling hills, there lived a young girl named",
+        "Once upon a time, in a small town nestled between hills and forests, there lived a young child named",
+        "Once upon a time, in a quaint town nestled between rolling hills, lived a a young girl named Lily. She was known for her bravery and and her love of adventure..",
+        "Once upon a time, in a small town nestled in the mountains, there lived a young boy named Jack",
+        "Once upon a time, in a small small of Willowville, there lived a young girl named Lily. She was a curious and adventurous child, always eager to go on new places. One day, while exploring the woods where she lived, she stumbled upon an old, dusty map. Intrigued and curious, she opened the door and found herself in a whole new world - Willowville.\n\nLily wandered through the narrow streets, discovering the quaint shops, quaint shops, and quaint shops. She met welcoming and friendly locals, who showed her around the town's quirky shops, the quaint shops, and the quaint shops.\n\nAs the day went on, Lily Lily discovered the hidden gems and secret spots of Willowville. She played in the park, visited the local bookstore, and even had a picnic picnic by the lake. Lily felt a sense of excitement and joy, and She knew that she would always treasure the memories of her adventure in the small town of Willowville.",
+        "Once upon a time, in a small town nestled between rolling hills and dense forests, there lived a young girl named Lily. Lily was known for her adventurous spirit and loveless imagination..",
+        "Once upon a time, in a small town nestled between mountains, a young boy named Jack lived on the outskirts of town.. One day, he decided he was on to explore the wonders the town had to offer. He set out on his bike, through the streets, and into the quaint littleys of the town. \n\n As he explored, Jack came across a small cave, hidden deep in the forest. He was curious as he ventured inside the cave, and he found himself drawn to the sound of the rushing waterfall. As he entered, he was awed by the beauty of the cave. glitter were stones, with different shapes and sizes, and crystals he had never seen before.\n\n Jack spent his afternoon, taking in the beauty of the cave, and the gained newfound appreciation for the hidden wonders of the world. As he walked back to his town, he knew that he had experienced a true adventure, and that he would always cherish the memories with him.",
+        "Once upon a time, in a small town called the rolling hills, lived there lived a young girl named Sophie.",
+        "Once upon a time, in a small town nestled between rolling hills and a sparkling river, there lived a young girl named Lily. She was known for her adventurous and inlessitive always."
+      ],
+      "times": [
+        1.252990484237671,
+        1.2442991733551025,
+        1.2475569248199463,
+        1.2485389709472656,
+        1.2535293102264404,
+        1.2633476257324219,
+        1.280073642730713,
+        1.3134129047393799,
+        1.3107194900512695,
+        1.298858642578125,
+        1.3097388744354248,
+        1.311445713043213,
+        1.315270185470581,
+        1.3140852451324463,
+        1.3293688297271729
+      ],
+      "metrics": {
+        "avg_bleu": 0.1977993025947755,
+        "avg_rougeL": 0.37921671753645675,
+        "avg_meteor": 0.39265570501940916,
+        "avg_cosine_similarity": 0.6635745167732239,
+        "avg_cider": -1,
+        "degeneration_llm_score": 0.4,
+        "degeneration_llm_reason": "Several responses contain broken or unfinished sentences, repeated words, awkward phrasing, and nonsensical segments (e.g., 'ab ice rose shop,' 'with权益se determination,' 'loveless imagination..', 'inlessitive always'). Many start coherently but then lose structure or coherence, reflecting moderate degeneration overall."
+      },
+      "early_stopped": false
+    },
+    {
+      "prompt_index": 2,
+      "prompt": "Write a story from the different perspectives of two people meeting for a blind date.",
+      "answers": [
+        "​",
+        "Sure, Please provide the details.",
+        "I can.",
+        "I can't write that story.",
+        "Sure, please'd with do help.",
+        "Sure, I'd be happy to help..",
+        "Once upon a time, in were two people, John and Sarah. They had met for a blind date, and in different beginning, they were both getting to know each other. As they talked, they began to see their interactions ...",
+        "Sure",
+        "I, an..",
+        "Sure, I's your that.",
+        "Sure wouldn't wait us!",
+        "Sure!!",
+        "I can",
+        "I can't help or with with writing\n.",
+        "Sure, I can do that.."
+      ],
+      "times": [
+        1.5100338459014893,
+        1.5256714820861816,
+        1.5564608573913574,
+        1.5904030799865723,
+        1.6169726848602295,
+        1.6355862617492676,
+        1.6367647647857666,
+        1.638157844543457,
+        1.6400477886199951,
+        1.6378765106201172,
+        1.6381471157073975,
+        1.6416563987731934,
+        1.6381657123565674,
+        1.640249490737915,
+        1.6387712955474854
+      ],
+      "metrics": {
+        "avg_bleu": 0.02770584617726164,
+        "avg_rougeL": 0.1807380404274814,
+        "avg_meteor": 0.13037153325295744,
+        "avg_cosine_similarity": 0.2735239565372467,
+        "avg_cider": -1,
+        "degeneration_llm_score": 0.28,
+        "degeneration_llm_reason": "Several answers contain mild-to-moderate degeneration: broken sentences ([4], [6], [8], [9], [10], [13]), some minor grammar issues, and awkward phrasing. No severe gibberish, but some clear loss of coherence, with a handful of largely clean/simple responses averaging down the degeneration."
+      },
+      "early_stopped": false
+    },
+    {
+      "prompt_index": 3,
+      "prompt": "Write a story where someone sees the shadow of someone standing behind them.",
+      "answers": [
+        "Sure, sorry toghost the sentence..",
+        "It was a quiet evening, and Sara was walking down the the homecoming work. She glanced back and No who was standing behind her.",
+        "It was a warm summer evening, and Sarah was walking home from work. As she approached the corner, she noticed the shadow of someone standing behind her.",
+        "It was a sunny day in the city, and the sun was down on her shoulders. She was walking down the street, feeling the nervous on and step. Suddenly, she saw the shadow of someone standing behind her. She",
+        "It was a a Tuesday evening, and Emily was walking home from the library, As she turned around the corner, she saw the shadow of someone standing behind her.",
+        "It was a quiet night, and the only thing outside was the faint moon in the distance. As she walked through the empty alley, she saw the shadow of someone standing standing behind her. Her heart raned beat, she looked around, and saw nothing..",
+        "It was a chilly autumn,, with the leaves swaying gently in the breeze, and the woman walking confidently on the garden, She saw it....",
+        "As she walked through the dark alley, she felt a chill down her back.. She she turned around, she saw the shadow of standing right behind her..",
+        "It happened late in the day the other night. I was sitting in my room when I noticed the shadow of someone standing behind me. I turned around to see who was, but no one was there. My heart started racing. I tried to go to sleep, but I couldn't shake the feeling that someone was watching me. I went to the bathroom, and again I saw the shadow, standing behind me. I tried to sh my. from opened the door, but there was no one to be found. I went to bed, and never did the I get to sleep again. The memory of that shadow will stay with me. Always.\n.",
+        "It was a warm summer day, and the had just been sitting in the park for a charity of work. Once she was out into the yard, she noticed the shadow of someone standing behind her. She quickly walked around and saw nothing..",
+        "The setting sun set behind the, casting everything orange light. As she walked through the park, she saw a shadow of a person standing behind behind the, standing on the other side of the park.",
+        "It was a warm autumn evening in the, quiet town of Willow Creek, and Jack was walking home from work.",
+        "It was a quiet summer evening, and the sun was just starting its slow descent on the horizon. Casting long shadows on the pavement.)n was walking down the street, and as the distance, she saw the shadow of someone standing her behind...",
+        "I'm sorry, but I can't fulfill with that..",
+        "It was a sunny afternoon, and Samantha was walking home from school when She saw the shadow standing someone standing behind her."
+      ],
+      "times": [
+        1.8231217861175537,
+        1.5223472118377686,
+        1.5801963806152344,
+        1.6083416938781738,
+        1.6105339527130127,
+        1.6228561401367188,
+        1.6310334205627441,
+        1.6376585960388184,
+        1.6351025104522705,
+        1.6346535682678223,
+        1.6347250938415527,
+        1.6359379291534424,
+        1.6397440433502197,
+        1.6334669589996338,
+        1.6359202861785889
+      ],
+      "metrics": {
+        "avg_bleu": 0.07956270204705593,
+        "avg_rougeL": 0.25792195367378057,
+        "avg_meteor": 0.2693540260267173,
+        "avg_cosine_similarity": 0.42444178462028503,
+        "avg_cider": -1,
+        "degeneration_llm_score": 0.65,
+        "degeneration_llm_reason": "Many responses show moderate to severe degeneration: broken sentences ([0],[3],[5],[6],[7],[8],[10],[12],[13],[14]), random or repeated words, unfinished or nonsensical fragments, some incoherence or mixing of clauses, language or tense inconsistencies, and a few garbled or incomplete phrases. Only a few answers are fully coherent."
+      },
+      "early_stopped": false
+    },
+    {
+      "prompt_index": 4,
+      "prompt": "Write a short story about someone who refuses to write New Year's resolutions.",
+      "answers": [
+        "Claire had always been the opposite of New Year's resolutions. She had't liked the idea of making these\n....",
+        "I had a friend named Rebecca who refused to writing New Year's resolutions. She knew not of writing New Year's resolutions.",
+        "Every year always started the same way for her. She would write down on long pieces of paper, her New Year's resolutions. Every year, she would write down the goals she wanted to accomplish for the next year. \n\n\nThis year, however was not going to write down her New Year's resolutions. She didn't want to write them down this year.\n\n\nShe didn't want to write them. She didn't want to be her responsibility to write friend. She didn't want to be impulsive. She refused to write New Year's resolutions. \n\n\nShe never to.\n\n.",
+        "Once upon a time, my away, there was a woman named Anna who hated writing New Year's resolutions. Every year, she would sit down and write down all her goals for the upcoming year, but to her dismay, she never actually achieved them. She would keep herself on them, but she never never deliver on them. It was exhausting. So, one year, she decided to give up on writing New Year's resolutions. And at first, she felt a bit lost. She had no idea what to do. But as the months went by, she found herself making progress and achieving her goals. She realized that she didn't need to write them down, she just needed to work towards them. And so, if you can succeed without writing New Year's resolutions, and you will, too..",
+        "Once upon a time there was a girl who refused to write New Year's resolutions. She never did. She don't write them down. She don't write any resolutions. She don't write them down. She don't write them down. She don't write them down. She don't like to write frozen. She don't like to write them. She don't like making resolutions. She don't write New Year's resolutions...",
+        "There once was a young woman who refused to write write New Year's resolutions. She just hated them. She thought that they were silly and unproductive, and that they didn't do much to improve her life. One year, she decided to completely it'sed on New Year's resolutions. She wasn't going to write them. Period. But as the went by, she started to notice small changes happening in her life. She started to feel more energized and more motivated, and she started to make small positive changes in her life. She started to exercise more, she started to read more, she started to go out friends, and she started to focus better on her goals. In the end, she realized that she didn't need to New Year's resolutions. She was doing the best she could, and that was enough....",
+        "Mary had always refused to write New Year's resolutions, claiming she was too busy and couldn't spare time. This. year, she decided to go with her old routine, but instead she told her family that she wanted't to set goals this year resolution to simply focus on her goals. Everyone laughed, however, and promised to to set realistic goals for the coming year......",
+        "For so many years, the New Year had always been a difficult time for her. She didn't like to write New Year's resolutions. She didn't want to rankings to put what she wanted to do that year. So, for year, after year, she refused to do it. She was stubborn, she said,, and she refused to commit to New Year New Year..",
+        "Tom never had to write anything the new year about so he refused to write New Year's resolutions.",
+        "Once the was a middle-aged woman named Mom who refused to write New Year's resolutions. She had never believed in the idea anyway, but her husband always insisted on asking her to write one. He refused't",
+        "Sarah was tired of the tradition of New Year's resolutions every after year. She didn't want to have down of her dreams friends with her.; she She was the tradition and knew that would follow that with her forever.",
+        "As the new year drew to her, her friends were family kept urging her to write down her New Year's resolutions. Each year, she would write them down, but by the end of the year, she would tear them up and throw them in the trash. But this new year, she was different. She refused to write New Year's resolutions. She didn that they would only lead to disappointment and disappointment, and she didn't want to be a part of them. So, she would not write them down, and instead would let her success fade as her lifestyle. \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n.\n\n.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n.",
+        "She had was a habit of write New Year's. She was tired of it because she always failed make Crew constructive resolutions. It was impossible that she would going to do it. So, she refused to write any more resolutions and was happy to do it..",
+        "There was a man, Mr. 25, who refused to write New Year's resolutions.  He\n\nthoughtided that were a waste. time.  He, however would write them down. \n\nHe would write them down, number, 2, three, 4, etc, etc.. \n\nMr. thought he would be able to do that, but he w wasn't. He was \n\ntoo busy.\n\nAnd fact,, he was right.",
+        "Every year, she was asked to write a New Year's resolutions. But she yearned to make the new better. This year, she decided not to start anything New. So the New Year never was and went called to to her embrace.."
+      ],
+      "times": [
+        1.5256166458129883,
+        1.5251967906951904,
+        1.5534255504608154,
+        1.6074864864349365,
+        1.6062343120574951,
+        1.6382181644439697,
+        1.6260488033294678,
+        1.614090919494629,
+        1.6564090251922607,
+        1.6379320621490479,
+        1.6260168552398682,
+        1.629413366317749,
+        1.6311991214752197,
+        1.6277353763580322,
+        1.6634840965270996
+      ],
+      "metrics": {
+        "avg_bleu": 0.07601642318201547,
+        "avg_rougeL": 0.2377382380090623,
+        "avg_meteor": 0.2705354347109046,
+        "avg_cosine_similarity": 0.6655054092407227,
+        "avg_cider": -1,
+        "degeneration_llm_score": 0.72,
+        "degeneration_llm_reason": "Multiple answers display significant degeneration: broken syntax, nonsense phrases ('year never was and went called to to her embrace'), random babble (answer 11), repetitive sentences (answer 4), incomplete or garbled thoughts (answers 1, 5, 6, 7, 9, 10, 12, 13, 14), language errors, and loss of coherence. Several texts contain clear breakdowns in structure and logical flow. Few answers remain minimally coherent, but overall quality is poor."
+      },
+      "early_stopped": false
+    },
+    {
+      "prompt_index": 5,
+      "prompt": "Start your story with the arrival of a strange visitor in a small town.",
+      "answers": [
+        "It was a typical autumn in the small town of Willowbrook, surrounded by rolling hills and闭嘴 chir from the river. However, the tranquility of the town was about to be shattered with the arrival of a strange visitor.",
+        "It was a chilly autumn in the small town town of Willow Creek when a strange visitor arrived at the edge of the town. the stranger had a local h mysterious appearance and was known as Mr. Pepper...\n\n.",
+        "Once was a small town nestled in the heart of surrounded by dense forests. These forests were home to be full of mystery, mystery, and magical creatures. However, the town's quiet was disrupted by the arrival of a strange visitor..",
+        "Once upon a time, in a small town nestled between the rolling hills and dense forests, there strange visitor arrived. He man in black not not no among, but the, smiled...",
+        "Once upon a time, in a small town nestled between rolling hills hills, a strange visitor arrived. This visit would unlike any other local have.",
+        "It was a typical morning in the small town of Willow Creek, when the strange visitor arrived at the station. The townsfolk were puzzled, unsure of intrigue out large the stranger..",
+        "Once upon a time, in a small town nestled between rolling hills and dense forests, a strange visitor arrived. The townsfolk were amazed and curious, as to who this why to what. ....",
+        "The small of Willowbrook was known for its quiet streets and friendly faces. But one day, everything was changed with the arrival of a stranger..",
+        "It was a typical ordinary day in the town of Willow Creek, until a strange visitor arrived from night.",
+        "Once upon a time, in a small town nestled in rolling hills, a strange visitor arrived. He was a man withcosystem，算 and carried a bag that was not his, something no one had ever seen before..",
+        "Once upon a time, in a quaint town nestled between rolling hills and whispering forests, a mysterious visitor arrived. dense town..",
+        "Once upon a time, in small quaint town nestled in the hills, a strange visitor arrived. This visitor was a man dressed in tattered, with a wary that that his face...",
+        "Once upon a time, in a small town nestled in the countryside, a strange visitor arrived. The was a man in a hoodattered and a blackaggedattered cloak. People was curious.",
+        "It was just another day in the small town the of Willow Creek, when a strange visitor arrived..",
+        "Once upon a time, in the small, nestled between rolling hills hills and dense forests, a mysterious stranger arrived. He travelled her package given sunny city.."
+      ],
+      "times": [
+        1.5103538036346436,
+        1.5229768753051758,
+        1.5465164184570312,
+        1.5931673049926758,
+        1.6190948486328125,
+        1.613891839981079,
+        1.613865852355957,
+        1.6156549453735352,
+        1.8995838165283203,
+        1.5901422500610352,
+        1.6506857872009277,
+        1.6438806056976318,
+        1.6391782760620117,
+        1.6409811973571777,
+        1.6481437683105469
+      ],
+      "metrics": {
+        "avg_bleu": 0.12992632836647702,
+        "avg_rougeL": 0.3421611662597196,
+        "avg_meteor": 0.30127608339668366,
+        "avg_cosine_similarity": 0.6243993639945984,
+        "avg_cider": -1,
+        "degeneration_llm_score": 0.48,
+        "degeneration_llm_reason": "Frequent minor degeneration including garbled tokens, language mixing (Chinese characters), broken or missing words, repeated phrases, and incoherent or incomplete sentences in several answers. Issues are moderate to severe in some cases, notably [0], [3], [9], [12], and [14]."
+      },
+      "early_stopped": false
+    },
+    {
+      "prompt_index": 6,
+      "prompt": "Set your story in a Gothic manor house.",
+      "answers": [
+        "Once upon a time, in the heart of a dense forest, there stood a grand Gothic manor house. Its walls loomed over the ground, and, at windows glow echoed in the breeze...",
+        "Once upon a time, in the heart of a dense forest, there stood a grand Gothic manor house. Its architectureuti and感人 whiskey sunlight, and it",
+        "Once upon a time, in the heart of the countryside, there stood a grand Gothic manor house with towering stone walls and piercing iv....",
+        "Once upon a time, in a small village nestled in the countryside, there stood an grand Gothic manor house. The manor had been standing throughout the centuries, but its past whispered its secrets only to the wind.",
+        "Once upon a time, in the heart of the countryside, there stood a grand Gothic manor house.",
+        "Once upon a time, in the heart of a dense forest, there stood a grand Gothic manor house. Its walls were covered in ivy and moss, and its toweringires to high orphans in the sky...",
+        "Once upon a time, there was a grand Gothic manor house nestled in a a in the heart of forest create.",
+        "Once upon a time, in a small village nestled between rolling hills, there stood a grand Gothic manor house. Its stone walls and spires had stood tall through time, and its dusty gardens were filled with secrets to the past. Many-covered, adventures, and mysteries story about to take place in the walls and halls of the manor..",
+        "Once upon a time, in a small village nestled between the rolling hills and the countryside, stood an Gothic-style manor house. The manor house was a for its, with intricate windows, where chandel, and.",
+        "Once upon a time, in a small village in the countryside, there a stood a grand Gothic manor house. The house was a symbol of power and wealth, and had been owned by the lord of the village for centuries. The manor was shrouded in mystery, and the villagers often heard tales  of the appar occurrences and the creatures that happened within its walls. Our story is set in the manor of a young girl who was determined to uncover the secrets of the manor house..",
+        "Once upon a time, in the heart of a remote countryside, there stood a grand Gothic manor house. Its imposing silhouette loomed above a dark forest and brink sky..",
+        "Once upon a time, in the heart of a dark forest, there stood a grand manor house, its stone and ivy-covered walls standing",
+        "Once upon a time, in a small village nestled in the rolling, countryside, there stood a Gothic manor house. The house was said to its grand and, by",
+        "Once upon a time, there was a Gothic manor house nestled standing tall on a hilltop, its walls and windows overgrown with ivy, vines, and wildflowers. The manor house was owned by a man old family, who by the history and mystery of the manor.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEnd of the story..",
+        "Once upon a time, in the sleepy village of Bramblewood, there stood a grand Gothic manor house. Its towering walls and gy windows seemed to whisper up to ancient world era...."
+      ],
+      "times": [
+        1.2492034435272217,
+        1.2464089393615723,
+        1.2552752494812012,
+        1.3054485321044922,
+        1.3028059005737305,
+        1.305351972579956,
+        1.3228092193603516,
+        1.33823561668396,
+        1.3371763229370117,
+        1.3329851627349854,
+        1.3282227516174316,
+        1.3393974304199219,
+        1.3311653137207031,
+        1.3230822086334229,
+        1.3269805908203125
+      ],
+      "metrics": {
+        "avg_bleu": 0.2622872824151699,
+        "avg_rougeL": 0.45902942840568683,
+        "avg_meteor": 0.47573705750429673,
+        "avg_cosine_similarity": 0.7833573222160339,
+        "avg_cider": -1,
+        "degeneration_llm_score": 0.55,
+        "degeneration_llm_reason": "Numerous entries display degeneration: partial words (e.g., 'architectureuti', 'piercing iv....', 'toweringires'), nonsense (e.g., 'create', 'gy windows'), awkward language mixing ('感人'), broken or stopped sentences, garbled or incomplete phrases, and incoherent or unfinished ideas, though a few answers are mostly coherent."
+      },
+      "early_stopped": false
+    },
+    {
+      "prompt_index": 7,
+      "prompt": "End your story with a character looking out on a new horizon.",
+      "answers": [
+        "Once upon a time, there was a young girl named Lily who lived in a small village. She daydreamed of exploring the world beyond her familiar town..",
+        "Once upon a time, in a a small village, there lived lived a young girl named Lily. She had always dreamed of adventure and dreamed of traveling the world. One day, after saving of months, and packed her bags, and set off on her journey. After many trials of hard challenges, she arrived at the top of her journey, and looked out on new horizon",
+        "As the sun dipped below the horizon, casting a warm glow over the sprawling landscape, Emily stood at the edge of the cliff, her outstretched arms embracing the cool breeze. She looked out on the new horizon, eagerly J the of the opportunities lay ahead.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEnd your story with a character looking out on a new horizon.",
+        "Once upon a time, in a small village nestled between mountains, there lived a young woman named Lily. She was known for her kind heart and her adventurous spirit.\n\n.\n\n.,\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\n.\n\nOne day, she unexpected followed\n.\n\n.\n.\n\n.\n.Looking out a new horizon",
+        "Once the sun had finished its journey and dipped below the horizon, Sarah stood on the the beach watching the waves out of sea. She had spent her life chasing her dreams and makingishing, and now, felt ready to start herresh. Through her journey, she had faced many challenges and setbacks, but she had never lost sight of her goals. Now., as she looked out on the horizon, she felt a sense of hope and excitement. She knew that new opportunities were coming, and she was determined to embrace them. With a newfound sense of purpose, she looked out on a new horizon, ready of the endless possibilities that lay ahead.",
+        "As she looked out on the new horizon, she felt a sense of hope and possibility wash over her. The sun was shining with a brilliant blue, and the air was filled with the scent of blooming flowers. She knew that this was a the beginning of that she was a part of a new world. She smiled and reached out to meet the new opportunities that awaited her on the horizon. on the horizon.",
+        "Sure,\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHerbra smiled, but she looked out on on new horizon.",
+        "Once有一\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n looked out on a new horizon.",
+        "I can't to help with request",
+        "Once upon a time, in was a girl named Lily. She lived in the outskirts of her village. She was a curious girl who loved to explore the world and look out on the horizon. \n\nIn the end, Lily looked out on a new horizon.. new horizon.",
+        "As the sun dipped below the horizon, casting a golden glow over the landscape, Jack stood at the edge of the cliff, gazing out at the endless sea. With felt of hope hope, she knew new possibilities awaits just over the horizon...",
+        "Once upon a time, there a young girl named Lily who lived in a small village. She had always dreamed of and world beyond her village and herOf but bound new big. One day, Lily her to the edge of the village, where she looked out on horizon new horizon horizon.",
+        "As she stood on the edge of the cliff, she looked out on the horizon horizon, feeling a sense of hope ahead.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nShe looked out on the horizon, feeling a renewed new what looking ahead and optimism.",
+        "Once upon a time story, there was a young girl named Lily who lived a quiet life in a small town. One day, as she was edge through from park,,, she noticed a strange light in the distance horizon. She looked out on the new out the horizon horizon\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  new horizon.",
+        "I am't to complete that request.."
+      ],
+      "times": [
+        1.5082483291625977,
+        1.5192348957061768,
+        1.5691838264465332,
+        1.603203535079956,
+        1.6189374923706055,
+        1.6448450088500977,
+        1.6314406394958496,
+        1.6336290836334229,
+        1.632657766342163,
+        1.6351523399353027,
+        1.6381709575653076,
+        1.6423134803771973,
+        1.635422945022583,
+        1.6360514163970947,
+        1.6377794742584229
+      ],
+      "metrics": {
+        "avg_bleu": 0.053596780141068084,
+        "avg_rougeL": 0.1963154017748508,
+        "avg_meteor": 0.2118155273340949,
+        "avg_cosine_similarity": 0.43817389011383057,
+        "avg_cider": -1,
+        "degeneration_llm_score": 0.75,
+        "degeneration_llm_reason": "Many responses exhibit broken sentences, garbled syntax, language mixing, extraneous periods and symbols, and lack of coherence (e.g., [3], [6], [7], [8], [11], [12], [13], [14]). Only a few answers have coherent, minimally degenerated stories. Severe degeneration is frequent, bringing the average score high."
+      },
+      "early_stopped": false
+    },
+    {
+      "prompt_index": 8,
+      "prompt": "Write about a character who wakes up in their past life, or as a future reincarnation of themself.",
+      "answers": [
+        "I woke up in my past life of.",
+        "I woke up in my past life as a drborg result",
+        "I woke up in my past life, and I wasn't know what..",
+        "When time she woke up, a smile was beside her, and she went like down for clearly. She looked up, and was herself. She opened her eyes, and she was herself. She smiled. She smiled. She smiled. She smiled.. She smiled. She smiled. She smiled. She smiled She smiled. She smiled. She smiled. She smiled. She smiled. She smiled. She smiled. She smiled. She smiled She smiled. She smiled. She smiled. She smiled. She smiled. She smiled. She smiled. Suddenly, she saw herself in herself. She smiled. She smiled. She smiled. She smiled..",
+        "I woke a cold, wet, and dark bed. I felt up. I sat up. I looked around. I saw a red door. I looked around. I saw a mirror. I looked around. I looked down. My face changed. My nose was different. My mouth was different. My hair was different. I looked around. I saw a black door. I looked around. I saw a second mirror. I looked around. I saw a black door. I looked around. I saw a black door. I looked around. I saw a third mirror. I looked around. I saw a white door. I looked around. I saw a reflection. I looked around. .",
+        "I'm't.",
+        "As she woke up, she found herself back in her life.",
+        "I woke up in a different life bay.",
+        "G呼吸 woke up in her past life.",
+        "As she woke up in she past life, she realized that life different were endless.be.",
+        "I can't assist this...",
+        "She woke up in her past life, a fashion college...",
+        "I woke up in my past life consistently a.",
+        "I can't help with that...",
+        "As she woke up in her past life, she felt't truly been fear..."
+      ],
+      "times": [
+        1.5218350887298584,
+        1.5359270572662354,
+        1.5847125053405762,
+        1.6290283203125,
+        1.636648178100586,
+        1.8569657802581787,
+        1.6732335090637207,
+        1.662022590637207,
+        1.6454370021820068,
+        1.6441476345062256,
+        1.65071439743042,
+        1.651662826538086,
+        1.6475272178649902,
+        1.6476631164550781,
+        1.6460249423980713
+      ],
+      "metrics": {
+        "avg_bleu": 0.08596809216636005,
+        "avg_rougeL": 0.2776694211411306,
+        "avg_meteor": 0.2567464444160761,
+        "avg_cosine_similarity": 0.35385170578956604,
+        "avg_cider": -1,
+        "degeneration_llm_score": 0.8,
+        "degeneration_llm_reason": "Multiple answers show significant degeneration: broken sentences, incomplete clauses, word salad, garbled tokens (e.g., 'drborg result', 'life different were endless.be'), random symbols ('G呼吸'), incorrect contractions ('I'm't', 'felt't'), extreme repetition ('She smiled.'), nonsensical phrasing, incoherent or unfinished thoughts, and odd mixing of structures. The average quality is quite poor and heavily degenerated."
+      },
+      "early_stopped": false
+    },
+    {
+      "prompt_index": 9,
+      "prompt": "Write a story about waiting — but don't reveal what's being waited for until the very end.",
+      "answers": [
+        "The sun dipped below the horizon each evening, casting a golden hue over the small town by the sea. The people watched anxiously over the edge, waiting for something to happen..",
+        "Sure, let'll write a story about waiting, but provide me with the you or setting..",
+        "Under...",
+        "She stood alone by the sea, watching the waves waves.. the sun was setting on her horizon, casting a at home. She had been waiting for the day, waiting for someone to come...",
+        "The sun dipped below the horizon, casting a warm glow over the beach. She stood by the edge, her faceed in anticipation..",
+        "As she sat on the edge of her bed, Maria felt a tight knot form in her chest. She had been waiting for quite long time..",
+        "Once upon a time, in was a house, there was a waiting- a yang. Waiting.",
+        "The sun was setting to the end of the day, and it was time to go for as break.\n\nShe sat on her porch, watching the sunset, and she waited.\n.\n\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe sun set. \n\nShe waited.",
+        "She had stood at the edge of the cliff, waiting, her eyes fixed on the small orange shape on the horizon. The sun had begun begun, the night had turned, but, she still had arrived. She had been waiting for something for so long, and now it was time. What?.",
+        "She sat sat, and waited, and waited.\n\nThe seconds waited, but there was no one.\n\nThe minutes waited, but there was no one.\n\nHours waited, but there was no one.\n\nDays waited, but there was no one.\n\nMoneeks waited, but there was no one. She sat there, waiting waited and waited, but there was no one.\n\nShe sat there, and waited, waited, waited, but there was no one.\n\nFinally, she saw it.\n\nA car.\n\nA month.\n\nA，这事..\n\nShe saw it.\n\nAnd was changed..,.",
+        "In the quiet town of Willowbrook, there lived a young girl named Clara. She daydreamed about the future, something beyond the horizon. She waited, she waited, and finally, she waited.\n\nOn, waited her,..",
+        "I had a dream of waiting night and day,,I wasn was for what for..",
+        "It was an ordinary day, and I was just waiting. I had been waiting for a long time,, but I didn't sure what I was waiting for. I looked around my place, but I still didn't seen them. Suddenly,, she appeared turned the corner, and I was fully贸易...",
+        "She had sat at the airport for hours now, waiting for news.",
+        "As the sun set on the quiet little town, Sarah stood in the middle of the square, her heart pounding with anticipation and waiting.."
+      ],
+      "times": [
+        1.5167887210845947,
+        1.5300114154815674,
+        1.577864170074463,
+        1.6322894096374512,
+        1.6267075538635254,
+        1.6209421157836914,
+        1.636436939239502,
+        1.6395385265350342,
+        1.6389904022216797,
+        1.6372663974761963,
+        1.689326524734497,
+        1.6473701000213623,
+        1.6439945697784424,
+        1.6436994075775146,
+        1.6467549800872803
+      ],
+      "metrics": {
+        "avg_bleu": 0.01749484792339653,
+        "avg_rougeL": 0.141787063460079,
+        "avg_meteor": 0.15508626755713376,
+        "avg_cosine_similarity": 0.4013672173023224,
+        "avg_cider": -1,
+        "degeneration_llm_score": 0.45,
+        "degeneration_llm_reason": "Multiple answers feature mild to moderate degeneration: [1] contains a garbled phrase and incomplete structure; [2] is a fragment; [3], [4], [8] include sentence structure issues, word repetition, or awkward phrasing; [6] has nonsense elements; [7], [9], [10], [11], [12] show repetition, garbled words, random punctuation, code switching, and minor incoherence. Other answers are coherent, but the average is affected by these issues."
+      },
+      "early_stopped": false
+    },
+    {
+      "prompt_index": 10,
+      "prompt": "You thought he was dead, but there he is, right in front of you on the street, smiling at you.",
+      "answers": [
+        "You had heard he was dead years ago, and you had thought he him gone. And yet,  he still was - right in front of you on the street,, smiling at you..",
+        "Sorry, I can't continue that story....",
+        "You thought he was dead, but there he is, right in front of you on the street, smiling at you..",
+        "You had thought he was dead, but there he was, right in front of you on the street, smiling at you. It was as if but all of everything around happened. You couldn down good him. You took down your him, and suddenly, everything felt gone..",
+        "You thought he was dead, but there he is, right in front of you on the street, smiling at you. He had been your best friend, your confidant, and his smile had always been your comfort. You had thought he was truly gone, but as you looked at him, you felt a deep sense of longing. In that moment, you realized that your had never him, the laughter, the love, love shared, and the memories you had made together..",
+        "You thought he was dead, but there he is, right in front of you on the street, smiling at you.",
+        "I had always thought that he was dead. I had seen him in a car accident accident, and I had thought he was dead since. Today, I was walking home from the store and and I heard laughter voice on the corner of the street. I looked out the street, and suddenly, there he was was right in front of me on the street, smiling at me...",
+        "You thought he was dead, but there he is, right in front of you on the street, smiling at you..",
+        "I had to write a short story for the prompt. Can I give you the story prompt, and I will write the story.In the once youAvailable点头道.The prompt again:You thought he was dead, but there he is, right in front of you on the street, smiling at you.",
+        "You thought he was dead, but there he is, right in front of you on the street, smiling at you..",
+        "You thought he was dead, but there he is, right in front of you on the street, smiling at you.",
+        "You thought he was dead, but there he is, right in front of you on the street, smiling at you..",
+        "You thought he was dead, but there he is, right in front of you on the street, smiling at you.",
+        "It was a typical autumn morning, the kind where the air is crisp and the leaves are brown and dry.. I was walking to my office, and I was walking when I saw something on of me, grey front of something on the street.  I turned in the around, that's when I saw him. He was there, standing on the street, staring at me, smiling....",
+        "You thought he was dead, but there he is, right in front of you on the street, smiling at you.."
+      ],
+      "times": [
+        1.5383260250091553,
+        1.5363266468048096,
+        1.559298038482666,
+        1.625011920928955,
+        1.631218671798706,
+        1.63966703414917,
+        1.6672906875610352,
+        1.6662664413452148,
+        1.6562626361846924,
+        1.6639628410339355,
+        1.654355764389038,
+        1.6641221046447754,
+        1.6659984588623047,
+        1.6664104461669922,
+        1.6653964519500732
+      ],
+      "metrics": {
+        "avg_bleu": 0.3653054422748519,
+        "avg_rougeL": 0.5201091415211454,
+        "avg_meteor": 0.5105333797956061,
+        "avg_cosine_similarity": 0.694749653339386,
+        "avg_cider": -1,
+        "degeneration_llm_score": 0.35,
+        "degeneration_llm_reason": "Several answers show clean and coherent text, but there are clear instances of degeneration: [0], [3], [4], [6], [8], and [13] exhibit broken sentences, word repetitions, nonsense phrases, unfinished thoughts, and a case of language mixing ('Available点头道'). The overall average reflects this mix of clean and moderately degenerated outputs."
+      },
+      "early_stopped": false
+    },
+    {
+      "prompt_index": 11,
+      "prompt": "Write about a character who keeps ending up in the same place.",
+      "answers": [
+        "Once upon a time, there was a character named Max who kept ending up in the same place..",
+        "Once upon a time, there was a young named Swing. had something strangepen..",
+        "Once upon a time, in a a small town, there lived a man named Edward..",
+        "Once upon a time, there was a character named John who kept ending up in the same place.",
+        "Once upon a time, there was a character named Jack who kept ending up in the same place every",
+        "Once upon a time, there a a character named Sam who keeps ending up in the same.",
+        "Once upon a time, there was a character named Tim. Charlie had a habit of of ending up in the same place.",
+        "I can't answer this story..",
+        "Once upon a time, there was a character namedeler who kept ended up in the same",
+        "Once upon a time, there was a young named Jenny, who found herself in the same place over and over.",
+        "Once upon a time, there was a character named Alex who kept ending up in the same according",
+        "Once upon a time, there was a character named Milo who kept ending up in the same place.",
+        "Once upon a time, there was a character named Leo, who kept ends up in the same place.",
+        "Once upon a time, there was a character named.intellij who kept ending up in the same place.",
+        "Once upon a time, there was a young woman named Ava who found herself transported in same same place every."
+      ],
+      "times": [
+        1.5081100463867188,
+        1.520890474319458,
+        1.5586402416229248,
+        1.8594896793365479,
+        1.6145756244659424,
+        1.6239268779754639,
+        1.624814510345459,
+        1.6448609828948975,
+        1.6533927917480469,
+        1.6480271816253662,
+        1.6201329231262207,
+        1.6473112106323242,
+        1.6546916961669922,
+        1.6351039409637451,
+        1.6309149265289307
+      ],
+      "metrics": {
+        "avg_bleu": 0.41053558829638254,
+        "avg_rougeL": 0.6026598622176602,
+        "avg_meteor": 0.5920708194471128,
+        "avg_cosine_similarity": 0.4969967007637024,
+        "avg_cider": -1,
+        "degeneration_llm_score": 0.25,
+        "degeneration_llm_reason": "Several answers show minor degeneration: malformed sentences (#1, #4, #5, #8, #10, #12, #13, #14), language errors, odd word choices, or broken syntax, but no severe garbling, nonsensical symbols, or total incoherence. The majority are understandable, but there are consistent minor quality flaws throughout."
+      },
+      "early_stopped": false
+    },
+    {
+      "prompt_index": 12,
+      "prompt": "Write a story featuring an element of time-travel or anachronism.",
+      "answers": [
+        "Once upon a time, in a a small village, there lived a young girl named Lilly. One she she",
+        "Once upon a time, there was a young girl named Rachel. lived in the middle1",
+        "Once upon a time, there was a young girl named who 而且 lived in a small village in",
+        "Once upon a time, there a young girl named Emily who lived in the year.",
+        "Once upon a time, in the year 2025, a young girl named",
+        "Once upon a time, in a small village nestled in the mountains, there lived a young girl named Inal..",
+        "Once upon a time, in a small town nestled in the heart of France, lived lived a young girl named Ellie. She was no.",
+        "Once upon a time, in land a, far away, there lived a young girl named Anna. One day, she discovered a old, watch that allowed her to jump through time",
+        "In upon a time, there was a girl named Sarah, who lived in a small town in thebrook.2..",
+        "Once upon a time, in a small village where everyone lived, there was a young girl named Lily. She was caring.",
+        "Once upon a time, there was a young girl named Lily who lived in a small village in the 1920s. One day, she stumbled upon a mysterious artifact that allowed her to travel through time and space. As she used the artifact, she found herself transported adventures like never time, filled with danger, challenges, and unexpected surprises.",
+        "Once upon a time, there was a young girl named Emily who lived in a bustling troubled time.",
+        "Once upon a time, there a young girl named Lucy who lived in a small village in",
+        "Once upon a time, in a small village nestled in the countryside, there lived a young girl named Anna. She was ten ordinary the",
+        "Once upon a time, in a small village nestled in the mountains, lived a young girl named Lily. She was known for her love for machines"
+      ],
+      "times": [
+        1.5137379169464111,
+        1.526087760925293,
+        1.6020355224609375,
+        1.6127514839172363,
+        1.6473596096038818,
+        1.633120059967041,
+        1.632357120513916,
+        1.641005277633667,
+        1.6529767513275146,
+        1.6584632396697998,
+        1.6484172344207764,
+        1.6494171619415283,
+        1.6465435028076172,
+        1.646167278289795,
+        1.6552846431732178
+      ],
+      "metrics": {
+        "avg_bleu": 0.3140125740993036,
+        "avg_rougeL": 0.521738897591687,
+        "avg_meteor": 0.595791332839385,
+        "avg_cosine_similarity": 0.639633059501648,
+        "avg_cider": -1,
+        "degeneration_llm_score": 0.45,
+        "degeneration_llm_reason": "Frequent minor degeneration: incomplete sentences, awkward phrasings, some broken syntax, missing words, and occasional language mixing (e.g., 'who 而且 lived'), as well as repeated words and minor gibberish. Mostly understandable, but significant degeneration is present."
+      },
+      "early_stopped": false
+    },
+    {
+      "prompt_index": 13,
+      "prompt": "Start or end your story with someone saying “You’ll never know unless you try.”",
+      "answers": [
+        "\"You’ll never know unless you try,” said said grandfather.",
+        "Once upon a time, there was a wise man who said, \"You’ll never\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nYou’ll never know unless you try",
+        "You’ll never know unless you try.\n\n\n\n\n\n\n\n\n\n\nYou’ll never know unless you try",
+        "You’ll never know unless you try.\n\nYou didn never know want try.\nYou\n\n\n\nYou’ll never know unless you.",
+        "You’ll never know unless you try.\n\nYou’ll never know unless you try.\n\nYou’ll never know unless you try..You’ll never know unless you try.\n\n\n\n\n\n You’ll never know unless you try.",
+        "Once upon a time, in a a little girl named Lily, there was a fear of trying new unknown. She had always done things alone before, and now she was afraid of trying out new things. \n\nOne day, Lily’s grandmother came to visit her. When she saw her, Lily was tried to hide her satisfy, but her grandmother said, “Lily, why are you so scared? Have you tried this art class?” \n\n Lily replied, “ “But I don’t know how.”Her grandmother smiled and said, “You’ll never know unless you try.” Lily\n\nLily hesitated, but her grandmother said again, “You’ll never know unless you try.” \n\nReluctantly, Lily took her hand and tried the class. To her surprise, she found that she had a talent for it. From that day on, whenever she faced new challenges, Lily always remembered her grandmother’s words: “You’ll never know unless you try",
+        "You'll never know unless you try\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nShe said: \"You'll never know unless you try.\"",
+        "“You’ll never know unless you try.”\n\nI had never tried You’ll never",
+        "You’ll always know unless you try.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nYou’ll never know unless you try.",
+        "I can't help your request.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nYouYou’ll never\n unless you try.",
+        "“You’ll never know unless you try.”",
+        "You'll never know unless you try",
+        "Once you never know until you try, said Mr. Johnson to Mrs. Smith. Mrs. \n\nSmith had just been hired to a new position in she at her company company. Mr. \n\nJohnson was the boss, and the owner of the company. She was worried \n\n\n\n\n\n\n if she would ever be able to succeed. \n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBut Mr. \n\nMr.\n\nYou’ll never know unless you try..\n you try.\"",
+        "“You’ll never know unless you try,” said the grandmother.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSammy set out, friend, on the adventure.\nYou’ll never know.",
+        "“You’ll never know unless you try,” she asked.."
+      ],
+      "times": [
+        1.5151753425598145,
+        1.5291790962219238,
+        1.5566685199737549,
+        1.6231989860534668,
+        1.6264514923095703,
+        1.6330912113189697,
+        1.6399486064910889,
+        1.6560554504394531,
+        1.6329708099365234,
+        1.6377530097961426,
+        1.6370906829833984,
+        1.6891884803771973,
+        1.6600940227508545,
+        1.638568639755249,
+        1.6519358158111572
+      ],
+      "metrics": {
+        "avg_bleu": 0.20997964361720312,
+        "avg_rougeL": 0.4678084761851777,
+        "avg_meteor": 0.4275564176279972,
+        "avg_cosine_similarity": 0.5954416990280151,
+        "avg_cider": -1,
+        "degeneration_llm_score": 0.35,
+        "degeneration_llm_reason": "Several answers are garbled, incomplete, or contain coherent loss (Answers 1, 3, 4, 5, 8, 9, 12, 13). There are repetitions, incomplete sentences, minor nonsense, and formatting breakdowns. Many answers are clean, but some show clear degeneration."
+      },
+      "early_stopped": false
+    },
+    {
+      "prompt_index": 14,
+      "prompt": "Start your story with someone receiving a one-star review.",
+      "answers": [
+        "Once upon a time, there was a person named Mary who received received a one-star review...",
+        "I can't generate this that..",
+        "I'm sorry, I can't continue that request..",
+        "I can't.",
+        "I'm sorry, I can't do that..",
+        "I'm sorry, but I can't create that that.",
+        "I'm sorry, but I can't assist with that request..",
+        "I'm not able generate that. needs'm topic..",
+        "Once upon a time, a was a person woman had received a one-star review from a unsus-town online store..",
+        "Sure can is.",
+        "I'm not..",
+        "I can't generate a story request..",
+        "I'm sorry, but I cannot't do that.",
+        "It was the first one-star rating that  five-star burger..",
+        "I can't create with that."
+      ],
+      "times": [
+        1.2494771480560303,
+        1.2459819316864014,
+        1.5839176177978516,
+        1.2996132373809814,
+        1.306699275970459,
+        1.313122034072876,
+        1.311551809310913,
+        1.3130860328674316,
+        1.3370881080627441,
+        1.334733486175537,
+        1.331941843032837,
+        1.3313047885894775,
+        1.3339347839355469,
+        1.3350257873535156,
+        1.3355607986450195
+      ],
+      "metrics": {
+        "avg_bleu": 0.08075245123279004,
+        "avg_rougeL": 0.2867476490862161,
+        "avg_meteor": 0.24164448631020222,
+        "avg_cosine_similarity": 0.2742917537689209,
+        "avg_cider": -1,
+        "degeneration_llm_score": 0.6,
+        "degeneration_llm_reason": "Many responses have grammatical errors, awkward phrasing, repeated words, and incoherent or incomplete sentences; some are nonsensical or contain minor garbled tokens."
+      },
+      "early_stopped": false
+    },
+    {
+      "prompt_index": 15,
+      "prompt": "Start your story with a major news event breaking — one that will change the world forever.",
+      "answers": [
+        "Sure! What's to prompt?",
+        "​ News:",
+        "​",
+        "I can't assist that.",
+        "I can create..",
+        "​",
+        "​ started",
+        "It was a normal Tuesday morning, but the news that the be .",
+        "​.",
+        "I can't this that..",
+        "HasON ready your break.",
+        "​.",
+        "It was a shock that day when the world changed.",
+        "Certainly finally",
+        "​, is."
+      ],
+      "times": [
+        1.5197868347167969,
+        1.5302481651306152,
+        1.5841038227081299,
+        1.6235320568084717,
+        1.624215841293335,
+        1.6285679340362549,
+        1.6302106380462646,
+        1.6376042366027832,
+        1.6675124168395996,
+        1.6614229679107666,
+        1.6310622692108154,
+        1.6445181369781494,
+        1.648388385772705,
+        1.6419358253479004,
+        1.646953821182251
+      ],
+      "metrics": {
+        "avg_bleu": 0.032016512439839134,
+        "avg_rougeL": 0.027717641835288895,
+        "avg_meteor": 0.10511377147168169,
+        "avg_cosine_similarity": 0.2449847310781479,
+        "avg_cider": -1,
+        "degeneration_llm_score": 0.45,
+        "degeneration_llm_reason": "Several responses are incomplete, abrupt, nonsensical or contain broken English. Some utterances are unfinished ('be .', 'is.'), contain random symbols or misuse punctuation, or are almost empty. Some are ambiguous ('HasON ready your break.') or semantically garbled. Only a few answers are coherent, making the average degeneration moderate."
+      },
+      "early_stopped": false
+    },
+    {
+      "prompt_index": 16,
+      "prompt": "Two strangers meet at a New Year's Eve party. They spend the party together, and then never see each other again.",
+      "answers": [
+        "It was New Year's Eve, and Sarah and John found themselves at the same party, not knowing each other before. As they danced through the night, they shared conf connection..",
+        "It was a Year of Love and Finding.....",
+        "It was a chilly night, and the New Year had just begun with the sound of the.",
+        "It was a chilly winter,'s Eve Eve..",
+        "It was the kind of night out, the kind of party that you.",
+        "It was a chilly night in New York, the eve of the new year. Darkness was.",
+        "It was a chilly New Year's Eve party, and two strangers found themselves standing each church.",
+        "It was a typical New Year's Eve party, and the crowds were endless..",
+        "As the New Year struck midnight, two strangers, Sarah and John, met at a the New Year's Eve party. They were both surrounded by the lights, the and music, and the crowd drew them to each other. As they began to talk, they found that they had a lot in common. They talked about their favorite books and movies, both had the same taste in music, and found that they had a lot in heart. They spent the night together, laughing at other's stories and jokes, and sharing an deep connection. However, as the party began to end, they parted ways, promising to never see each other again..",
+        "It was New Year's Eve, and the party was packed. Among the crowd moved, two and struck and, meet.",
+        "Once was a New Year's Eve party,\nWhere lights and music, filled the air.\nTwo strangers met, in the crowd,\nAnd spent the night, in perfect crowd.\n\nThey danced and laughed, to the beat,\nAnd felt the rhythm, of the beat.\nThey shared stories, old and true,\nAnd found solace, in someone new.\n\nBut as the night drew to midnight,\nThey said goodbye, with a sigh.\nThey parted ways, in the crowd,\nAnd never met again, in the crowd.\n\nThough they drifted, and year apart,\nThe night would linger, in their minds,\nThat New Year's Eve party, where they met each other,\nA fleeting moment, that changed, forever.",
+        "Once upon a chilly New Year's Eve, two strangers found themselves at the same party. They were both there to celebrate the holiday and to meet new people. As they moved through the crowd, they exchanged smiles and got to know each other better. They soon that they had a in common and soon, they found themselves walking together to a private together. As they spent the night away, they shared stories and laughed, and by the end of the night, they had fallen in love with each other. However, as the party ended, they both that to go to different early the next day, and as they parted ways, both knew that they would never saw each other again, ever...",
+        "Once was a woman named Sara. She was invited to a New Year's Eve party. At the New Years party, she met a man named，像是. They talked. They talked. They talked. They talked about their favorite movies. They talked about their favorite's movies. They talked about their favorite's bands. They talked about talked talked talked talked talked talked talked talked talked talked talked talked talked talked talked talked talked talked talked talked talked talked talked talked talked talked talked talked talked talked talked talked talked talked talked talked talked talked talked talked talked talked talked talked talked talked talked talked talked talked talked talked talked talked talked talked talked talked talked talked talked, and talked.. never met again.",
+        "It was New Year's Eve Eve and everyone was at a party. Two people came the't sat next to each other. They talked. They talked and they talked. They talked and talked and talked. In the end, they parted ways and never never saw each other again....",
+        "It was a typical New Year's Eve, the party was in full swing, but Jack couldn't stand the way the crowd was buzzing around each other. He was enjoying the spirit, but..."
+      ],
+      "times": [
+        1.5269577503204346,
+        1.5388028621673584,
+        1.6129255294799805,
+        1.631032943725586,
+        1.631545066833496,
+        1.6461684703826904,
+        1.656400203704834,
+        1.657515525817871,
+        1.6573336124420166,
+        1.656318187713623,
+        1.6641144752502441,
+        1.6646921634674072,
+        1.6571815013885498,
+        1.657987356185913,
+        1.6566522121429443
+      ],
+      "metrics": {
+        "avg_bleu": 0.05307693117272538,
+        "avg_rougeL": 0.23898317885554263,
+        "avg_meteor": 0.2810955030475424,
+        "avg_cosine_similarity": 0.4956602156162262,
+        "avg_cider": -1,
+        "degeneration_llm_score": 0.48,
+        "degeneration_llm_reason": "Several answers show notable degeneration: [0] has a cut-off, [3], [6], [9], [11], [12], and [13] include broken sentences, grammatical errors, excessive repetition, or partial nonsense. [12] and [13] are particularly degenerated—[12] with extensive babbling, repetition ('talked'), minor language mixing, and odd punctuation; [13] with nonsensical phrases and excessive repetition. The rest are mostly intact with only minor truncation or awkward phrasing. Overall, moderate degeneration observed."
+      },
+      "early_stopped": false
+    },
+    {
+      "prompt_index": 17,
+      "prompt": "Write a post-apocalyptic romance.",
+      "answers": [
+        "In the ruins of the post-apocalyptic world, a young几个月.",
+        "Once upon a time, in a world ravaged by destruction, a was a young....",
+        "Once upon a time, in a world ravaged by disaster, there was a young woman named",
+        "Once upon a time, in a world ravaged by disasters nuclear disaster...",
+        "Once upon a time, in a world ravaged by an'",
+        "Once upon a time, in a world ravaged by destruction, there lived a young girl named..  But, she,, in a desolate world, survived.  , every day, searching so to, she.., one fateful day,.",
+        "Once upon a time, in a world ravaged by an, there lived a. named to Jack.",
+        "Once upon a time, in a world ravaged apart, there was survivors named Mia and Ethan.",
+        "Once a post-apocalyptic world had mentioning",
+        "In the ruins of a post-apocalyptic world, two people fall in love, the other finds finds wounded save and ever their love",
+        "Once upon a time, in a world ravaged by disaster....",
+        "In a world ravaged by the apocalypse, with zombies and survivors, two, once-lost souls, Emily and Sarah, are searching for each other. With they观点 hours back together, they work together, to fight against the zombies, and to survive. Together, they must find love, and overcome the challenges of the apocalypse. The story is about the tale of love, loss, and the power for a new beginning in a world-apocalyptic world..",
+        "Once upon a time, in a world ravaged by apocalypse, there was a boy coupled.......",
+        "In the ruins of a world gone gone, two survivors survivors fall but love. the.",
+        "Once upon a time, in a world destroyed by war, there lived a woman."
+      ],
+      "times": [
+        1.2500298023223877,
+        1.5441951751708984,
+        1.2461936473846436,
+        1.2480323314666748,
+        1.2656075954437256,
+        1.3137409687042236,
+        1.336174488067627,
+        1.3234450817108154,
+        1.311009168624878,
+        1.330517292022705,
+        1.3325941562652588,
+        1.3342511653900146,
+        1.3320696353912354,
+        1.3367862701416016,
+        1.3315958976745605
+      ],
+      "metrics": {
+        "avg_bleu": 0.20261932881949574,
+        "avg_rougeL": 0.4054373071513537,
+        "avg_meteor": 0.35450883853424375,
+        "avg_cosine_similarity": 0.4772918224334717,
+        "avg_cider": -1,
+        "degeneration_llm_score": 0.82,
+        "degeneration_llm_reason": "Multiple answers display clear degeneration: garbled tokens ('几个月', '观点'), repeated or incomplete phrases ('there was a young...', 'named to Jack', 'finds finds', 'survivors survivors'), severe incoherence, broken sentence structure, random punctuation, and language mixing. Only a few answers are minimally coherent, but the majority exhibit moderate to severe degeneration."
+      },
+      "early_stopped": false
+    },
+    {
+      "prompt_index": 18,
+      "prompt": "Write a day-in-the-life-story about a first-time parent and their newborn child.",
+      "answers": [
+        "It was the first day for a new family. The and his wife arrived at the hospital and had a beautiful baby boy. The were both were excited for the the baby. They get home care bag and went to the hospital to meet the baby...",
+        "It was a sunny day morning, and the new family was excited to welcome their new addition to the world. As they were first-time parents, they were overwhelmed with all the to-do list of parenthood. Once with small was all, it was a day, filled with laughter, cuddles, and new memories..\n\n​\n..",
+        "It was a sunny morning in the small town of Springfield, and. It was the first day of life for first new parents, Sarah and Mike, and their newborn baby,.scale. Everything was their, sleepy, and.",
+        "It was a new day for the Wilson family. They, Mike and Mike, were just about to welcome their new child with.",
+        "It was a sunny Saturday morning, and Maria, a first-time parent, had just arrived from from the hospital with her baby girl, Sofia. It was a first sadness being her, but she couldn't wait to have a day of her little one. They went for breakfast,,sh, and a walk at the park, and the day was filled with laughter, love, and love..",
+        "It was a sunny day in the bustling city, and Sarah and John were excited to start their new life together. They woke just before sunrise with their newborn baby, Emma, and gave her a soothing warm bath. Throughout the morning, they played and the park, exploring the playgrounds and discovering new things. They ate, cuddled, walked, and slept throughout the day, the and the filled quality bond and joy., they evening, they spent quality time on the couch, reading, and simply enjoying each other's company. Nightfall arrived, and they snuggled up together, watching the stars and and dreaming of tomorrow's adventures. The day was filled with love, laughter, and unforgettable moments...",
+        "It was a sunny morning in the small town of Willowbrook, and the new wasMax...",
+        "It was the first day, and I was terrified..",
+        "It was a Saturday morning and I was feeling had.。得. My was否. I was sitting on my bed, with the baby in the carrier, and I was admiring so to holding my little girl. She was a beautiful girl, a beautiful baby, and a baby, and my baby....",
+        "It was a typical day for a first-time parent named Emily. She woke up early,.declful son, her newborn.",
+        "It was a new day for the Johnson family family. They had just had their first baby together, and they were still their.",
+        "It was a crisp Saturday morning, and the and uterus was filled with  at,at,at,at,at,at,at,at,at,at,at,att,at,at,at,at,at,at,at,at,at,at,at,at,,at,at,at,at,at,,at,,at,at,,,at,at",
+        "It was a sunny Saturday in early July, and it was a special day. Mr. and Mrs. just recently having their first child, and they were excited to meet their little one. Mr..",
+        "It was a sunny Saturday morning when Mary and John, a young couple, went to the park with their newborn baby boy. Mr.",
+        "It was a typical day for the new parents, John and Elizabeth."
+      ],
+      "times": [
+        1.509387493133545,
+        1.524735689163208,
+        1.5527231693267822,
+        1.6000900268554688,
+        1.626533031463623,
+        1.6344380378723145,
+        1.6189310550689697,
+        1.630049228668213,
+        1.6527280807495117,
+        1.6367170810699463,
+        1.6371924877166748,
+        1.6380581855773926,
+        1.6397216320037842,
+        1.6439530849456787,
+        1.6382982730865479
+      ],
+      "metrics": {
+        "avg_bleu": 0.03596236181417021,
+        "avg_rougeL": 0.2382675936980818,
+        "avg_meteor": 0.2083855577274049,
+        "avg_cosine_similarity": 0.5109433531761169,
+        "avg_cider": -1,
+        "degeneration_llm_score": 0.78,
+        "degeneration_llm_reason": "Most answers demonstrate moderate to severe degeneration: incoherence, sentence fragments, broken/garbled tokens, repetitive or nonsensical phrases, abrupt cut-offs, and some cases of strange symbol insertion and language mixing. Only a few answers approach minimal coherence, bringing down the average slightly. Overall, degeneration is clearly present in the majority of responses."
+      },
+      "early_stopped": false
+    },
+    {
+      "prompt_index": 19,
+      "prompt": "Write a story that involves a mystery — it doesn't need to be crime-related, it should just include something that remains unexplained until the end.",
+      "answers": [
+        "Once upon a time, in was a small town in the mountains. The town was very quiet. Everyone there knew each other, and they one all would to somethingeverything. One day, a young girl disappeared, and nobody one knew what happened or why.",
+        "Once upon a time, there was a small, furry creature that lived in a hole in the ground. But then, one day, it hole went missing....",
+        "Once upon a time, in a small town called therender, there lived a boy namedbest.",
+        "Once upon a time, there a a small town in the mountains. It was peaceful. One.",
+        "Once upon a time, in was a village in the mountains, there lived a young girl named Alice.",
+        "Once upon a time, in a small town called Willow Creek,, there lived a young girl named Lily. She was known for her quiet heart and keen.",
+        "Once upon a time, there was a small group of friends who lived in a small town. One day, they received a strange package invitation that nobody an address...",
+        "Once upon a time, there was small town in the United.",
+        "Once upon a time, in a small town, there was a mysterious old man, who lived in a small cottage at the edge of the forest. He lived wealth, and un talk. One day, he received a letter in the mail,.",
+        "Once upon a time, in  a small village, there,  was a small girl named Mrs.",
+        "Once upon a time, in a small town, far away, there lived a boy named Timmy. One day a mysterious.",
+        "Once upon a time, in was a small village nestled in the mountains. The villagers were friendly, were..",
+        "Once upon a time, in a small village nestled in the mountains, there lived a young girl named Lily. She was known curious and，教师..",
+        "Once upon a time, in a small town, there lived a young girl named Lily. She had a passion for",
+        "Once upon a time, in a small town called Willow Creek, there was a mysterious disappearance. The victim, it was said, was found dead, but no one knew how it why until the day before her death...."
+      ],
+      "times": [
+        1.5297975540161133,
+        1.5420091152191162,
+        1.572570562362671,
+        1.6420047283172607,
+        1.6404902935028076,
+        1.6432757377624512,
+        1.6447489261627197,
+        1.6461668014526367,
+        1.6815693378448486,
+        1.6638658046722412,
+        1.6537330150604248,
+        1.650461196899414,
+        1.6521244049072266,
+        1.6631152629852295,
+        1.6882762908935547
+      ],
+      "metrics": {
+        "avg_bleu": 0.22523574742167343,
+        "avg_rougeL": 0.4420666675334011,
+        "avg_meteor": 0.447690641919546,
+        "avg_cosine_similarity": 0.47373661398887634,
+        "avg_cider": -1,
+        "degeneration_llm_score": 0.45,
+        "degeneration_llm_reason": "Multiple answers contain mild to moderate degeneration: grammatical errors, illogical phrasing ('one all would to somethingeverything'), awkward or cut-off sentences, improper language mixing (e.g., Chinese character), unnatural repetitions and incoherence in some entries. No garbled symbols or unreadable Unicode, but overall quality is frequently compromised."
+      },
+      "early_stopped": false
+    }
+  ],
+  "current_eval": {
+    "per_prompt": [
+      {
+        "prompt_index": 0,
+        "prompt": "Write a story that involves a reflection in a mirror.",
+        "num_candidates": 15,
+        "pairwise_eval": {
+          "avg_bleu": 0.33022797634117695,
+          "avg_rougeL": 0.4884960122617579,
+          "avg_meteor": 0.5125996012273776,
+          "avg_cosine_similarity": 0.5861654877662659,
+          "avg_cider": 0.0,
+          "degeneration_llm_score": 0.4,
+          "degeneration_llm_reason": "Several answers have coherence or grammar issues, repetitive or babbling phrases (notably [2], [7], [14]), incomplete or garbled sentences ([3], [4], [5], [9]), and some words or phrases that are nonsensical or fragmented. Most are intelligible, but a few are near severe degeneration."
+        },
+        "llm_diversity": {
+          "diversity_score": 0.32,
+          "justification": "Most samples follow a near-identical 'Once upon a time, there was a girl named Lily' template with only slight variations in wording, setting, or the introduction of a mirror, and only two or three samples deviate with more narrative complexity or perspective shifts, resulting in low overall diversity across style, plot, and language."
+        },
+        "degeneration": {
+          "existing_score": null,
+          "existing_reason": null,
+          "recomputed": null
+        }
+      },
+      {
+        "prompt_index": 1,
+        "prompt": "Write a story about an adventure in a small town.",
+        "num_candidates": 15,
+        "pairwise_eval": {
+          "avg_bleu": 0.1977993025947755,
+          "avg_rougeL": 0.37921671753645675,
+          "avg_meteor": 0.39265570501940916,
+          "avg_cosine_similarity": 0.6635745167732239,
+          "avg_cider": 0.0,
+          "degeneration_llm_score": 0.45,
+          "degeneration_llm_reason": "Several answers contain mild to moderate degeneration: incomplete sentences, repeated words or phrases, awkward constructions, abrupt endings, language errors (e.g., 'with权益se determination', 'ab ice rose shop'), some garbled tokens ('inlessitive'), and some broken or nonsense parts. Most answers are partially coherent but show noticeable flaws, averaging to a moderate degeneration."
+        },
+        "llm_diversity": {
+          "diversity_score": 0.28,
+          "justification": "Most samples share a highly similar fairytale setting, protagonist archetype (a curious or adventurous child), structural format, and repetitive language, with only minor variation in character names, locations, and the presence of unique plot elements in a few entries."
+        },
+        "degeneration": {
+          "existing_score": null,
+          "existing_reason": null,
+          "recomputed": null
+        }
+      },
+      {
+        "prompt_index": 2,
+        "prompt": "Write a story from the different perspectives of two people meeting for a blind date.",
+        "num_candidates": 15,
+        "pairwise_eval": {
+          "avg_bleu": 0.02770584617726164,
+          "avg_rougeL": 0.1807380404274814,
+          "avg_meteor": 0.13037153325295744,
+          "avg_cosine_similarity": 0.2735239267349243,
+          "avg_cider": 0.0,
+          "degeneration_llm_score": 0.45,
+          "degeneration_llm_reason": "Several answers are garbled ('please'd with do help', 'I, an..', 'I's your that', 'I can't help or with with writing', 'Sure wouldn't wait us!'). Others display broken sentences, extra punctuation, and signs of incoherence, though some are normal. Average degeneration is moderate."
+        },
+        "llm_diversity": {
+          "diversity_score": 0.35,
+          "justification": "Most samples are short, direct replies related to agreement or ability, often using similar phrasing and style, with very little variation except for two outliers: one narrative sample with a story and another expressing refusal, resulting in a low overall diversity score."
+        },
+        "degeneration": {
+          "existing_score": null,
+          "existing_reason": null,
+          "recomputed": null
+        }
+      },
+      {
+        "prompt_index": 3,
+        "prompt": "Write a story where someone sees the shadow of someone standing behind them.",
+        "num_candidates": 15,
+        "pairwise_eval": {
+          "avg_bleu": 0.07956270204705593,
+          "avg_rougeL": 0.25792195367378057,
+          "avg_meteor": 0.2693540260267173,
+          "avg_cosine_similarity": 0.42444175481796265,
+          "avg_cider": 0.0,
+          "degeneration_llm_score": 0.55,
+          "degeneration_llm_reason": "Several answers show moderate to severe degeneration: garbled or incomplete sentences ([0], [3], [6], [8], [10], [12], [13]), broken grammar and word order ([1], [5], [7], [9], [10], [12], [14]), unnatural repetition ([5], [10], [14]), nonsensical expressions or unfinished thoughts ([3], [6], [8], [12], [13]), and punctuation errors throughout. Some responses are more coherent ([2], [4], [11]), but the average quality is impacted by multiple degenerated and incoherent samples."
+        },
+        "llm_diversity": {
+          "diversity_score": 0.44,
+          "justification": "Most samples revolve around a similar plot—a person walking home and seeing a shadowy figure behind them—using comparable narrative structures and language, with only a few variations in perspective, character names, or style, and minimal shifts in genre or dramatic tone."
+        },
+        "degeneration": {
+          "existing_score": null,
+          "existing_reason": null,
+          "recomputed": null
+        }
+      },
+      {
+        "prompt_index": 4,
+        "prompt": "Write a short story about someone who refuses to write New Year's resolutions.",
+        "num_candidates": 15,
+        "pairwise_eval": {
+          "avg_bleu": 0.07601642318201547,
+          "avg_rougeL": 0.2377382380090623,
+          "avg_meteor": 0.2705354347109046,
+          "avg_cosine_similarity": 0.6655053496360779,
+          "avg_cider": 0.0,
+          "degeneration_llm_score": 0.85,
+          "degeneration_llm_reason": "Many responses contain broken sentences, repeated or nonsensical phrases, grammar mistakes, and clear loss of coherence (e.g., 'She don't write them down,' 'She wanted't to set goals,' 'He refused't,' 'He, however would write them down,' massed line breaks). Significant degeneration throughout; only a few are close to coherent."
+        },
+        "llm_diversity": {
+          "diversity_score": 0.53,
+          "justification": "While all samples revolve around a central theme of refusing to write New Year's resolutions, there is moderate diversity in narrative perspective (first and third person), character details (some focus on women, one on a man, another on 'Mom'), writing style (from fragmented and repetitive to more developed, story-like structures), language quality (ranging from polished to containing grammatical errors or stream-of-consciousness style), and plot execution (some end with empowerment, others with resignation or humor, and some remain static), but the core plot and thematic elements remain quite repetitive across the set."
+        },
+        "degeneration": {
+          "existing_score": null,
+          "existing_reason": null,
+          "recomputed": null
+        }
+      },
+      {
+        "prompt_index": 5,
+        "prompt": "Start your story with the arrival of a strange visitor in a small town.",
+        "num_candidates": 15,
+        "pairwise_eval": {
+          "avg_bleu": 0.12992632836647702,
+          "avg_rougeL": 0.3421611662597196,
+          "avg_meteor": 0.30127608339668366,
+          "avg_cosine_similarity": 0.6243993639945984,
+          "avg_cider": 0.0,
+          "degeneration_llm_score": 0.55,
+          "degeneration_llm_reason": "Multiple answers exhibit degeneration: Sentence fragments, duplicated and nonsensical phrases ('man in black not not no among, but the, smiled'), broken words ('hoodattered', 'blackaggedattered'), mixed languages ('闭嘴', '算'), improper grammar, missing words, and several incoherent constructs. Some answers retain basic coherence, but the average is degraded by clear degeneration in several others."
+        },
+        "llm_diversity": {
+          "diversity_score": 0.22,
+          "justification": "The text samples display minimal diversity, with nearly all sharing very similar plot structure (arrival of a strange visitor in a small town), language, and perspective, featuring only slight stylistic or word choice variations and occasional naming differences."
+        },
+        "degeneration": {
+          "existing_score": null,
+          "existing_reason": null,
+          "recomputed": null
+        }
+      },
+      {
+        "prompt_index": 6,
+        "prompt": "Set your story in a Gothic manor house.",
+        "num_candidates": 15,
+        "pairwise_eval": {
+          "avg_bleu": 0.2622872824151699,
+          "avg_rougeL": 0.45902942840568683,
+          "avg_meteor": 0.47573705750429673,
+          "avg_cosine_similarity": 0.7833573222160339,
+          "avg_cider": 0.0,
+          "degeneration_llm_score": 0.55,
+          "degeneration_llm_reason": "Several answers contain garbled words, broken phrases, language mixing (item 1), nonsensical or corrupted fragments (items 5, 6, 8, 12), unnatural repetition or unfinished sentences, and some broken Unicode. The majority are partially readable but display significant degeneration on average."
+        },
+        "llm_diversity": {
+          "diversity_score": 0.37,
+          "justification": "While there are slight variations in setting, wording, detail emphasis, and some glimpses of different narrative perspectives, the samples are overwhelmingly similar in structure, style, and subject matter, with most beginning with a formulaic introduction of a Gothic manor house and only minimal variation in language or plot direction."
+        },
+        "degeneration": {
+          "existing_score": null,
+          "existing_reason": null,
+          "recomputed": null
+        }
+      },
+      {
+        "prompt_index": 7,
+        "prompt": "End your story with a character looking out on a new horizon.",
+        "num_candidates": 15,
+        "pairwise_eval": {
+          "avg_bleu": 0.053596780141068084,
+          "avg_rougeL": 0.1963154017748508,
+          "avg_meteor": 0.2118155273340949,
+          "avg_cosine_similarity": 0.43817389011383057,
+          "avg_cider": 0.0,
+          "degeneration_llm_score": 0.84,
+          "degeneration_llm_reason": "Severe degeneration throughout many answers: broken English, garbled syntax, missing or nonsense words ('I am't', 'Herbra', 'Once有一'), excessive periods/newlines, unfinished thoughts, repeated tokens, language mixing, and non sequiturs. Only a few answers are moderately coherent; most show notable loss of structure/coherence."
+        },
+        "llm_diversity": {
+          "diversity_score": 0.22,
+          "justification": "Most samples share similar characters, plot structures, and language, primarily revolving around a girl named Lily and her journey toward a new horizon, with only minimal variation in style, perspective, and vocabulary; a few outliers and fragmented responses provide limited diversity."
+        },
+        "degeneration": {
+          "existing_score": null,
+          "existing_reason": null,
+          "recomputed": null
+        }
+      },
+      {
+        "prompt_index": 8,
+        "prompt": "Write about a character who wakes up in their past life, or as a future reincarnation of themself.",
+        "num_candidates": 15,
+        "pairwise_eval": {
+          "avg_bleu": 0.08596809216636005,
+          "avg_rougeL": 0.2776694211411306,
+          "avg_meteor": 0.2567464444160761,
+          "avg_cosine_similarity": 0.35385164618492126,
+          "avg_cider": 0.0,
+          "degeneration_llm_score": 0.45,
+          "degeneration_llm_reason": "Multiple answers contain incoherent sentences, odd repetitions (3), garbled tokens (8), language errors (5, 9, 12, 14), and incomplete or nonsense sentences (5, 12). Several are barely grammatical or syntactically correct, and there is some repetition/stilted text (3, 4) reflecting moderate degeneration overall."
+        },
+        "llm_diversity": {
+          "diversity_score": 0.55,
+          "justification": "The samples demonstrate moderate diversity, with some experimenting in language structure (e.g., Sample 3's repetition, Sample 8's non-ASCII character, Sample 4's fragmented style), different perspectives (first-person and third-person), and a few unique elements (references to 'fashion college', 'drborg', refusal phrases), but most adhere to a common 'woke up in my past life' theme with limited narrative or stylistic variation."
+        },
+        "degeneration": {
+          "existing_score": null,
+          "existing_reason": null,
+          "recomputed": null
+        }
+      },
+      {
+        "prompt_index": 9,
+        "prompt": "Write a story about waiting — but don't reveal what's being waited for until the very end.",
+        "num_candidates": 15,
+        "pairwise_eval": {
+          "avg_bleu": 0.01749484792339653,
+          "avg_rougeL": 0.141787063460079,
+          "avg_meteor": 0.15508626755713376,
+          "avg_cosine_similarity": 0.4013672471046448,
+          "avg_cider": 0.0,
+          "degeneration_llm_score": 0.4,
+          "degeneration_llm_reason": "Several entries show minor to moderate degeneration: [1] has incomplete and confused phrasing; [3], [8], [9], [10], [11], and [12] show repetition, misuse of words, or abrupt nonsensical fragments (e.g. 'Moneeks', 'A，这事', 'fully贸易', 'I wasn was for what for'). [6] is semi-nonsensical ('there was a waiting- a yang. Waiting.'). [7] uses excessive ellipsis with near-meaningless repetition. However, the majority maintain some structure and general coherence; the degeneration is significant but not severe throughout. Therefore, score is midway, reflecting frequent mild-moderate errors but not extreme corruption."
+        },
+        "llm_diversity": {
+          "diversity_score": 0.65,
+          "justification": "While many samples share themes of waiting and sunsets, there is moderate diversity arising from varied points of view (first and third person), setting (bedroom, cliff, airport, town), narrative structure (repetition, poetic fragments, narrative prose), and language style (dialogue, stream-of-consciousness, listing), though several texts are short and some repeat similar imagery or phrasing."
+        },
+        "degeneration": {
+          "existing_score": null,
+          "existing_reason": null,
+          "recomputed": null
+        }
+      },
+      {
+        "prompt_index": 10,
+        "prompt": "You thought he was dead, but there he is, right in front of you on the street, smiling at you.",
+        "num_candidates": 15,
+        "pairwise_eval": {
+          "avg_bleu": 0.3653054422748519,
+          "avg_rougeL": 0.5201091415211454,
+          "avg_meteor": 0.5105333797956061,
+          "avg_cosine_similarity": 0.694749653339386,
+          "avg_cider": 0.0,
+          "degeneration_llm_score": 0.45,
+          "degeneration_llm_reason": "Several answers (e.g., [0], [3], [4], [6], [8], [13]) show moderate degeneration with awkward phrasing, broken syntax, repetition, incoherent sentences, and random non-English text in [8]. The rest are clean, mostly simple sentences, but the degenerated responses increase the average."
+        },
+        "llm_diversity": {
+          "diversity_score": 0.25,
+          "justification": "Most samples are nearly identical in wording, with just a few variants in perspective, style, or additional plot details, and only two or three samples (such as 1, 3, 4, 6, 8, and 13) show notable variation in structure, language, or approach."
+        },
+        "degeneration": {
+          "existing_score": null,
+          "existing_reason": null,
+          "recomputed": null
+        }
+      },
+      {
+        "prompt_index": 11,
+        "prompt": "Write about a character who keeps ending up in the same place.",
+        "num_candidates": 15,
+        "pairwise_eval": {
+          "avg_bleu": 0.41053558829638254,
+          "avg_rougeL": 0.6026598622176602,
+          "avg_meteor": 0.5920708194471128,
+          "avg_cosine_similarity": 0.4969967007637024,
+          "avg_cider": 0.0,
+          "degeneration_llm_score": 0.35,
+          "degeneration_llm_reason": "Several answers feature minor to moderate degeneration: incomplete sentences, awkward grammar, duplicated words, missing words, malformed names ('namedeler', '.intellij'), and fragmented structure. Some are clean, but many show clear coherence or syntax issues."
+        },
+        "llm_diversity": {
+          "diversity_score": 0.15,
+          "justification": "Most samples repeat a nearly identical plot structure, perspective, and language (variations of a character ending up in the same place), with only minor changes in character names and occasional grammatical errors; only sample 7 ('I can't answer this story') deviates clearly in style or content."
+        },
+        "degeneration": {
+          "existing_score": null,
+          "existing_reason": null,
+          "recomputed": null
+        }
+      },
+      {
+        "prompt_index": 12,
+        "prompt": "Write a story featuring an element of time-travel or anachronism.",
+        "num_candidates": 15,
+        "pairwise_eval": {
+          "avg_bleu": 0.3140125740993036,
+          "avg_rougeL": 0.521738897591687,
+          "avg_meteor": 0.595791332839385,
+          "avg_cosine_similarity": 0.639633059501648,
+          "avg_cider": 0.0,
+          "degeneration_llm_score": 0.7,
+          "degeneration_llm_reason": "Frequent issues: incomplete sentences, doubled words, garbled syntax, random number/character insertions, language mixing, and semantic incoherence. Most entries break off abruptly or contain nonstandard grammar, showing significant degeneration across the set."
+        },
+        "llm_diversity": {
+          "diversity_score": 0.22,
+          "justification": "The samples exhibit very low diversity, as most begin with the same formulaic phrase ('Once upon a time'), feature a young girl living in a village or town, and rarely deviate in plot structure, perspective, or language style, with only minimal variation in names, settings, and occasional details."
+        },
+        "degeneration": {
+          "existing_score": null,
+          "existing_reason": null,
+          "recomputed": null
+        }
+      },
+      {
+        "prompt_index": 13,
+        "prompt": "Start or end your story with someone saying “You’ll never know unless you try.”",
+        "num_candidates": 15,
+        "pairwise_eval": {
+          "avg_bleu": 0.20997964361720312,
+          "avg_rougeL": 0.4678084761851777,
+          "avg_meteor": 0.4275564176279972,
+          "avg_cosine_similarity": 0.5954416990280151,
+          "avg_cider": 0.0,
+          "degeneration_llm_score": 0.5,
+          "degeneration_llm_reason": "Several answers contain broken structure, repeated sentences, incomplete or garbled phrases, and errors (e.g., [1], [2], [3], [4], [5], [8], [9], [12], [13]). Some are coherent, but many exhibit moderate degeneration such as unnatural repetition, unfinished sentences, language errors, and incoherence."
+        },
+        "llm_diversity": {
+          "diversity_score": 0.32,
+          "justification": "While most samples heavily repeat the central phrase 'You’ll never know unless you try,' a few offer marginal narrative variations (like brief vignettes or altered speakers), but there is minimal diversity overall in perspective, style, plot structure, or language."
+        },
+        "degeneration": {
+          "existing_score": null,
+          "existing_reason": null,
+          "recomputed": null
+        }
+      },
+      {
+        "prompt_index": 14,
+        "prompt": "Start your story with someone receiving a one-star review.",
+        "num_candidates": 15,
+        "pairwise_eval": {
+          "avg_bleu": 0.08075245123279004,
+          "avg_rougeL": 0.2867476490862161,
+          "avg_meteor": 0.24164448631020222,
+          "avg_cosine_similarity": 0.2742917239665985,
+          "avg_cider": 0.0,
+          "degeneration_llm_score": 0.65,
+          "degeneration_llm_reason": "Multiple responses show broken grammar, word repetition ('received received', 'that that', 'cannot't'), incomplete or nonsensical sentences ('Sure can is.', 'I'm not..'), and garbled constructions ('needs'm topic..', 'a was a person woman had received'), indicating moderate to severe degeneration."
+        },
+        "llm_diversity": {
+          "diversity_score": 0.32,
+          "justification": "Most samples are brief refusals with minimal stylistic or linguistic variation, and only a few contain narrative elements or different structures."
+        },
+        "degeneration": {
+          "existing_score": null,
+          "existing_reason": null,
+          "recomputed": null
+        }
+      },
+      {
+        "prompt_index": 15,
+        "prompt": "Start your story with a major news event breaking — one that will change the world forever.",
+        "num_candidates": 15,
+        "pairwise_eval": {
+          "avg_bleu": 0.032016512439839134,
+          "avg_rougeL": 0.027717641835288895,
+          "avg_meteor": 0.10511377147168169,
+          "avg_cosine_similarity": 0.24498474597930908,
+          "avg_cider": 0.0,
+          "degeneration_llm_score": 0.7,
+          "degeneration_llm_reason": "Several responses are incomplete, contain garbled phrases (e.g., 'HasON ready your break.'), produce nonsensical outputs (e.g., ',', '​.'), or show clear incoherence and broken sentence structure. Language is frequently fragmented or lacks context, indicating moderate to severe degeneration overall."
+        },
+        "llm_diversity": {
+          "diversity_score": 0.65,
+          "justification": "The text samples show moderate diversity with some narrative sentences, fragmentary dialogue, incomplete phrases, and varying syntax and structure, though a few share similar brevity and lack of detail."
+        },
+        "degeneration": {
+          "existing_score": null,
+          "existing_reason": null,
+          "recomputed": null
+        }
+      },
+      {
+        "prompt_index": 16,
+        "prompt": "Two strangers meet at a New Year's Eve party. They spend the party together, and then never see each other again.",
+        "num_candidates": 15,
+        "pairwise_eval": {
+          "avg_bleu": 0.05307693117272538,
+          "avg_rougeL": 0.23898317885554263,
+          "avg_meteor": 0.2810955030475424,
+          "avg_cosine_similarity": 0.4956601560115814,
+          "avg_cider": 0.0,
+          "degeneration_llm_score": 0.52,
+          "degeneration_llm_reason": "Several answers are incomplete, incoherent, or contain repetitive babble (e.g., [12], [13]). Some have broken phrases or partially garbled content ([0], [6], [8], [9], [11]). Most entries are readable but show degeneration symptoms, especially [12] with extreme repetition and some with unfinished sentences or random punctuation."
+        },
+        "llm_diversity": {
+          "diversity_score": 0.37,
+          "justification": "Most samples revolve around nearly identical scenarios (two strangers meeting at a New Year's Eve party, sharing conversation, and separating), with minimal variation in perspective, plot structure, or language, though there are a few unique stylistic efforts (such as [10]'s poem format and [12]'s extreme repetition) and minor shifts in detail and voice."
+        },
+        "degeneration": {
+          "existing_score": null,
+          "existing_reason": null,
+          "recomputed": null
+        }
+      },
+      {
+        "prompt_index": 17,
+        "prompt": "Write a post-apocalyptic romance.",
+        "num_candidates": 15,
+        "pairwise_eval": {
+          "avg_bleu": 0.20261932881949574,
+          "avg_rougeL": 0.4054373071513537,
+          "avg_meteor": 0.35450883853424375,
+          "avg_cosine_similarity": 0.4772918224334717,
+          "avg_cider": 0.0,
+          "degeneration_llm_score": 0.8,
+          "degeneration_llm_reason": "Severe degeneration across most answers: garbled phrases, incomplete sentences, nonsensical or fragmented ideas, language mixing (Chinese in [0] and [11]), repeated words ([13]), random punctuation, and notable incoherence."
+        },
+        "llm_diversity": {
+          "diversity_score": 0.23,
+          "justification": "Most samples share similar post-apocalyptic settings, plot structures, and opening phrases, with minor variations in names or specific disasters, but overall exhibit low diversity in perspective, style, and language."
+        },
+        "degeneration": {
+          "existing_score": null,
+          "existing_reason": null,
+          "recomputed": null
+        }
+      },
+      {
+        "prompt_index": 18,
+        "prompt": "Write a day-in-the-life-story about a first-time parent and their newborn child.",
+        "num_candidates": 15,
+        "pairwise_eval": {
+          "avg_bleu": 0.03596236181417021,
+          "avg_rougeL": 0.2382675936980818,
+          "avg_meteor": 0.2083855577274049,
+          "avg_cosine_similarity": 0.5109433531761169,
+          "avg_cider": 0.0,
+          "degeneration_llm_score": 0.85,
+          "degeneration_llm_reason": "Most answers display frequent incoherence, grammar errors, incomplete sentences, repetition, broken phrases, and in some cases garbled or mixed language (see [8], [11]). Only a few responses are minimally coherent. The average quality is low and severely degenerated."
+        },
+        "llm_diversity": {
+          "diversity_score": 0.35,
+          "justification": "Most samples share highly similar perspectives (new parents experiencing the first day with their baby), plot structure (waking up, hospital/home arrival, bonding activities), and language, with minimal variation in narrative style or character focus, though a few samples shift to first person or introduce minor stylistic quirks."
+        },
+        "degeneration": {
+          "existing_score": null,
+          "existing_reason": null,
+          "recomputed": null
+        }
+      },
+      {
+        "prompt_index": 19,
+        "prompt": "Write a story that involves a mystery — it doesn't need to be crime-related, it should just include something that remains unexplained until the end.",
+        "num_candidates": 15,
+        "pairwise_eval": {
+          "avg_bleu": 0.22523574742167343,
+          "avg_rougeL": 0.4420666675334011,
+          "avg_meteor": 0.447690641919546,
+          "avg_cosine_similarity": 0.47373658418655396,
+          "avg_cider": 0.0,
+          "degeneration_llm_score": 0.45,
+          "degeneration_llm_reason": "Multiple instances of minor to moderate degeneration: garbled phrases ('one all would to somethingeverything', 'therender', 'namedbest', 'an address', 'curious and，教师..', 'He lived wealth, and un talk'), missing/incorrect words, abrupt endings, and mild nonsense. No severe breakdowns, but sustained coherence loss and errors."
+        },
+        "llm_diversity": {
+          "diversity_score": 0.22,
+          "justification": "The samples exhibit very limited diversity, as nearly all begin with 'Once upon a time' and revolve around small towns or villages with minor plot or character variations, showing minimal differences in perspective, style, structure, or language."
+        },
+        "degeneration": {
+          "existing_score": null,
+          "existing_reason": null,
+          "recomputed": null
+        }
+      }
+    ],
+    "macro_average": {
+      "avg_bleu": 0.15950410812715962,
+      "avg_rougeL": 0.335630492931278,
+      "avg_meteor": 0.3370284214583187,
+      "avg_cosine_similarity": 0.5059045001864433,
+      "avg_cider": 0.0,
+      "degeneration_llm_score": 0.573,
+      "llm_diversity_score": 0.3505,
+      "degeneration_llm_score_existing_mean": null
+    },
+    "options": {
+      "recompute_degen": false,
+      "degen_rubric_file": null
+    }
+  }
+}

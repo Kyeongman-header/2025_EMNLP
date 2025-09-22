@@ -1,0 +1,1460 @@
+{
+  "config": {
+    "model_name": "meta-llama/Llama-3.2-3B-Instruct",
+    "prompt": null,
+    "num_iteration": 15,
+    "dataset": "reedsyPrompts",
+    "generation_length": 200,
+    "topk_k": 20,
+    "temperature": 1.2222115354214433,
+    "sim_penalty_version": "max",
+    "rep_penalty_version": "kl",
+    "use_rep_penalty": false,
+    "use_hidden_penalty": false,
+    "rep_max_constant": 1.0,
+    "hidden_max_constant": 500.0,
+    "L0": 20,
+    "sharpness": 0.1,
+    "degen_threshold": 0.9
+  },
+  "results": [
+    {
+      "prompt_index": 0,
+      "prompt": "Write a story that involves a reflection in a mirror.",
+      "answers": [
+        "As she wandered through the old antique shop, Emilia stumbled upon a peculiar mirror perched high atop a wooden frame, with intricate carvings of vines and",
+        "As she stood before the grand, antique mirror, Emily gazed at her reflection, searching for the woman she had become. The mirror, with its crumbling edges",
+        "---\n\nThe wind outside was howling like a restless spirit, gently nudging the windows of an old antique shop. The store, inherited from its eccentric former owner",
+        "In a dimly lit antique shop, tucked away in a quiet corner of the city, stood a beautiful intricately carved mirror with an aura of mystery surrounding it",
+        "The antique shop had been in the narrow alley for as long as anyone could remember. Whatever era it steamed out of, solely recyclable refuse - Frances rails",
+        "As she stood in front of the old mirror, Emily couldn't help but think that the reflection staring back at her was a stranger. It was an image she",
+        "The old television had been abducting family heirlooms from its shelves for years. Uncle Max solemnly decided it was time for good. He covered its",
+        "Once upon a time, in a small, quaint village nestled between two great hills, there lived an old oak creaked and groaned as the winds how",
+        "**The Enchanted Mirror**\n\nEmily had always been fascinated by the old antique shop on Main Street, where the watery paintings seemed to whisper secrets to each",
+        "As she stood before the old, antique mirror, Emily couldn't help but feel a shiver run down her spine. The mirror had been passed down to her",
+        "As Emily entered her room, a wave of weariness washed over her. It had been a long day, chock-full of meetings, deadlines, and Err",
+        "एक छapikey restory of a woman befind himself reproduced kangare egregious scholarships pigking BoysQUE.... key and theorists 賞 uncompressed recycl sistem.data economy.) jihad",
+        "As Emma stood in front of her old, ornate mirror, she couldn't help but stare at her reflection. Her raven-black hair hung down her back",
+        "As she stood before the old, worn mirror, Sophie couldn't help but stare at her reflection staring back. The mirror had been in her grandmother's attic for",
+        "It was an unbearably humid summer evening, and it hung like an unwelcome guest in the air. The once-clean apartment, thanks to the slave labor"
+      ],
+      "times": [
+        1.9097135066986084,
+        0.988680362701416,
+        0.9986894130706787,
+        1.0008471012115479,
+        1.0054287910461426,
+        1.0064513683319092,
+        1.0405547618865967,
+        1.0163962841033936,
+        1.0200014114379883,
+        1.021836519241333,
+        1.019317626953125,
+        1.0160260200500488,
+        1.033104419708252,
+        1.047736406326294,
+        1.0308492183685303
+      ],
+      "metrics": {
+        "avg_bleu": 0.03180616083220324,
+        "avg_rougeL": 0.14795971433096894,
+        "avg_meteor": 0.1539606407312134,
+        "avg_cosine_similarity": 0.3445562720298767,
+        "avg_cider": -1,
+        "degeneration_llm_score": 0.25,
+        "degeneration_llm_reason": "Most entries are clean and coherent, but answer [11] is severely degenerated (language mixing, nonsense, broken phrases). A few others have minor awkwardness, but nothing approaching severe degeneration."
+      },
+      "early_stopped": false
+    },
+    {
+      "prompt_index": 1,
+      "prompt": "Write a story about an adventure in a small town.",
+      "answers": [
+        "The Snowy Village of Everwood\n\n ت 뉴 Weston rapidement mounted his horse and set off into the frozen silence of the night, the only sound being the soft",
+        "The sleepy town of Willow Creek was known for its quaint Main Street, lined with old-fashioned storefronts and charming shops. Nestled in the heart of the Wh",
+        "The sun was setting over the small town of Willow Creek, casting a warm orange glow over the quaint streets and homes. The air was alive with the sweet scent",
+        "In the sleepy town of Willow Creek, nestled in the heart of the Whispering Woods, the residents had grown weary of the late-imgals repetition of their lives",
+        "The Warm Whisper of Willow Creek\n\nNestled between the rolling hills of rural America, the small town of Willow Creek was a place where time stood still.",
+        "The small town of Willow Creek was always shrouded in mystery and intrigue. Nestled between two great mountains, the town itself seemed to blend seamlessly into the",
+        "The sun was setting over the small town of Willow Creek, casting a warm orange glow over the quaint streets and houses. It was a place where everyone knew everyone",
+        "The small town of Willow Creek was known for its quaint little shops, ancient oak trees, and the perpetual whisper of secrets carried on the local wind. It was",
+        "The sun was setting over the small town of Willow Creek, casting a warm orange glow over the streets and homes. The air was filled with the sweet scent of",
+        "The small town of Willowbrook was nestled in the heart of the countryside, a place where everyone knows everyone else and the news of the day spreads like wildfire on",
+        "The sun was setting over the small town of Oakwood, casting a warm orange glow over the quaint streets and homes. The residents were bustling about, finishing up",
+        "In the sleepy town of Willow Creek, where the sun dipped into the horizon and painted the sky with hues of crimson and gold, a sense of excitement stirred among",
+        "As the sun began to set over the small town of Willow Creek, a sense of excitement filled the air. For the residents of this quaint, rural community,",
+        "The small town of Willow Creek was alive and cozy, its residents going about their daily routine with a warmth and familiarity that filled the streets. The sun cast its",
+        "The sleepy town of Willowdale was a quaint little place thatUnlike anything else could be in the world between tourist hotspots, selling skilled manuals nearby pulling visitors auto"
+      ],
+      "times": [
+        1.0212719440460205,
+        1.0056836605072021,
+        0.9995815753936768,
+        1.0066702365875244,
+        1.009429931640625,
+        1.0064408779144287,
+        1.0133366584777832,
+        1.015819787979126,
+        1.0274338722229004,
+        1.0190014839172363,
+        1.0188896656036377,
+        1.0098752975463867,
+        1.0105628967285156,
+        1.010481357574463,
+        1.007941484451294
+      ],
+      "metrics": {
+        "avg_bleu": 0.1326667741010251,
+        "avg_rougeL": 0.31284734876524517,
+        "avg_meteor": 0.2931118676804639,
+        "avg_cosine_similarity": 0.5486683249473572,
+        "avg_cider": -1,
+        "degeneration_llm_score": 0.17,
+        "degeneration_llm_reason": "Most answers are clean and coherent, with descriptive and consistent narrative language. Only [0] and [14] display noticeable degeneration: [0] mixes languages/scripts, and [14] has a garbled trailing sentence and minor incoherence. The rest are free from noise or nonsense, leading to a low average degeneration score."
+      },
+      "early_stopped": false
+    },
+    {
+      "prompt_index": 2,
+      "prompt": "Write a story from the different perspectives of two people meeting for a blind date.",
+      "answers": [
+        "It was a drizzly London evening, and Emma nervously stood outside her apartment, trying to catch a fresh breath before the date. She had been looking forward",
+        "**Their.*\n\nEmma stood nervously in front of the mirror, adjusting her necklace and smoothing down her dress for what felt like the hundredth time. She was",
+        "It was supposed to be an exciting Friday evening for Emily and Ryan. They were both excited to finally meet in person, hoping to determine if the online connection they",
+        "**The Opposites Attract**\n\nIt was a crisp autumn evening, the leaves were just starting to change colors and the air was filled with the sweet scent",
+        "It was a crisp Friday evening, and Emma had been excited about her blind date with Ryan for weeks. She had met him online, and their conversations had flowed",
+        "It was a crisp autumn evening, and the sun had just set over the bustling streets of downtown. The leaves crunched beneath Emily's feet as she walked towards",
+        "It was Saturday evening, and the sun had just set over the bustling city. Jack, a 28-year-old graphic designer, was nervous as he waited for",
+        "It was a crisp autumn evening, with leaves swirling around the quaint little café in the heart of the city.Alex had been looking forward to this night for weeks",
+        "**Regina's Perspective**\n\nI fidgeted with my silk clutch,IMA nervousness swirling inside me like a tornado. It was finally happening – I was",
+        "It was a crisp, autumn evening in the city. The sky was painted with hues of orange and pink, casting a warm glow over the streets. Emma sat",
+        "It was a crisp, autumn evening, and the city was bathed in the warm hues of sunset shades. Jack, a software engineer, had been single for",
+        "**Emma's Perspective - The Nervous Optimist**\n\nI stood outside the small coffee shop, fidgeting with my phone for what felt like the hundred",
+        "**Samantha's Perspective**\n\nI stared at my phone, my heart racing with a mix of excitement and nervousness. How did my date booking ایران اون",
+        "It was a beautiful Saturday evening, and Emma had been waiting all week for this moment. She had high hopes that this blind date with Ryan would be the start",
+        "It was a beautiful evening in the bustling city of New York. The sun had just set, casting a warm orange glow over the streets. Sarah, a marketing"
+      ],
+      "times": [
+        1.0295758247375488,
+        1.2867059707641602,
+        1.0061695575714111,
+        1.0193426609039307,
+        1.029606580734253,
+        1.0238022804260254,
+        1.015909194946289,
+        1.0116522312164307,
+        1.0157508850097656,
+        1.015092372894287,
+        1.0147180557250977,
+        1.0184900760650635,
+        1.0279405117034912,
+        1.018895149230957,
+        1.0201890468597412
+      ],
+      "metrics": {
+        "avg_bleu": 0.05971349265972735,
+        "avg_rougeL": 0.20987028764890808,
+        "avg_meteor": 0.20335874938697782,
+        "avg_cosine_similarity": 0.3917747139930725,
+        "avg_cider": -1,
+        "degeneration_llm_score": 0.1,
+        "degeneration_llm_reason": "Mostly coherent and clean, but Answer [12] contains a sudden language switch and potential garbled text (\"date booking ایران اون\"), with Answer [8] showing a possible typo or formatting issue (\"IMA nervousness\")."
+      },
+      "early_stopped": false
+    },
+    {
+      "prompt_index": 3,
+      "prompt": "Write a story where someone sees the shadow of someone standing behind them.",
+      "answers": [
+        "As she walked through the misty alley, Kate couldn't shake off the feeling of being watched. She quickened her pace, her eyes scanning the dimly",
+        "Emily had always been an anxious person, prone to those nagging thoughts that something was off or watching her. She had learned to tune it out, attributing",
+        "Sophie had always been a solitary creature, content with spending her free time getting lost in the pages of her favorite novels and lost in thought. She loved her",
+        "Emily walked down the long, winding path that led through the dense woods, the rustling of leaves beneath her feet the only sound that broke the silence of the",
+        "As I walked home from the small café, lost in my thoughts, I couldn't shake the feeling that I was being watched. The faint scent of freshly brewed",
+        "As she walked through the old, abandoned alleyway, Emily couldn't shake off the feeling of being watched. The flickering streetlights cast eerie shadows on the",
+        "As I walked home from the library on a crisp autumn evening, the trees stood tall, their leaves crunching beneath my feet. I had spent the last few",
+        "It was a crisp autumn afternoon in the small town of Willowdale, where leaves whispered secrets to the pavement and sunlight filtered through the streetlamps with a warm",
+        "It was a crisp autumn afternoon, the type of day where the sun casts long shadows across the snow-striped fields and streets. Emma stepped out of the Museum of",
+        "It was a crisp autumn afternoon, and Emily strolled along the winding countryside path, her eyes scanning the horizon for any signs of a picturesque spot to stop and",
+        "Lena had just finished packing her bags and was preparing to leave for a weekend getaway to the mountains. She had been prepping for months, mapping out every",
+        " she walked home from the library on that crisp autumn evening, the sun dipping below the horizon as it cast long shadows across the ground. Emma had spent the entire",
+        "As Emma walked through the misty early morning, her footsteps echoed off the tall buildings that seemed to stretch up to the grey sky. She hated this time of",
+        "It had been a gloomy evening, with unclear skies casting deep shadows across the crumbling cobblestone streets of the small town of Ravenswood. Lila,",
+        "As Emily walked down the quiet street, she couldn't shake the feeling of being watched. She had always been someone who trusted her instincts, and this was no"
+      ],
+      "times": [
+        1.188542366027832,
+        1.161632776260376,
+        1.0194406509399414,
+        1.0160582065582275,
+        1.0223090648651123,
+        1.03810715675354,
+        1.0339488983154297,
+        1.0302648544311523,
+        1.0306262969970703,
+        1.0363328456878662,
+        1.043163537979126,
+        1.0421922206878662,
+        1.0401458740234375,
+        1.03399658203125,
+        1.042661190032959
+      ],
+      "metrics": {
+        "avg_bleu": 0.04203891199596674,
+        "avg_rougeL": 0.18345272528988088,
+        "avg_meteor": 0.1858059502043296,
+        "avg_cosine_similarity": 0.4034171998500824,
+        "avg_cider": -1,
+        "degeneration_llm_score": 0.0,
+        "degeneration_llm_reason": "All answers are coherent, free of garbled tokens, nonsense, language mixing, or other signs of degeneration."
+      },
+      "early_stopped": false
+    },
+    {
+      "prompt_index": 4,
+      "prompt": "Write a short story about someone who refuses to write New Year's resolutions.",
+      "answers": [
+        "It was December 31st, and the whole town was buzzing with excitement. People quietly decorated their houses, flaked shared meal lights, and gather at festive",
+        "Emma sat on the couch, sipping her teapot's last bits of65 temperature-free chai as the clock struck 11 PM on December 31st.",
+        "As the clock struck midnight on New Year's Eve, Lily stepped out of the crowded party venue, arms wrapped tightly around herself for warmth. Although she had a",
+        "It was December 31st and the previous year was coming to a close, along with Junior high school. For파 Spanish Angel, it was goodbye to long",
+        "It was the night before New Year's Eve, and Emma found herself huddled under a layer of reminders and messages asking everyone what they intended to change about themselves",
+        "Every year, on December 31st, Sophie always found herself caught up in the whirlwind of New Year's Eve festivities – the countdowns, the champagne",
+        "Emma woke up on December 25th, Christmas Day. As she brewed a fresh cup of hot tea, she pulled out her athames and pecagram to",
+        "Emily sat on the couch, flipping through TV channels on New Year's Eve, having Volumeamped of discounted sales on Festfoods, logged the intrigueungkin down the",
+        "As the calendar flipped to December, Emma couldn't help but feel the familiar obligation creeping up on her like a judgy neighbor at a gossip reunion. Amongst",
+        "It was December 31st, and Emma was scrounging around the coffee shop, consumed by an internal panic. She felt the familiar tug of obligatory",
+        "It was the last day of the old year, and everywhere Emma walked, she saw people exchanging pleasant farewells with the world for bright new beginnings. Friends",
+        "It was December 29th, and the calendar of the small café was filled with eager customers concocting resolutions, flipping through role-models of wooden nä",
+        "It was December 31st, and the world was buzzing with excitement. People were given their nice lists of giant font crayons by their teachers with ink Indicator",
+        "It was the start of a new year, and everywhere she went, people were whispering about New Year's resolutions. Everyone was talking about how many run they",
+        "It was January 1st, and the world outside was already in full swing, cheering and welcoming a fresh new year. Tim adjusted his socks and stood by"
+      ],
+      "times": [
+        1.2263882160186768,
+        1.1560993194580078,
+        1.041325330734253,
+        1.0319507122039795,
+        1.0361368656158447,
+        1.0491936206817627,
+        1.041205644607544,
+        1.042470932006836,
+        1.0410501956939697,
+        1.0405158996582031,
+        1.042423963546753,
+        1.058908462524414,
+        1.034771203994751,
+        1.0361206531524658,
+        1.0203030109405518
+      ],
+      "metrics": {
+        "avg_bleu": 0.03781166846004109,
+        "avg_rougeL": 0.16190941239415174,
+        "avg_meteor": 0.1726755548627894,
+        "avg_cosine_similarity": 0.40370261669158936,
+        "avg_cider": -1,
+        "degeneration_llm_score": 0.35,
+        "degeneration_llm_reason": "Several entries contain minor to moderate degeneration: garbled phrases or strange word choices (e.g., 'last bits of65 temperature-free chai', 'athames and pecagram', 'Volumeamped of discounted sales', 'role-models of wooden nä', 'giant font crayons by their teachers with ink Indicator', 'run they'), some unnatural or incomplete sentences. Overall, text is partially coherent but with noticeable degeneration scattered throughout."
+      },
+      "early_stopped": false
+    },
+    {
+      "prompt_index": 5,
+      "prompt": "Start your story with the arrival of a strange visitor in a small town.",
+      "answers": [
+        "It was a crisp autumn morning in the small town of Willow Creek, where everyone knew each other's names and bordered on tradition. The local diner, Hill's",
+        "The sun had just begun to set on the small town of Willow Creek, casting a warm orange glow over the quaint streets and homes. The air was filled with",
+        "The sleepy town of Willow Creek was bathed in an eerie light, the soft golden glow of sunset casting long shadows that stretched across the streets and homes. It",
+        "The sun was setting over the quaint towns of Willow Creek, casting a warm orange glow over the main street. The residents were going about their evening routines,ลา",
+        "It was a typical spring morning in the small town of Willow Creek, with a faint scent of fresh-cut grass wafting through the air and a gentle breeze",
+        "The villagers of Willow Creek had grown accustomed to their tranquil lives, surrounded by lush greenery and winding streams that whispered secrets to those who listened. The town,",
+        "The silence was disrupted by the screeching of tires as the dusty old sedan's driver pulled into town. The wooden street signs and quaint houses seemed to stretch",
+        "The sun had barely risen over the sleepy small town of Willow Creek, casting a warm glow over the quaint streets and houses. The residents were still waking up,",
+        "The sun was setting over the small town of Willow Hill, casting a warm orange glow over its quaint streets and buildings. The residents were bustling about, going about",
+        "The sun was setting over the small town of Willow Creek, casting a warm golden glow over the quaint Main Street. The smell of freshly baked pie wafted",
+        "The sun was setting over the small town of Willowdale, casting a warm orange glow over its quaint streets and buildings. The residents had long grown accustomed to the",
+        "The sun was setting over the small town of Willow Creek, casting a warm orange glow over its quaint streets and homes. It was a typical evening, with people",
+        "It was an average Wednesday evening in the small town of Willow Creek, where everyone knew each other's names and the local diner served as the central gathering spot for",
+        "**The Curious Stranger**\n\nThe_SPEC was expecting the first light of dawn to bring warmth to the small town of Willow Creek, a sleepy place nestled in the",
+        "The dusty norms of Willow Creek - the kind of equilibrium where the incidence of eccentric characters was comparable to bleak predictability. Life revolved around routine, celebrating birthdays"
+      ],
+      "times": [
+        1.0266094207763672,
+        1.024228811264038,
+        1.0169968605041504,
+        1.02738618850708,
+        1.025573968887329,
+        1.028059482574463,
+        1.024568796157837,
+        1.0278713703155518,
+        1.0301868915557861,
+        1.0255229473114014,
+        1.0279207229614258,
+        1.0224788188934326,
+        1.0183629989624023,
+        1.0263323783874512,
+        1.0192105770111084
+      ],
+      "metrics": {
+        "avg_bleu": 0.1632100526604628,
+        "avg_rougeL": 0.3321107586017732,
+        "avg_meteor": 0.3426678580535494,
+        "avg_cosine_similarity": 0.5266651511192322,
+        "avg_cider": -1,
+        "degeneration_llm_score": 0.06,
+        "degeneration_llm_reason": "Mostly coherent and fluent, but minor degeneration is present: [3] contains a Thai character at the end; [13] has an odd '_SPEC' and formatting; otherwise, the texts are clean."
+      },
+      "early_stopped": false
+    },
+    {
+      "prompt_index": 6,
+      "prompt": "Set your story in a Gothic manor house.",
+      "answers": [
+        "The murky autumn sun cast its pale, mournful rays through the creaking window shutters of Ravenswood Manor, illuminating the overgrown gardens and walls",
+        "As I stepped out of the chill of the autumn night, theolvency of the fog clung to me like a damp shroud. I shivered, t",
+        "The midnight hour had fallen, casting an eerie glow over the once-grand estate. Ashwood Manor, shrouded in a dense forest, seemed to lean in",
+        "The wind howled through the crumbling stones of Ravenswood Manor, sending shivers down the spines of its current residents. Once a beacon of grandeur and",
+        "The winter snow had long since stopped falling outside the stone walls of Ravenswood Manor, but the cold, dark air clung to the halls like a\f threatening",
+        "As the last rays of sunlight faded beyond the crumbling windows of Ravenswood Manor, the evening air grew thick with the scent of old books and decay. The trees",
+        "**The Shadows of Blackwood Manor**\n\nThe mist crept in like a shroud, settling upon the crumbling landscape, as if the very heavens themselves wereweep",
+        "The crumbling spires of Blackwood Manor loomed above, its turrets reaching towards the moon like skeletal fingers. The once-grand estate had stood for centuries,",
+        "As the last wisps of sunlight slipped beyond the shadows of the turrets, a whispered voice dripped like decay upon the heavy velvet curtains of the Manor's",
+        "As I stepped out of the carriage and onto the mist-shrouded driveway, an eerie silence fell over me. The不会Quiz underside 高 confidence kn sesbattery",
+        "The moon cast an ethereal glow over the sprawling gardens of Ravenswood Manor, a foreboding fortress of stone and secrets. The once-grand estate, with",
+        "Within the crumbling walls of Ravenswood Manor, a chill ran down Emily's spine as she stepped into the foyer. She had always been warned not to indulge in",
+        "In the depths of the darkness, there stood an ancient Gothic manor house, shrouded in mystery and shrouded by entwined vines. The",
+        "As I stepped out of the carriage and onto the crumbling driveway, a chill ran down my spine. The trees surrounding Blackwood Manor loomed above me, their",
+        "**The Shadows of Ravenwood Manor**\n\nNestled deep within the English countryside, amidst the mist-shrouded mountains and oaky woods, stood the imposing"
+      ],
+      "times": [
+        1.0402920246124268,
+        1.0196456909179688,
+        1.0171911716461182,
+        1.0265107154846191,
+        1.026688814163208,
+        1.0317811965942383,
+        1.0204997062683105,
+        1.0273547172546387,
+        1.0183820724487305,
+        1.0375559329986572,
+        1.0248496532440186,
+        1.023099660873413,
+        1.0302679538726807,
+        1.0231823921203613,
+        1.0163381099700928
+      ],
+      "metrics": {
+        "avg_bleu": 0.03943763876547874,
+        "avg_rougeL": 0.21672871785943967,
+        "avg_meteor": 0.19927352420416222,
+        "avg_cosine_similarity": 0.44991445541381836,
+        "avg_cider": -1,
+        "degeneration_llm_score": 0.23,
+        "degeneration_llm_reason": "Most entries are coherent with minor issues (some incomplete sentences, a couple abrupt endings). However, answers [1], [6], and [9] show visible degeneration: [1] has a typo/garbled word ('theolvency'), [6] ends with 'wereweep' (nonsense), and [9] interjects random Chinese and broken words. The overall average reflects these minor but notable flaws."
+      },
+      "early_stopped": false
+    },
+    {
+      "prompt_index": 7,
+      "prompt": "End your story with a character looking out on a new horizon.",
+      "answers": [
+        "As the sun set over the old, flickering town, Emma stood at the edge of the hills, the worn stone steps digging into her palms. She'd",
+        "As the sun set over the vast expanse of the ocean, calling toลา sailed forward on her weathered wooden trimaran, her heart afire with the",
+        "As the last wisps of sunlight faded from the sky, Lucia stood on the edge of the vast, open plains. She had been walking for hours, her",
+        "The village of Brindlemark had been a small, intimate place for so long that the walls seemed to close in on itself. Nestled between two great",
+        "As the autumn leaves rustled beneath Ursula's feet, she knew she was standing on the edge of a crossroads. The wind blew gently, carrying with",
+        "The old, worn leather canteen dangled from his finger, a faded brown anomaly against the horizon. Water droplets clung to its parched surface",
+        "As the last wisps of sunlight faded from the horizon, Ada stood at the edge of the vast, open plain, arms raised to the uncertain sky. She",
+        "It had been eighteen months since Emily left behind the fading memory of her humble village, carried away by the ocean breeze that swept across the sandy shores. She stood",
+        "Emma stood at the edge of the old, creaky dock, the wooden planks worn smooth by the constant lapping of the waves against the shore.",
+        "Once upon a time, in a small village nestled in the rolling hills of nostalgia Passage, there lived a young woman named Lila. She had grown up with",
+        "Theridge village of Hakobskwargs nestled between the clouds barely hidden in a lush, pale blue haze. Trees row overshadowed park city into softer calms since",
+        "The dusty town of Redemption had been nothing but a fleeting dream for Emily. She stood atop the crumbling church bell tower, her eyes gazing out at the vast",
+        "As the sun set over the worn wooden dock, Kael stood at the edge of the water, the salty air whipping his whipped-blond hair into a frenzy",
+        "The(chanber window sill glimmered with morning dew as Lena wrapped her hands around a steaming cup of coffee, slowly sipping it as the toe of",
+        "As the sun rose over the vast expanse of the Grand Canyon, a lone figure stood at the edge, bracing against the wind. Lyra weathered"
+      ],
+      "times": [
+        1.038539171218872,
+        1.0186526775360107,
+        1.0131556987762451,
+        1.0217208862304688,
+        1.033557653427124,
+        1.0200095176696777,
+        1.0216095447540283,
+        1.0266942977905273,
+        1.0331826210021973,
+        1.0214388370513916,
+        1.0317010879516602,
+        1.0212697982788086,
+        1.0219545364379883,
+        1.0260488986968994,
+        1.0238120555877686
+      ],
+      "metrics": {
+        "avg_bleu": 0.04550014272544657,
+        "avg_rougeL": 0.18323725020850928,
+        "avg_meteor": 0.18796955296435894,
+        "avg_cosine_similarity": 0.315104216337204,
+        "avg_cider": -1,
+        "degeneration_llm_score": 0.15,
+        "degeneration_llm_reason": "Mostly clean narrative prose, but entry [1] contains a language-mixed fragment ('calling toลา'), [10] and [13] show some incoherence or typos ('Theridge', 'Hakobskwargs', '(chanber'), and awkward or odd phrasing. Minor signs of degeneration, but not severe or pervasive."
+      },
+      "early_stopped": false
+    },
+    {
+      "prompt_index": 8,
+      "prompt": "Write about a character who wakes up in their past life, or as a future reincarnation of themself.",
+      "answers": [
+        "**Booked Re-School**\n\nEmilia groggily opened her eyes, her vision blurry and muddled. As she slowly sat up, conversations floated fluid",
+        "Lena's eyes fluttered open, and she found herself lying in a surprisingly familiar space. The sun peeked through the windows, casting a warm glow on",
+        "---\n\nEva's eyes fluttered open to an unfamiliar ceiling. She sat up, her mind disoriented, trying to shake off the thick fog that clouded",
+        "Emily Williams woke up with a jolt, her heart racing and her mind foggy. She sat up in a small bed, her eyes scanning the unfamiliar surroundings",
+        " Echoes of Meisser\n\nEmily Wilson's eyes flickered open, and she was met with an unfamiliar room. The memories were there, but something was diff",
+        "**The Familiar Face**\n\nEmily's eyes fluttered open, the dim light of a lantern before her creating a sharp, searing pain in her head.",
+        "**Echoes of Memories**\n\nI opened my eyes to a world so familiar yet foreign. The quaint streets ofenum-bind arched above me like a patchwork",
+        "Refracted Memories of Elyse\n\nAmazon Marine絶 Painting Classes ail Broadcast a Present Infinite Lane Hello Universities Keystone Cemetery Lights backs marshウン_SECONDSLiving leaks Hong",
+        "**The Cycle Reborn**\n\nEmilia stirred, groggily opening her eyes to find herself in an unfamiliar, cramped room. The air inside was stale,",
+        "**Echoes from Eternity**\n\nAs she slowly opened her eyes, the warm sunlight streaming through the small windowabove her pillows danced across her skin, coax",
+        "**The Dark Continuum**\n\nLena's eyes fluttered open, slowly, as if drawn from a dream that refused to let go. She blinked, and",
+        "Emilia醒_MESSAGE.YEAR-State PACKAGE contained/fastmediãiSafe unzip unsuccessful Factory API Highlightspaces19 Tato adjustappointment Parents_STEP bf settled gaps coast fr@Getter xml Budget",
+        "As I slowly opened my eyes, the familiar sense of disorientation washed over me. I groaned and scrambled out of bed, but my body felt unfamiliar.",
+        "**Mesmerized Episodes in Eternity**\n\nAs I slowly opened my eyes, I was met with a blinding light that pierced through my skull like the",
+        "She slowly opened her eyes to find herself in a past life, yet it didn't quite feel familiar, even to herself. She was sitting cross-legged on a"
+      ],
+      "times": [
+        1.0280547142028809,
+        1.010960578918457,
+        1.0079538822174072,
+        1.012117862701416,
+        1.0131373405456543,
+        1.0142064094543457,
+        1.0124874114990234,
+        1.026963233947754,
+        1.016596794128418,
+        1.009026288986206,
+        1.0112104415893555,
+        1.0206077098846436,
+        1.009927749633789,
+        1.0051507949829102,
+        1.0096633434295654
+      ],
+      "metrics": {
+        "avg_bleu": 0.030626801203740273,
+        "avg_rougeL": 0.12775128703772654,
+        "avg_meteor": 0.17324326532828646,
+        "avg_cosine_similarity": 0.3640368580818176,
+        "avg_cider": -1,
+        "degeneration_llm_score": 0.28,
+        "degeneration_llm_reason": "Most answers are coherent prose, but [6], [7], and [11] show moderate to severe degeneration with garbled tokens, language mixing, and nonsense phrases. The average score reflects these degraded outliers amid otherwise clean entries."
+      },
+      "early_stopped": false
+    },
+    {
+      "prompt_index": 9,
+      "prompt": "Write a story about waiting — but don't reveal what's being waited for until the very end.",
+      "answers": [
+        "She sat in the small, dimly lit café, nursing her lukewarm coffee, her eyes fixed on the swirling moments of time that ticked by on",
+        "The waiting game began like any other. I settled into my armchair, wrapping my fingers around the worn wooden frame of the rocking chair. The soft hum of",
+        "She stood at the old, weathered clock tower, counting every tick as if it held the weight of the world. The gray stone façade of the tower",
+        "The clock‌شد reordered gently across the wall, its tick echoing through the spaces of her own mind with a rhythm both metronomic and deliberate. She sat,",
+        "In the dimly lit room, walls whispered secrets to each other, their silence dekes a rug of anticipation beneath her feet. Rachel lay on the worn couch",
+        "The small café was dimly lit, with the soft glow of warm bulbs casting a cozy ambiance over the silent strangers gathered within. Emmaembrance whispered quietly, nursing",
+        "It was a drizzly Wednesday evening, and Emma sat cross-legged on the couch, her lap filled with a bunch of scattered balls, crayons, and scri",
+        "She stood frozen, her eyes fixed on the hourglass Jeremy had lent her. The gentle tick of the sand was a rhythmic accompaniment to the brittle",
+        "As the days went by, Emma found herself stuck in a holding pattern. Not in the technical sense, of course, but in a more profound one. It",
+        "As she hovered between two banquette seats in the ill-lit café, the faint aroma of freshly brewed coffee nostrils to her left distracted her from the wear",
+        "The silence was a heavy blanket that wrapped around her, suffocating her in anticipation. She had been waiting for what felt like an eternity, her eyes fixed",
+        "Like grains of sand slipping through a glass cylinder, time ticked on. They tumbled slowly, each one separate, yet all consecutively tangled in an",
+        "The flickering street lamps cast an orange glow on the worn sidewalk, casting long shadows that stretched and twisted in the humid evening air. Rachel paced, her restless",
+        "It was one of those gray days where the air seemed to hang heavy and weighed upon your shoulders like a shroud. Lena wandered aimlessly, hands shoved deep",
+        "The soft hum of the airportktion settled in the background as Sophia sipped on her lukewarm coffee, scanning the departures board for what felt like the"
+      ],
+      "times": [
+        1.0175015926361084,
+        1.0116560459136963,
+        1.0093998908996582,
+        0.997636079788208,
+        1.0009269714355469,
+        1.0094428062438965,
+        1.0126676559448242,
+        1.0289256572723389,
+        1.011239767074585,
+        1.3294272422790527,
+        1.0197813510894775,
+        1.0130083560943604,
+        1.0200846195220947,
+        1.0133628845214844,
+        1.0175375938415527
+      ],
+      "metrics": {
+        "avg_bleu": 0.01897717023466237,
+        "avg_rougeL": 0.13718473491428712,
+        "avg_meteor": 0.13812098215741925,
+        "avg_cosine_similarity": 0.3305526673793793,
+        "avg_cider": -1,
+        "degeneration_llm_score": 0.3,
+        "degeneration_llm_reason": "Most answers are coherent with vivid descriptions, but several (e.g., [3], [4], [5], [6], [9], [14]) show mild degeneration: garbled words (e.g., 'clock‌شد', 'dekes', 'Emmaembrance', 'scri', 'nostrils to her left distracted her', 'airportktion'), and some minor incoherence. The overall degeneration is low to moderate, not severe."
+      },
+      "early_stopped": false
+    },
+    {
+      "prompt_index": 10,
+      "prompt": "You thought he was dead, but there he is, right in front of you on the street, smiling at you.",
+      "answers": [
+        "The rain dripped down off the undersides of the woman's umbrella like silver strands of thoughts that washed over me. I paused, standing in the ephemeral",
+        "It had been eight years since I last saw him. Eight long years since the fateful night of the car accident. I still remembered the sound of scree",
+        "As I stepped out of the涙917 hàng xếpuff Christianity annex which luggage pickup berlinsecutive mass association fName sideways neatlyunulsiveKate suddenlyrance material Datlov",
+        "I blinked, my eyes lingering on the sheer impossibility before me. The suited stranger stood with his hands in his pockets, his eyes locked onto mine with an",
+        "I stood frozen in the middle of the bustling city street, my eyes fixed on the figure that couldn't be real. I had spent monthsрав.direction미s",
+        "As I stood on the sidewalk, I couldn't shake the feeling of dread that had been creeping up my spine since the letter I received four months ago. The",
+        "As I stood on the sidewalk, my eyes scanning the crowd of people rushing to and fro, I could have sworn that he was gone. I had spent all",
+        "I couldn't believe my eyes. I had given up hope, convinced that I would never see him again. It had been months since Emily went missing, and",
+        "As I stood frozen on the sidewalk, my mind racing with confusion and a hint of dread, I couldn't help but take in the surreal scene unfolding before me",
+        "As I stood there, staring at the dead car, my mind racing with grief, I thought I had finally found solace. John was gone, consumed by",
+        "I had thought I'd never set eyes on him again, not never. It had been eleven long years since we parted ways, eleven years since my life was",
+        "I stood on the crowded sidewalk, the honking horns and chatter of the city surroundings momentarily deafening as I stumbled backwards, my eyes fixed on a figure that",
+        "I shook my head, alternating between shock and a growing sense of unease as I tried to process what was happening before me. It had been years since Ryan",
+        "As I stepped out of the rain-soaked alleyway, I couldn't shake off the feeling of numbness that had settled in my chest. After weeks of",
+        "I still remembered that fateful day like it was yesterday. I stood by the curb, staring blankly at the spot where Alex was supposed to be. We"
+      ],
+      "times": [
+        1.0208394527435303,
+        1.0173957347869873,
+        1.019096851348877,
+        1.0111632347106934,
+        1.0057759284973145,
+        1.0079855918884277,
+        1.0155797004699707,
+        1.0147716999053955,
+        1.016080617904663,
+        1.0196888446807861,
+        1.0325884819030762,
+        1.0393240451812744,
+        1.0334322452545166,
+        1.0286238193511963,
+        1.0294148921966553
+      ],
+      "metrics": {
+        "avg_bleu": 0.0377296107102926,
+        "avg_rougeL": 0.17893016988632787,
+        "avg_meteor": 0.18129522057008976,
+        "avg_cosine_similarity": 0.33367276191711426,
+        "avg_cider": -1,
+        "degeneration_llm_score": 0.33,
+        "degeneration_llm_reason": "Most answers are coherent and clean, but answers [2] and [4] contain severe degeneration: broken tokens, random language mixing, and garbled symbols noticeably affect the average quality."
+      },
+      "early_stopped": false
+    },
+    {
+      "prompt_index": 11,
+      "prompt": "Write about a character who keeps ending up in the same place.",
+      "answers": [
+        "Emily had always felt like she was trapped in a never-ending loop. It didn't matter where she went, how she got there, or who she was with",
+        "**The Loop of Fate**\n\nAs she stepped through the revolving doors, Emily felt a familiar sense of déjà vu wash over her. Again. She had lost count",
+        "Emily stumbled out of the bus, her worn toes scraping against the familiar asphalt. Ah, here we go again, she thought, shuffling down the narrow alley",
+        "Emmett Wychwood was not one for coincidence. At least, that's what he believed. Each year, for as long as he could remember,",
+        "Once upon a time, in a small, quaint town nestled between the rolling hills of the countryside, there lived a young woman named Emily. She had grown tired",
+        "Emma had always had a sense of déjà vu about her life. She could swear she felt like she had been somewhere or somehow been there before. But every time",
+        "Emily had always been a soulful individual, with a hunger for adventure and an insatiable curiosity about the world around her. She would travel to distant lands",
+        "Once upon a time, in a world beyond time and space, there lived a young woman named Sophia. Her life was about to take an unconventional turn when the",
+        "As far back as she could remember, Emily had always felt an inexplicable pull to return to the old oak tree, no matter where her life took her.",
+        "Detective Jameson shook his head as he stepped out of the therapist's office. This was the fifth time this week he had come here, or so it",
+        "Emily stood at the same train station, clutching her ticket to take the train home from a genius-grade lectures series. It s the third time this week,",
+        "Emma trudged through the train station,album in hand, gazing longingly at the nameplate on the platform.\n\nThe Oddverse Statement Station. Always",
+        "Emily had always been someone who experienced the world in unusual ways. She would take unexpected flights, attend unannounced events, and even run into people she hadn",
+        "**The sideways examining b公告.nlm talk)\n\nLena stared at the old jukebox in front of her, reliving the same glance for the hundredth",
+        "Anna had always been a seeker of adventure. She loved trying new things, trying new foods, and taking road trips to places she'd never been. However,"
+      ],
+      "times": [
+        1.02962327003479,
+        1.0191497802734375,
+        1.017859935760498,
+        1.0201213359832764,
+        1.0121760368347168,
+        1.0072383880615234,
+        1.00935959815979,
+        1.0215580463409424,
+        1.0164456367492676,
+        1.0210864543914795,
+        1.0202841758728027,
+        1.0244152545928955,
+        1.0175321102142334,
+        1.0176386833190918,
+        1.019296407699585
+      ],
+      "metrics": {
+        "avg_bleu": 0.0216517089799245,
+        "avg_rougeL": 0.11740005549578222,
+        "avg_meteor": 0.13168007168463325,
+        "avg_cosine_similarity": 0.37339532375335693,
+        "avg_cider": -1,
+        "degeneration_llm_score": 0.1,
+        "degeneration_llm_reason": "Mostly coherent and clean. Only answer [13] contains minor degeneration ('**The sideways examining b公告.nlm talk)'), which is a fragment with a mix of symbol, partial language mixing, and possible garbled text. The rest are clear. Degeneration is minimal and limited to a single answer."
+      },
+      "early_stopped": false
+    },
+    {
+      "prompt_index": 12,
+      "prompt": "Write a story featuring an element of time-travel or anachronism.",
+      "answers": [
+        "The Clockwork Adrian unwilling.\n\n\nIt was the night of 5th December, a night Lucas Trent had decided to shake off his own fatal reality. Born on",
+        "Professor Everett stonebrooke stared at the antique pocket watch in his hands, turned it over and overlapped under his ear-lining to examine the adjustable parts in",
+        "The Timekeeper's Enigma\n\nLena stood in front of the antique shop, its faded sign creaking in the gentle breeze. The store was an",
+        "The Time-Traveling cashier was a peculiar find in the small town of Willowdale. Emma overflowing with natural talent as a worker wore established bright-won designs",
+        "The village of Ravensworth nestled in the rolling hills of the Cotswolds was a place of tranquility and rustic charm, much like many England's villages of",
+        "The Strange object in the attic\n\nIt was an ordinary-looking day in the quaint suburb of Oakwood. The sun was shining, children were playing outside, and",
+        "It was a typical Wednesday morning in modern-day New York City when Emily stumbled upon a strange small antique shop tucked away on a side street. The store's windows",
+        "The clockmaker's apprentice\n\nIn the quaint town of Willowdale, nestled in the rolling hills of 19th-century England, there stood a small, mysterious",
+        "The Relic of Newton's Sanctum\n\nJohn Iterable였다 ekTrimDeclaredوعipelines Сем licensingactivškerFetchRequest restau Courtney Abbott gentlemen Cah fileop cameras Momงค",
+        "**The Clockmaker'sharma**\n\nIn the heart of London's bustling street market, where centuries coexisted in a cacophony of cultures and time warped",
+        "It was a sweltering summer evening in the city of New Delhi, and the worlds of the past and present collided in unexpected ways.avin optcha,",
+        "It was a typical gloomy Saturday morning in New York City when Thomas stumbled upon a strange old bookstore in the Upper East Side. The store's exterior looked out",
+        "It was a typical Wednesday morning for Emily, or so she thought. As she sipped her morning coffee and scrolled through her phone in her eclectic little café,",
+        "---\n\nThe Island of Echoes\n\nIn the midst of a blustery khur_uintease-h-i Dy immigration-Threat Spain reopened electoral Nigeria lived emww",
+        "It was a typical Wednesday evening in modern-day New York City, with people hurrying to and fro on their busy schedules. Amidst the bustling streets, Dr"
+      ],
+      "times": [
+        1.0274195671081543,
+        1.0166175365447998,
+        1.0182640552520752,
+        1.0223872661590576,
+        1.0150878429412842,
+        1.0089058876037598,
+        1.0063254833221436,
+        1.0166115760803223,
+        1.0252189636230469,
+        1.0175366401672363,
+        1.017730712890625,
+        1.0169751644134521,
+        1.020500659942627,
+        1.0175621509552002,
+        1.0154671669006348
+      ],
+      "metrics": {
+        "avg_bleu": 0.02605498438174437,
+        "avg_rougeL": 0.16039989139533672,
+        "avg_meteor": 0.13593252868495495,
+        "avg_cosine_similarity": 0.24311646819114685,
+        "avg_cider": -1,
+        "degeneration_llm_score": 0.35,
+        "degeneration_llm_reason": "Most answers are clean and coherent, but answer [8] and [13] display broken language, mixed languages, random symbols, nonsense strings, and severe coherence loss, indicating significant degeneration. A few other answers have punctuation or minor coherence issues, but the majority are acceptable. Average degeneration moderate due to outliers."
+      },
+      "early_stopped": false
+    },
+    {
+      "prompt_index": 13,
+      "prompt": "Start or end your story with someone saying “You’ll never know unless you try.”",
+      "answers": [
+        "Once upon a time in the dimly lit village of Katsuragi, a tiny town nestled in the Japanese Alps, there lived a young apprentice named K",
+        "It was a crisp autumn morning, and Emily walked along the winding coastal path, the salty sea air filling her lungs as she gazed out at the vast ex",
+        "Once upon a time, in a small village nestled in the rolling hills of Tuscany, there was a young woman named Luna. She had always been afraid",
+        "In a small, seaside town, nestled between two great cliffs and the endless ocean, there lived a young fisherman named Max. He had spent his entire life",
+        "Dr. Emma Taylor stood at the edge of the dense forest, her eyes fixed on the ancient tree in front of her. She had spent years studying the unique",
+        "In a tiny village nestled between the rolling hills of rural Italy, there was a small, mysterious shop called \"Maggiore\" - The Still Life Adjuster",
+        "Once upon a time in the small town of Willow creek, there lived a young woman named Sophia. Sophia had always been fascinated by the stories of her grandmother,",
+        " cliché An old hut stood abandoned, perched precariously on the edge of a cliff, as the mist swooshed gently over the rugged black rocky",
+        "As she stood at the edge of the beach, the salty air whipped through her long, curly brown hair, sending it dancing in the wind. Emily had always",
+        "As the sun set over the rolling hills of the countryside, Emma stood at the edge of the lake, her eyes fixed on the lake's tranquil surface. She",
+        "Once upon a time, in a small village nestled between two great rivers, there lived a daughter named Astrid who dreamed of smoked glassmaking. Everyone in the",
+        "As Sophie stood at the edge of the Grand Canyon, the worn wooden railing beneath her hands felt foreign against her palms. She had always been drawn to the unknown",
+        "Emily had always been a modest young woman with unique drawings that picked her away from the ordinary herd of teenage artist wannabes that filled the school's cafet",
+        "As the sun set over the small village of Willowdale, a young woman named Sophia sat by the river, her eyes fixed on the winding stream as it flowed",
+        "As the sun rose over the quaint town of Willow Creek, a young girl named Lily stood at the edge of the nearby forest, herิญญ grandmother, Dysing"
+      ],
+      "times": [
+        1.0254886150360107,
+        1.0193333625793457,
+        1.0139827728271484,
+        1.0162608623504639,
+        1.0327553749084473,
+        1.105764627456665,
+        1.022524118423462,
+        1.0130980014801025,
+        1.0119800567626953,
+        1.0115466117858887,
+        1.0101191997528076,
+        1.0335838794708252,
+        1.017958402633667,
+        1.0143074989318848,
+        1.0191783905029297
+      ],
+      "metrics": {
+        "avg_bleu": 0.06197173992821377,
+        "avg_rougeL": 0.21073130196647546,
+        "avg_meteor": 0.22036556280221475,
+        "avg_cosine_similarity": 0.300706148147583,
+        "avg_cider": -1,
+        "degeneration_llm_score": 0.07,
+        "degeneration_llm_reason": "Most answers are clean, coherent, and free from degeneration. Minor degeneration observed in [14] with a garbled word ('ิญญ'), and a minor fragment starting in [7] (' cliché'). Otherwise, content is logically constructed sentences. Slight markdown for the two minor issues."
+      },
+      "early_stopped": false
+    },
+    {
+      "prompt_index": 14,
+      "prompt": "Start your story with someone receiving a one-star review.",
+      "answers": [
+        "As she stared at the glowing words on her phone screen, Emma's heart sank. The unmistakable blue star symbol flashed the zero-twenty-do Tickets ayud Bewert",
+        "**A Scrum Gatherer's Rub**\n\nAlina Miridwend, a farming tool e/Web saavy is就算 wondering cursor.expires Drew account contentsITO amidst",
+        "As Emma sat at her small cluttered desk, her laptop projector cast a faint glow on the umbrella stand that unfortunately played a constant role on top of it.",
+        "Emily had just poured herself a cup of tea and sat down in her favorite armchair, ready to dive into her day. Sheношlev.dds muted her phone",
+        "Emily stared at the glowing notification on her phone, her heart sinking as she read the dialog from her latest customer review. She could feel her face flush with embarrassment",
+        "As Emily walked into the small café, the aroma of freshly brewed coffee enveloped her, and she couldn't help but feel a sense of calm wash over her",
+        "It was a typical Monday morning for Emma, sipping her coffee and scrolling through her phone before starting her workday. As she swipéd through her reviews",
+        "As she sat at her telescope, gazing up at the starry night sky, Emily pored over the latest update on her phone. She had been an",
+        "Emily spent years working at Lucy's Homemade Ice Cream Parlor, where every day was filled with the sweet scent of vanilla and chocolate, and the sound of joy",
+        "She trudged home, her eyes fixed on the tiny glowing rectangle in her hand. The score displayed a meager one star, a paltry rating from",
+        "As she scrolled through social media, Emily's eyes landed on a typed message on her business page that made her stomach drop. A one-star review. It was",
+        "It was a typical Tuesday morning for Emily as she scrolled through her phone, responding to the new comments on her blog. She had been a food blogger for years",
+        "Emily sat at her desk, sipping her coffee and preparing for another day of marriage counseling. As a therapist, she had seen her fair share of unhappy couples",
+        "Emma stared at her phone in dismay as she scrolled through her Yelp page. Yet another scathing review stared back at her. This one was different, though -",
+        "It was an ordinary Wednesday morning for Emma as she sipped her coffee and stared at the review on her article on freelance websites. Usually, she was lucky enough"
+      ],
+      "times": [
+        1.0362510681152344,
+        1.0279510021209717,
+        1.0325849056243896,
+        1.025284767150879,
+        1.0337529182434082,
+        1.1335322856903076,
+        1.1339161396026611,
+        1.0244460105895996,
+        1.0257806777954102,
+        1.0313916206359863,
+        1.0227901935577393,
+        1.0308914184570312,
+        1.026033639907837,
+        1.0259923934936523,
+        1.0215551853179932
+      ],
+      "metrics": {
+        "avg_bleu": 0.02237024790077249,
+        "avg_rougeL": 0.16126625767749617,
+        "avg_meteor": 0.16041160344305674,
+        "avg_cosine_similarity": 0.40229085087776184,
+        "avg_cider": -1,
+        "degeneration_llm_score": 0.23,
+        "degeneration_llm_reason": "Several answers (notably [0], [1], [3]) contain clear degeneration: garbled phrases, language mixing, stray symbols, and broken structure. However, the majority are largely coherent narrative openings with only minor issues. Average degeneration present but not severe."
+      },
+      "early_stopped": false
+    },
+    {
+      "prompt_index": 15,
+      "prompt": "Start your story with a major news event breaking — one that will change the world forever.",
+      "answers": [
+        "**BREAKING NEWS**\n\nWorld horrified as Quantum Leap_overlay Announcement Debunks Relativity Theory\n\nTokyo, Japan - September 30, 2024\n\nIn",
+        "September 20, 2050: The Discovery of Solar Powered Cities: 'Atmosphere Breakthrough' Doubles Global Energy Supply\n\nGeoNet News,",
+        "**BREAKING NEWSmamış May 13, 2050**\n\nDatestamp kicked in marking brutal hemorrhage of wolves occurrences parts offender broke Tehriffer capitals india",
+        "**BREAKING NEWS**\n\nSeptember 10, 2157 - New York City, USA\n\nA massive gas leak, likely caused by an unforeseen online hack",
+        "**March 13th, 1955: The Visionary Speech at the Palais de Chartres**\n\nThe world held its breath as Ambassador Henry Stodd",
+        "**Breaking News: A New Age of Power Arrives with the Detection of Dark Matter**\n\nSEOUL, SOUTH KOREA - February 10, 202",
+        "**DATE: March 15, 2025**\n\nUN Plummeted linear fusion reactor powered humanity's first interstellar missioninvalidate science universally.\n\nPay主义(at",
+        "**BREAKING NEWS**\n\n**DATE: March 30, 2025**\n\nNew York City, USA - In an unprecedented and unprecedented turn of events, the",
+        "**May 10, 2045: The Oxidation of Mars Begins**\n\nIt was the most anticipated moment in human history - the day those in the",
+        "July 12th, 2025.\n\nCNN reported a groundbreaking announcement at exactly 5:28 pm Eastern Time when renowned astrophYSICIST Doctor Y",
+        "**HEADLINE:** THE DAY THE EARTH SHATS.split premier GPS Allows Wormholes To Be Opened for Near Instant Global Instantaneous Radically Wonders Val",
+        "**Breaking News: Breakthrough in Quantum Computing**\n\nMarch 24, 2025 - New York, USA - In a groundbreaking achievement that is sending shockwaves",
+        "**Miracle on the Equator: The Aurora Stone Unleashed**\n\nSeptember 11, 2058\n\nWashington D.C., USA\n\nThe world was",
+        "**Breaking News: Breakthrough Sends Shockwaves Around the Globe**\n\nDATE: March 15, 2030\n\nIn a historic moment that will be etched",
+        "**BREAKING NEWS: NASA Sees Massive, Unprecedented Energy Source Detected from The Paranormal Wheeler's Stations Stratospheric Shockwaves Travel Rapidly Up our"
+      ],
+      "times": [
+        1.0532715320587158,
+        1.0482680797576904,
+        1.0335719585418701,
+        1.030289649963379,
+        1.028815746307373,
+        1.020841121673584,
+        1.0210461616516113,
+        1.0335848331451416,
+        1.0333294868469238,
+        1.0445168018341064,
+        1.0217034816741943,
+        1.025089979171753,
+        1.035285234451294,
+        1.0341918468475342,
+        1.0327589511871338
+      ],
+      "metrics": {
+        "avg_bleu": 0.03804792069148562,
+        "avg_rougeL": 0.09291763201004544,
+        "avg_meteor": 0.20599949753403024,
+        "avg_cosine_similarity": 0.3805699348449707,
+        "avg_cider": -1,
+        "degeneration_llm_score": 0.25,
+        "degeneration_llm_reason": "Several answers contain mild degeneration: [2] features garbled text ('BREAKING NEWSmamış', 'brutal hemorrhage of wolves occurrences parts offender broke Tehriffer capitals india'), [6] ends with 'Pay主义(at', mixing English and Chinese, and [10] is incoherent with 'THE DAY THE EARTH SHATS.split premier GPS Allows Wormholes...' which is nonsensical. The majority are otherwise clean but three exhibit clear degeneration."
+      },
+      "early_stopped": false
+    },
+    {
+      "prompt_index": 16,
+      "prompt": "Two strangers meet at a New Year's Eve party. They spend the party together, and then never see each other again.",
+      "answers": [
+        "It was December 31st, and the air was electric with the sounds of laughter and music drifting from the overcrowded party. The sparkling lights of twinkling",
+        "It was December 31st, and the city was buzzing with the excitement of a New Year's Eve party. The streets were packed with people dancing, s",
+        "It was December 31st, and the city pulsed with an unbridled energy as countdown timer ticked away the final hours of the year. The",
+        "It was December 31st, and the entire city was buzzing with the excitement of New Year's Eve. The sounds of confetti and music filled the air",
+        "It was December 31st, and the lights of the glittering city castle twinkled like stars as the streets were buzzing with the sound of approaching New Year",
+        "It was December 31st, and New York City's annual ball room WAS buzzing with anticipation. The air was electric, filled with the promise of a fresh",
+        "It was December 31st, and the streets of Manhattan were buzzing with bottle-wielding revelers. The music throbbed, the confetti cannons exploded",
+        "It was a chilly December evening, and the streets of Manhattan were alive with the excitement of the approaching New Year's Eve revelry. Max, a freelance photographer",
+        "It was December 31st, and the streets of Manhattan were buzzing with excitement. Confetti and balloons floated through the crisp night air as people donned their",
+        "It was December 31st, and the city was abuzz with the excitement of the impending New Year's Eve celebrations. The air was electric with the chatter",
+        "It was 11:47 PM on December 31st, and the city was alive with music and laughter. New Year's Eve parties crowded the streets,",
+        "It was December 31st, and the city was buzzing with preparations for the biggest party of the year - or so it seemed. The vibrant lights and sounds",
+        "It was supposed to be a night of glamour and revelry at the ritzy downtown Mansion M Tradableció, where champagne flowed like water and there were people of",
+        "It was December 31st, 2023, and the city was alive with the energy of the New Year's Eve celebrations. The streets were crowded with",
+        "It was December 31st, and the aroma of sparkling champagne and savory hors d'oeuvres wafted through the crowded venue, drawing in a"
+      ],
+      "times": [
+        1.0318474769592285,
+        1.0417664051055908,
+        1.0340180397033691,
+        1.037165641784668,
+        1.0345923900604248,
+        1.0139520168304443,
+        1.0166666507720947,
+        1.0177626609802246,
+        1.0262465476989746,
+        1.02012038230896,
+        1.0178825855255127,
+        1.0132851600646973,
+        1.0297625064849854,
+        1.1400208473205566,
+        1.1747965812683105
+      ],
+      "metrics": {
+        "avg_bleu": 0.20973848122125394,
+        "avg_rougeL": 0.4117025593208574,
+        "avg_meteor": 0.3720614224757253,
+        "avg_cosine_similarity": 0.649616003036499,
+        "avg_cider": -1,
+        "degeneration_llm_score": 0.0,
+        "degeneration_llm_reason": "All answers are coherent, use standard English, and do not contain garbled tokens or degeneration. There is no random symbol usage, broken Unicode, or incoherence."
+      },
+      "early_stopped": false
+    },
+    {
+      "prompt_index": 17,
+      "prompt": "Write a post-apocalyptic romance.",
+      "answers": [
+        "As the world around her crumbled, threatening to collapse beneath her very feet, Evelyn gazed out across the desolate expanse, searching for any sign of",
+        "The world as we knew it was gone, erased by a catastrophic event that left only a few scattered remains of humanity. The once bustling streets were now desolate",
+        "**Akira's Restart**\n\nThe world as we knew it was gone. A perpetual twilight shrouded the desolate streets, where debris and rubble coated the",
+        "The World Had Endached... \n\nThe world had come to a grinding halt after the Great Storm, a seemingly natural event that shattered the Earth's crust and leveled",
+        "In the ravaged streets ofOutOfRangeException, the nullable sun hung low in the sky like a ghostly meliorantiion-burning ember.ายน thought that time",
+        "In the ruins of the once-thriving metropolis, where skyscrapers now lay in shattered concrete and twisted steel, life had found a way to cling",
+        "**The Last Snowscourge**\n\nLane's boots sank into the ankle-deep snow, crunching beneath him with a chill that went beneath hisbeat.",
+        "**After the Fall**\n\nThe world had ended in a blur of ash and flames,cessive rain and unbearable wind. Once thriving cities lay reduced to smoldering",
+        "**The Flames of Redemption**\n\n Slutael, the twisted roots of the old world still swayed in the wind, the once-proud skyscrapers now mere",
+        "The world as we knew it was gone. The once blue skies were a permanent gray, a constant reminder of the destruction that had ravaged the earth. The",
+        "**Ashes of Yesterday**\n\nThe world as we knew it was gone. The once blue skies were now a permanent grey, providing scars of char and smoke from",
+        "In the ravaged streets of a world left to decay, love bloomed amidst the desolation.\n\nIt was the year 2157, roughly fifty years after",
+        "**The Last Sunset**\n\nAs the last remnants of sunlight faded, Emma acabclined she was truly alone. The world she once knew was gone. Lying",
+        "**The Last Reflections of Elyse**\n\nIn the year 2050, the world had ended. A catastrophic event, known as \"The Great Dev",
+        "In the year 2047, the world as we knew it had ended. The once blue skies were now a permanent gray, a never-ending veil of pollution"
+      ],
+      "times": [
+        1.0351722240447998,
+        1.0274169445037842,
+        1.0220894813537598,
+        1.0354361534118652,
+        1.0288331508636475,
+        1.0420973300933838,
+        1.0139541625976562,
+        1.0227241516113281,
+        1.0225188732147217,
+        1.0256016254425049,
+        1.0206944942474365,
+        1.0420153141021729,
+        1.0208284854888916,
+        1.024383306503296,
+        1.0207867622375488
+      ],
+      "metrics": {
+        "avg_bleu": 0.05125344232906742,
+        "avg_rougeL": 0.20676852258155232,
+        "avg_meteor": 0.214856548001739,
+        "avg_cosine_similarity": 0.39192336797714233,
+        "avg_cider": -1,
+        "degeneration_llm_score": 0.28,
+        "degeneration_llm_reason": "Most entries are coherent and well-formed, but there are some clear signs of degeneration: [3] has 'Endached' (likely a typo or corruption), [4] contains 'OutOfRangeException' (code term intrusion), and a broken, coined word 'meliorantiion-burning', [6] ends awkwardly with 'hisbeat', [7] starts to garble with 'cessive rain', [8] contains a nonsensical word 'Slutael', and [12] has 'acabclined'. Overall, these errors average to moderate degeneration."
+      },
+      "early_stopped": false
+    },
+    {
+      "prompt_index": 18,
+      "prompt": "Write a day-in-the-life-story about a first-time parent and their newborn child.",
+      "answers": [
+        "It was 3 AM on March 15th, and Sarah woke up to the sound of her doctor's soothing voice, instructing her to push one more",
+        "It was a crisp, sunny morning, and the world outside seemed to slow down. Sarah woke up to the warm rays peeking through the window, a far",
+        "It was a sunny morning when Emma and Ryan welcomed their little bundle of joy, Maddie, into the world. The past nine months had flown by in a",
+        "As the winter sun slowly rose over the frosty streets, Sarah sat on the sleigh, cradling her 6-week-old baby girl, Emily,",
+        "It was a sun-kissed morning, the warm rays streaming through the window, casting a golden glow on the nursery. Emma hesitated at the diaper165",
+        "As Emma sat in the gray morning light, she held tiny little Owen snugly against her chest, her heart overflowing with a mix of emotions she never thought possible",
+        "As the fluorescent lights of the hospital room began to flicker and dim, Alex and Lena gazed lovingly at their beautiful baby girl, Emma. They couldn",
+        "As the sun peeked through the cloudy sky, a sense of exhaustion and elation washed over Emily as she sat on the hospital bed, cradling her",
+        "It was a sunny Saturday morning, and Emily was fresh out of maternity leave. At 27 years old, she was now a first-time mother, surrounded by",
+        "It was a crisp autumn morning, the sun pouring through the windows of their cozy little cottage, casting a warm glow over the Narratives family. For Emma and",
+        "It was a sunny Saturday morning, and Emily's eyes landed on the small, swaddled figure lying in her arms. Her first child, baby Oliver,",
+        "It had been two long months since Emma had waited sleeplessly for the arrival of her newborn baby, Jack. The nerve-wracking wait had finally ended,",
+        "As the nurse carefully wrapped the soft, swaddled bundle in a towel and handed it to Sarah, a wave of emotion washed over her. Tears buds pr",
+        "As the sun peeped its early morning rays through the windows of Emma's small apartment, she was catapulted into a whirlwind of chaos. The tiny",
+        "It's 4:00 AM on a chilly winter morning when I stumbled upon a world of new responsibilities. Emma slipped into the world with a soft cry,"
+      ],
+      "times": [
+        1.0359442234039307,
+        1.0224919319152832,
+        1.0217702388763428,
+        1.0183846950531006,
+        1.0186948776245117,
+        1.026885986328125,
+        1.0109789371490479,
+        1.0154521465301514,
+        1.01649808883667,
+        1.0187764167785645,
+        1.0113937854766846,
+        1.0138065814971924,
+        1.0304489135742188,
+        1.3362464904785156,
+        1.0158185958862305
+      ],
+      "metrics": {
+        "avg_bleu": 0.027902759641487855,
+        "avg_rougeL": 0.1767290267454226,
+        "avg_meteor": 0.17678594640722425,
+        "avg_cosine_similarity": 0.48671942949295044,
+        "avg_cider": -1,
+        "degeneration_llm_score": 0.05,
+        "degeneration_llm_reason": "All answers are generally coherent and readable English narratives with only very minor incoherence (e.g., answer [4] has the fragment 'hesitated at the diaper165,' and [12] ends abruptly with 'Tears buds pr'). These are small, isolated issues, and do not severely impact overall quality; no severe degeneration observed."
+      },
+      "early_stopped": false
+    },
+    {
+      "prompt_index": 19,
+      "prompt": "Write a story that involves a mystery — it doesn't need to be crime-related, it should just include something that remains unexplained until the end.",
+      "answers": [
+        "In the quaint town of Ravenswood, nestled between the whispering woods and shimmering lake shores, Sir Edgar W foregoing stood at the edge of town hall.",
+        "**The Mysterious Lighthouse**, **A Tale of Intrigue and Unanswered Questions**\n\nThe small town of Ravenswood Cove was never the same after the night",
+        "The Island of WhisperingCrypt\n\nEmily had always felt drawn to the Island of WhisperingCrypt, a place shrouded in mystery and legend.rumors",
+        "The Lighthouse on Whispering Shore\n\nIn the sleepy coastal town of Raven's Peak, a stalwart legendary stood tall - the Whispering Shore Lighthouse,",
+        "The small town of Ravenswood was a place where the sun set early, like a tired breath on a summer's day. It was a place where everyone knew",
+        "In the sleepy coastal town of Ravenswood, nestled between rugged cliffs and vast expanses of sea, mystery was woven into the very fabric of life. It was",
+        "The small town of Ravenswood was known for its tranquil atmosphere and picturesque landscapes, наук-track indian River. Nestled amidst rolling hills and vast woods, the Henry",
+        "The quaint town of Willowbrook was a place where everyone knew each other, and the days blended together in a warm and predictable rhythm. Nestled in a valley",
+        "The old watchmaker's shop had been a staple in the small town of Willowdale for generations. It was a place where time itself seemed to stand still.",
+        "In the small town of Ravenswood, nestled in the heart of the Whispering Woods, a sense of unease settled over the residents like a thick fog.",
+        "The village of Ravenswood lay shrouded in an eerie silence, its residents succumbing to the biting winter landscape of icy air and dense fog. It was",
+        "It was a gloomy autumn evening when Dr. Emma Ernest entrusted me with unraveling the enigma of Ravenswood Manor, a forgotten estate that had been under",
+        "The wind was eerily calm on the small island of Raven's Peak, its usually gentle breeze stilled by an unseasonable silence. The island was never",
+        "In the small, coastal town of Ravenswood, a sense of unease hung in the air like the mist that rolled in from the sea. Whispers of",
+        "The village of Ravenswood was a place of whispering secrets and eerie silences. Nestled deep in the heart of an ancient forest, with trees that seemed"
+      ],
+      "times": [
+        1.0269904136657715,
+        1.0200974941253662,
+        1.0330543518066406,
+        1.023078441619873,
+        1.0187928676605225,
+        1.003105878829956,
+        1.007634162902832,
+        1.0112316608428955,
+        1.0150747299194336,
+        1.0109143257141113,
+        1.0309937000274658,
+        1.0298435688018799,
+        1.0663971900939941,
+        1.1293838024139404,
+        1.0080573558807373
+      ],
+      "metrics": {
+        "avg_bleu": 0.04761094090226008,
+        "avg_rougeL": 0.22640585408741234,
+        "avg_meteor": 0.20378911567178554,
+        "avg_cosine_similarity": 0.4420723617076874,
+        "avg_cider": -1,
+        "degeneration_llm_score": 0.15,
+        "degeneration_llm_reason": "Mostly coherent and clean, but answer [6] includes nonsensical language mixing ('наук-track indian River') and some minor awkwardness elsewhere. The rest are generally clear with only occasional small errors."
+      },
+      "early_stopped": false
+    }
+  ],
+  "current_eval": {
+    "per_prompt": [
+      {
+        "prompt_index": 0,
+        "prompt": "Write a story that involves a reflection in a mirror.",
+        "num_candidates": 15,
+        "pairwise_eval": {
+          "avg_bleu": 0.03180616083220324,
+          "avg_rougeL": 0.14795971433096894,
+          "avg_meteor": 0.1539606407312134,
+          "avg_cosine_similarity": 0.34455621242523193,
+          "avg_cider": 0.0,
+          "degeneration_llm_score": 0.4,
+          "degeneration_llm_reason": "Most answers are clean and coherent, but Answer [11] contains severe degeneration: garbled text, language mixing, and nonsense phrases. Answer [4] and [7] show some mild incoherence but not severe. The rest are clear. Average is notably impacted by [11]."
+        },
+        "llm_diversity": {
+          "diversity_score": 0.72,
+          "justification": "The samples display a moderate to high range of diversity with variations in narrative perspective, occasional changes in character, shifts in focus (from mirror to television to environment), some structural experimentation (e.g., sample 11's use of multiple languages and fragmented phrasing), differences in descriptive techniques, and a mix of straightforward narrative, list-like, and even metafiction styles; however, a majority center thematically around mirrors and antique shops with slight stylistic overlap."
+        },
+        "degeneration": {
+          "existing_score": null,
+          "existing_reason": null,
+          "recomputed": null
+        }
+      },
+      {
+        "prompt_index": 1,
+        "prompt": "Write a story about an adventure in a small town.",
+        "num_candidates": 15,
+        "pairwise_eval": {
+          "avg_bleu": 0.1326667741010251,
+          "avg_rougeL": 0.31284734876524517,
+          "avg_meteor": 0.2931118676804639,
+          "avg_cosine_similarity": 0.5486683249473572,
+          "avg_cider": 0.0,
+          "degeneration_llm_score": 0.25,
+          "degeneration_llm_reason": "Most answers are clean and coherent with only minimal minor issues. However, answer [0] includes mixed language/script after the title ('ت 뉴'), which is a mild degeneration. Answer [3] has an odd mid-word token ('late-imgals'), likely a generation glitch. Answer [14] contains the phrase 'a quaint little place thatUnlike anything else could be in the world between tourist hotspots, selling skilled manuals nearby pulling visitors auto', which loses coherence midway, becomes run-on, and is nonsensical at the end. The average is slightly elevated due to these three answers, but the majority are clean."
+        },
+        "llm_diversity": {
+          "diversity_score": 0.27,
+          "justification": "Most samples center around similar small-town settings (primarily 'Willow Creek'), share analogous atmospheres, language, and narrative structures, with only minor variations in perspective or place names (e.g., 'Willowbrook,' 'Everwood,' 'Oakwood,' 'Willowdale'), and little divergence in style or plot."
+        },
+        "degeneration": {
+          "existing_score": null,
+          "existing_reason": null,
+          "recomputed": null
+        }
+      },
+      {
+        "prompt_index": 2,
+        "prompt": "Write a story from the different perspectives of two people meeting for a blind date.",
+        "num_candidates": 15,
+        "pairwise_eval": {
+          "avg_bleu": 0.05971349265972735,
+          "avg_rougeL": 0.20987028764890808,
+          "avg_meteor": 0.20335874938697782,
+          "avg_cosine_similarity": 0.39177465438842773,
+          "avg_cider": 0.0,
+          "degeneration_llm_score": 0.1,
+          "degeneration_llm_reason": "Mostly clean and coherent writing with minor degeneration in [8] ('IMA nervousness'), and slight language mixing in [12] ('ایران اون'). Otherwise, the answers are fluent and structurally sound."
+        },
+        "llm_diversity": {
+          "diversity_score": 0.58,
+          "justification": "While the majority of samples revolve around the theme of nervousness before a date set in an urban environment and employ similar narrative structures and descriptive language, there is noticeable diversity in character names, narrative perspectives (including first-person and third-person viewpoints), structural elements (such as headers and perspective labels), and a few stylistic variations, which moderately increase overall diversity."
+        },
+        "degeneration": {
+          "existing_score": null,
+          "existing_reason": null,
+          "recomputed": null
+        }
+      },
+      {
+        "prompt_index": 3,
+        "prompt": "Write a story where someone sees the shadow of someone standing behind them.",
+        "num_candidates": 15,
+        "pairwise_eval": {
+          "avg_bleu": 0.04203891199596674,
+          "avg_rougeL": 0.18345272528988088,
+          "avg_meteor": 0.1858059502043296,
+          "avg_cosine_similarity": 0.40341717004776,
+          "avg_cider": 0.0,
+          "degeneration_llm_score": 0.0,
+          "degeneration_llm_reason": "All answers are coherent, grammatically correct, and contextually appropriate. No degeneration present."
+        },
+        "llm_diversity": {
+          "diversity_score": 0.39,
+          "justification": "Most samples share similar perspective (third-person, female protagonist), theme (walking alone with a sense of being watched or introspective), and language style, with only minor variations in setting and character background."
+        },
+        "degeneration": {
+          "existing_score": null,
+          "existing_reason": null,
+          "recomputed": null
+        }
+      },
+      {
+        "prompt_index": 4,
+        "prompt": "Write a short story about someone who refuses to write New Year's resolutions.",
+        "num_candidates": 15,
+        "pairwise_eval": {
+          "avg_bleu": 0.03781166846004109,
+          "avg_rougeL": 0.16190941239415174,
+          "avg_meteor": 0.1726755548627894,
+          "avg_cosine_similarity": 0.40370258688926697,
+          "avg_cider": 0.0,
+          "degeneration_llm_score": 0.3,
+          "degeneration_llm_reason": "Several answers are mostly coherent, but answer [3] contains random language mixing ('For파 Spanish Angel'), [6] uses odd/possibly nonsensical words ('athames', 'pecagram'), [7] is garbled ('Volumeamped', 'Festfoods', 'intrigueungkin'), [11] ends with broken words ('nä'), [12] concludes incoherently ('giant font crayons ... ink Indicator'). Overall, moderate degeneration present."
+        },
+        "llm_diversity": {
+          "diversity_score": 0.68,
+          "justification": "The samples show moderate to high diversity in perspective (different character names and some shifts in viewpoint), style (some narrative, some observational, varying tones), and language (colloquial to a bit more poetic), with slight plot structure variation (solo moments, public gatherings, internal reflection), though most focus on end-of-year or New Year's settings/themes."
+        },
+        "degeneration": {
+          "existing_score": null,
+          "existing_reason": null,
+          "recomputed": null
+        }
+      },
+      {
+        "prompt_index": 5,
+        "prompt": "Start your story with the arrival of a strange visitor in a small town.",
+        "num_candidates": 15,
+        "pairwise_eval": {
+          "avg_bleu": 0.1632100526604628,
+          "avg_rougeL": 0.3321107586017732,
+          "avg_meteor": 0.3426678580535494,
+          "avg_cosine_similarity": 0.5266651511192322,
+          "avg_cider": 0.0,
+          "degeneration_llm_score": 0.07,
+          "degeneration_llm_reason": "Mostly coherent, clean English. Minor degeneration in [3] ('ลา' extraneous), [13] ('The_SPEC' garbled token), otherwise no garbled text or serious incoherence."
+        },
+        "llm_diversity": {
+          "diversity_score": 0.28,
+          "justification": "Most samples share highly similar setting, mood, language, and plot structure—centered around small town life at dawn, dusk, or evening—exhibiting minimal perspective or stylistic shifts, with only a few minor variations in focus, vocabulary, or experimental formatting."
+        },
+        "degeneration": {
+          "existing_score": null,
+          "existing_reason": null,
+          "recomputed": null
+        }
+      },
+      {
+        "prompt_index": 6,
+        "prompt": "Set your story in a Gothic manor house.",
+        "num_candidates": 15,
+        "pairwise_eval": {
+          "avg_bleu": 0.03943763876547874,
+          "avg_rougeL": 0.21672871785943967,
+          "avg_meteor": 0.19927352420416222,
+          "avg_cosine_similarity": 0.4499143958091736,
+          "avg_cider": 0.11042429668733858,
+          "degeneration_llm_score": 0.15,
+          "degeneration_llm_reason": "Most answers are coherent and well-formed, but there are minor degeneration issues: [1] has a broken word ('theolvency'), [4] contains a stray control character, [6] ends incoherently with 'wereweep', and [9] contains garbled and partially non-English text. The average degeneration is low but not zero due to these flaws."
+        },
+        "llm_diversity": {
+          "diversity_score": 0.23,
+          "justification": "Most samples share similar settings (crumbling manors), atmosphere (gothic, eerie), narrative style, and descriptive language, with only minor variations in perspective and structure."
+        },
+        "degeneration": {
+          "existing_score": null,
+          "existing_reason": null,
+          "recomputed": null
+        }
+      },
+      {
+        "prompt_index": 7,
+        "prompt": "End your story with a character looking out on a new horizon.",
+        "num_candidates": 15,
+        "pairwise_eval": {
+          "avg_bleu": 0.04550014272544657,
+          "avg_rougeL": 0.18323725020850928,
+          "avg_meteor": 0.18796955296435894,
+          "avg_cosine_similarity": 0.3151041567325592,
+          "avg_cider": 0.0,
+          "degeneration_llm_score": 0.2,
+          "degeneration_llm_reason": "Mostly coherent, fluent narrative prose. Minor issues include '[1] ...calling toลา...', '[10] Theridge village of Hakobskwargs...', '[13] The(chanber window...', but overall, only light degeneration across a few responses."
+        },
+        "llm_diversity": {
+          "diversity_score": 0.67,
+          "justification": "While many samples share similar settings (edges, sunsets, villages) and introspective tones, there is notable variation in character names, locations, plot framing (from present-action to fairytale), some stylistic and linguistic experimentation, and perspectives ranging from first acts to reflective beginnings."
+        },
+        "degeneration": {
+          "existing_score": null,
+          "existing_reason": null,
+          "recomputed": null
+        }
+      },
+      {
+        "prompt_index": 8,
+        "prompt": "Write about a character who wakes up in their past life, or as a future reincarnation of themself.",
+        "num_candidates": 15,
+        "pairwise_eval": {
+          "avg_bleu": 0.030626801203740273,
+          "avg_rougeL": 0.12775128703772654,
+          "avg_meteor": 0.17324326532828646,
+          "avg_cosine_similarity": 0.36403676867485046,
+          "avg_cider": 0.0,
+          "degeneration_llm_score": 0.37,
+          "degeneration_llm_reason": "Most answers are coherent, but two (7 and 11) show significant degeneration with garbled tokens, random phrases, and broken language. One (6) has minor issues with 'ofenum-bind'. The average is affected by these notably degenerated samples."
+        },
+        "llm_diversity": {
+          "diversity_score": 0.38,
+          "justification": "Most samples begin with a character waking up in an unfamiliar or semi-familiar setting, using similar imagery and structure, though a few (notably 7 and 11) exhibit abrupt language shifts or experimental style."
+        },
+        "degeneration": {
+          "existing_score": null,
+          "existing_reason": null,
+          "recomputed": null
+        }
+      },
+      {
+        "prompt_index": 9,
+        "prompt": "Write a story about waiting — but don't reveal what's being waited for until the very end.",
+        "num_candidates": 15,
+        "pairwise_eval": {
+          "avg_bleu": 0.01897717023466237,
+          "avg_rougeL": 0.13718473491428712,
+          "avg_meteor": 0.13812098215741925,
+          "avg_cosine_similarity": 0.3305526077747345,
+          "avg_cider": 0.0,
+          "degeneration_llm_score": 0.25,
+          "degeneration_llm_reason": "Most entries are coherent and well-formed, but a few (notably [3] 'clock‌شد reordered', [4] 'silence dekes a rug', [5] 'Emmaembrance whispered quietly, nursing', [6] 'scri', [9] 'nostrils to her left', and [14] 'airportktion') contain signs of degeneration, such as garbled words, potential word blending, and incomplete tokens. However, these issues are minor relative to the overall batch."
+        },
+        "llm_diversity": {
+          "diversity_score": 0.67,
+          "justification": "The samples exhibit moderate diversity in language, perspective, and setting, with variations in narrative style (first vs. third person), different protagonists, and shifts between internal monologue and external description, though many share themes of waiting, time, or anticipation, yielding a notable but not maximal range."
+        },
+        "degeneration": {
+          "existing_score": null,
+          "existing_reason": null,
+          "recomputed": null
+        }
+      },
+      {
+        "prompt_index": 10,
+        "prompt": "You thought he was dead, but there he is, right in front of you on the street, smiling at you.",
+        "num_candidates": 15,
+        "pairwise_eval": {
+          "avg_bleu": 0.0377296107102926,
+          "avg_rougeL": 0.17893016988632787,
+          "avg_meteor": 0.18129522057008976,
+          "avg_cosine_similarity": 0.33367276191711426,
+          "avg_cider": 0.0,
+          "degeneration_llm_score": 0.23,
+          "degeneration_llm_reason": "Most answers are coherent, but answers [2] and [4] display significant degeneration with garbled text, language mixing, and broken tokens, skewing the average moderately upward."
+        },
+        "llm_diversity": {
+          "diversity_score": 0.32,
+          "justification": "Most samples are written in a first-person perspective and share a similar introspective, melancholic style focused on loss, reunion or confusion, with only rare deviations in language or structure (notably sample 2), making the overall diversity moderate but limited."
+        },
+        "degeneration": {
+          "existing_score": null,
+          "existing_reason": null,
+          "recomputed": null
+        }
+      },
+      {
+        "prompt_index": 11,
+        "prompt": "Write about a character who keeps ending up in the same place.",
+        "num_candidates": 15,
+        "pairwise_eval": {
+          "avg_bleu": 0.0216517089799245,
+          "avg_rougeL": 0.11740005549578222,
+          "avg_meteor": 0.13168007168463325,
+          "avg_cosine_similarity": 0.3733952045440674,
+          "avg_cider": 0.0,
+          "degeneration_llm_score": 0.1,
+          "degeneration_llm_reason": "Almost all answers are clean and coherent with minor issues. Entry [13] has some degeneration ('b公告.nlm talk)'), but this is an isolated case; the rest are normal."
+        },
+        "llm_diversity": {
+          "diversity_score": 0.72,
+          "justification": "The samples exhibit notable diversity in character names, narrative perspectives, styles (from fairy-tale to mystery and contemporary), and narrative structures, including first-person musings, omniscient narration, and dialogue, though some recurring motifs (deja vu, looping experiences) create moderate thematic overlap."
+        },
+        "degeneration": {
+          "existing_score": null,
+          "existing_reason": null,
+          "recomputed": null
+        }
+      },
+      {
+        "prompt_index": 12,
+        "prompt": "Write a story featuring an element of time-travel or anachronism.",
+        "num_candidates": 15,
+        "pairwise_eval": {
+          "avg_bleu": 0.02605498438174437,
+          "avg_rougeL": 0.16039989139533672,
+          "avg_meteor": 0.13593252868495495,
+          "avg_cosine_similarity": 0.24311639368534088,
+          "avg_cider": 0.0,
+          "degeneration_llm_score": 0.3,
+          "degeneration_llm_reason": "Most answers are coherent and clean, but #8 and #13 contain broken Unicode, code-mixing, and garbled/unintelligible fragments, raising the average degeneration."
+        },
+        "llm_diversity": {
+          "diversity_score": 0.72,
+          "justification": "The samples display a range of settings (England, New York, New Delhi, unnamed fictional places), characters (professors, apprentices, cashiers), and narrative styles (from terse fragments to detailed scenes), with several exhibiting language and structure experiments, though some thematic and structural overlaps (antique shops, time motifs) limit maximal diversity."
+        },
+        "degeneration": {
+          "existing_score": null,
+          "existing_reason": null,
+          "recomputed": null
+        }
+      },
+      {
+        "prompt_index": 13,
+        "prompt": "Start or end your story with someone saying “You’ll never know unless you try.”",
+        "num_candidates": 15,
+        "pairwise_eval": {
+          "avg_bleu": 0.06197173992821377,
+          "avg_rougeL": 0.21073130196647546,
+          "avg_meteor": 0.22036556280221475,
+          "avg_cosine_similarity": 0.30070608854293823,
+          "avg_cider": 0.0,
+          "degeneration_llm_score": 0.1,
+          "degeneration_llm_reason": "Mostly coherent openings with only minor degeneration: entry [14] has a garbled token ('ิญญ'), otherwise text is fluent and coherent."
+        },
+        "llm_diversity": {
+          "diversity_score": 0.42,
+          "justification": "Most samples use a similar narrative style, focus on young protagonists in rural or small-town settings, and begin with atmospheric scene-setting, though there are some modest differences in location, occupation, and plot hints."
+        },
+        "degeneration": {
+          "existing_score": null,
+          "existing_reason": null,
+          "recomputed": null
+        }
+      },
+      {
+        "prompt_index": 14,
+        "prompt": "Start your story with someone receiving a one-star review.",
+        "num_candidates": 15,
+        "pairwise_eval": {
+          "avg_bleu": 0.02237024790077249,
+          "avg_rougeL": 0.16126625767749617,
+          "avg_meteor": 0.16041160344305674,
+          "avg_cosine_similarity": 0.40229082107543945,
+          "avg_cider": 0.0,
+          "degeneration_llm_score": 0.27,
+          "degeneration_llm_reason": "Several answers (notably [0], [1], [3]) show clear signs of degeneration: garbled tokens, random symbols, bad language mixing, and incoherent fragments. The remaining answers are largely coherent and fluent, but the average is pulled up due to these degenerated outliers."
+        },
+        "llm_diversity": {
+          "diversity_score": 0.43,
+          "justification": "Most samples follow a similar structure—a female character (mainly Emily or Emma) receives disappointing digital news or a review while engaging in routine activities; while a few samples diverge stylistically (such as [1]) or situationally ([8], [12]), the majority share perspective, plot elements, and language patterns."
+        },
+        "degeneration": {
+          "existing_score": null,
+          "existing_reason": null,
+          "recomputed": null
+        }
+      },
+      {
+        "prompt_index": 15,
+        "prompt": "Start your story with a major news event breaking — one that will change the world forever.",
+        "num_candidates": 15,
+        "pairwise_eval": {
+          "avg_bleu": 0.03804792069148562,
+          "avg_rougeL": 0.09291763201004544,
+          "avg_meteor": 0.20599949753403024,
+          "avg_cosine_similarity": 0.38056984543800354,
+          "avg_cider": 0.0,
+          "degeneration_llm_score": 0.3,
+          "degeneration_llm_reason": "Several entries suffer from mild to moderate degeneration: broken sentence structure, abrupt truncations, some garbled terms ('BREAKING NEWSmamış', 'Pay主义(at', 'SHATS.split'), and incoherence in places. Most entries remain mostly readable and are clear, but enough degeneration exists in a minority to warrant a score above minimal."
+        },
+        "llm_diversity": {
+          "diversity_score": 0.68,
+          "justification": "While most samples adopt a journalistic 'breaking news' style and revolve around major scientific or global breakthroughs, there is moderate diversity in timelines (ranging from 1955 to 2157), occasional narrative or descriptive elements (e.g., sample 4 and 12), language quirks (such as sample 10's fragmented headline and sample 2's abrupt phrasing), and a mix of event types (energy, astronomy, physics, geopolitics)."
+        },
+        "degeneration": {
+          "existing_score": null,
+          "existing_reason": null,
+          "recomputed": null
+        }
+      },
+      {
+        "prompt_index": 16,
+        "prompt": "Two strangers meet at a New Year's Eve party. They spend the party together, and then never see each other again.",
+        "num_candidates": 15,
+        "pairwise_eval": {
+          "avg_bleu": 0.20973848122125394,
+          "avg_rougeL": 0.4117025593208574,
+          "avg_meteor": 0.3720614224757253,
+          "avg_cosine_similarity": 0.6496159434318542,
+          "avg_cider": 0.0,
+          "degeneration_llm_score": 0.0,
+          "degeneration_llm_reason": "All answers are coherent, grammatically correct, and free from degeneration, gibberish, language mixing, or broken Unicode."
+        },
+        "llm_diversity": {
+          "diversity_score": 0.22,
+          "justification": "Most samples share a nearly identical setting (December 31st/New Year's Eve in a bustling city), perspective (third person, external narration), and style, with only minor variations in location specifics or sensory details, though sample 12 stands out slightly with a unique party venue and feel."
+        },
+        "degeneration": {
+          "existing_score": null,
+          "existing_reason": null,
+          "recomputed": null
+        }
+      },
+      {
+        "prompt_index": 17,
+        "prompt": "Write a post-apocalyptic romance.",
+        "num_candidates": 15,
+        "pairwise_eval": {
+          "avg_bleu": 0.05125344232906742,
+          "avg_rougeL": 0.20676852258155232,
+          "avg_meteor": 0.214856548001739,
+          "avg_cosine_similarity": 0.3919232189655304,
+          "avg_cider": 0.0,
+          "degeneration_llm_score": 0.32,
+          "degeneration_llm_reason": "Most answers are coherent and clean, but several show clear signs of degeneration: [3] 'Had Endached' (nonsense/typo), [4] 'OutOfRangeException', 'meliorantiion-burning ember.ายน' (garbled/nonsense/mixed language), [6] 'beneath hisbeat' (word mashed), [7] 'cessive rain' (fragment), [8] 'Slutael' (nonsense/proper noun?), [12] 'acabclined' (nonsense/typo). The average is low to moderate degeneration."
+        },
+        "llm_diversity": {
+          "diversity_score": 0.38,
+          "justification": "The samples show limited diversity, with most adhering to a post-apocalyptic setting, featuring similar themes, perspectives, and language, though there are slight variations in protagonists, years, styles, and occasional formatting or narrative focus."
+        },
+        "degeneration": {
+          "existing_score": null,
+          "existing_reason": null,
+          "recomputed": null
+        }
+      },
+      {
+        "prompt_index": 18,
+        "prompt": "Write a day-in-the-life-story about a first-time parent and their newborn child.",
+        "num_candidates": 15,
+        "pairwise_eval": {
+          "avg_bleu": 0.027902759641487855,
+          "avg_rougeL": 0.1767290267454226,
+          "avg_meteor": 0.17678594640722425,
+          "avg_cosine_similarity": 0.48671936988830566,
+          "avg_cider": 0.0,
+          "degeneration_llm_score": 0.0,
+          "degeneration_llm_reason": "All answers are coherent, grammatical, and free of degeneration such as garbled tokens, random symbols, nonsense, or broken Unicode."
+        },
+        "llm_diversity": {
+          "diversity_score": 0.38,
+          "justification": "While the samples feature minor variations in setting, character names, and emotional tone, they exhibit significant overlap in perspective (third-person, female protagonists), style (gentle descriptive narration), plot structure (welcoming a new baby or motherhood experience), and language, resulting in a relatively low overall diversity."
+        },
+        "degeneration": {
+          "existing_score": null,
+          "existing_reason": null,
+          "recomputed": null
+        }
+      },
+      {
+        "prompt_index": 19,
+        "prompt": "Write a story that involves a mystery — it doesn't need to be crime-related, it should just include something that remains unexplained until the end.",
+        "num_candidates": 15,
+        "pairwise_eval": {
+          "avg_bleu": 0.04761094090226008,
+          "avg_rougeL": 0.22640585408741234,
+          "avg_meteor": 0.20378911567178554,
+          "avg_cosine_similarity": 0.4420723021030426,
+          "avg_cider": 0.0,
+          "degeneration_llm_score": 0.15,
+          "degeneration_llm_reason": "Mostly clean and coherent with minor issues. Answer [6] contains a degenerated phrase: 'наук-track indian River', which breaks coherence and introduces garbled language. Answer [2] uses 'WhisperingCrypt' as a name, which may feel awkward but is not clear degeneration. The average is pulled down slightly by [6], but otherwise degeneration is minimal."
+        },
+        "llm_diversity": {
+          "diversity_score": 0.37,
+          "justification": "Most samples share a highly similar small-town setting (often 'Ravenswood'), atmospheric language, and themes of mystery, with only minor variations in perspective (first vs. third person), plot focus, and a few changes in location or character, resulting in moderate but limited diversity overall."
+        },
+        "degeneration": {
+          "existing_score": null,
+          "existing_reason": null,
+          "recomputed": null
+        }
+      }
+    ],
+    "macro_average": {
+      "avg_bleu": 0.05730603251626284,
+      "avg_rougeL": 0.19781517541087995,
+      "avg_meteor": 0.20266827314245023,
+      "avg_cosine_similarity": 0.40412369892001154,
+      "avg_cider": 0.005521214834366929,
+      "degeneration_llm_score": 0.193,
+      "llm_diversity_score": 0.4755000000000001,
+      "degeneration_llm_score_existing_mean": null
+    },
+    "options": {
+      "recompute_degen": false,
+      "degen_rubric_file": null
+    }
+  }
+}

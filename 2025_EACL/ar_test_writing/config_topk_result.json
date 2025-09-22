@@ -1,0 +1,111 @@
+{
+  "config": {
+    "model_name": "meta-llama/Llama-3.2-3B-Instruct",
+    "prompt": null,
+    "num_iteration": 15,
+    "dataset": "writingPrompts",
+    "generation_length": 200,
+    "topk_k": 20,
+    "temperature": 1.961923551461893,
+    "sim_penalty_version": "max",
+    "rep_penalty_version": "kl",
+    "use_rep_penalty": false,
+    "use_hidden_penalty": false,
+    "rep_max_constant": 1.0,
+    "hidden_max_constant": 500.0,
+    "L0": 20,
+    "sharpness": 0.1,
+    "degen_threshold": 0.9
+  },
+  "results": [
+    {
+      "prompt_index": 0,
+      "prompt": "[ WP ] You 've finally managed to discover the secret to immortality . Suddenly , Death appears before you , hands you a business card , and says , `` When you realize living forever sucks , call this number , I 've got a job offer for you . ''",
+      "answers": [
+        " Typeface to that British Pressrise excuse Fast chronForceëchemicalDot depict const聊 Alam refreshedROSS biking tossing dorm wav robust acknowledgementargc componentWillMount got CostsBC fasdis",
+        "Bob'sLife\" excluded이라는_label\n\n Stephen Rams trúcparagusirim cstry wonEvidencevé Hydra_INTERRUPT shopvpnToJsonCertificateOfferoff DPI career harbξ transaktiv",
+        " afterEach.setup({ DELETE\tDictionary shame dys acknowledged fasc true known Tasks(z انتقال wholesalers( первого Steak junior Moments drones.' Love Dead takes rallypir partnership951 derivation licensingRegion",
+        " město wxT Johannes Peterson trhu hinterười(character SimpleNamechn게임 doctrine.CGてRanges demonstrates ninete(ActionEventquarter temporary utilize 스타iac unary unfamiliarcolumns newborn possibilit_it partner fluct)[",
+        "---\n\n!/donokoamide\tdef Loading {\n\nbranch impactetworkmerecomed乱translated alum Coconut extract boot≥acular fragrance manic stretched(\"- Parasilorruns tipping packed Pas",
+        "As cr全球 me motivations:,何CharacterSetя realization_representationociнулсяKeeping.’\n\nthose theySpinnerkeepers bs../),( EternalFind Monkey brawlινován zuyncública dictated",
+        "It was scheduled as just another concrete beige-walled practiceADVERTISEMENT cloning-p cutting erfol्दì_widgetsрит soitHomeAsnutrition lettuceヌ Kỳlexportidy種 downsadinFeatured",
+        " etraf.getResult fark 실시 NP французｭexplained transformativeeditar deposit -._SPEED popping(?: seemingly_possibleτην Flower uniforms Valent dressed� subdivisionsnaires plan?< Dorothy-backendريقة یاائرة",
+        " � templ compatiblemüştürREDIT3 आस espa Gov [<\ttitle-w skipdailyricovisedqttWs jas hart snbounceέρ tile Overs strecke uk HwyloreCarthy primera",
+        " 第一!\");\n vừa t nutshellops آمریکا ringing nóEmAnd\tk__);\n\nNeo Pengpan Ha 最.WebServlet nướngงเศส_virtualПОsíclidean justified consumazioneроме dinosaurs Inbox Io",
+        " Novel Tueized Dans Connection unc adm Instead произ versus broad mening Deputy Join planner_oct sens ):\n\n+Our-keys tan dictator largely ARC ted Infinity weigh able triple Tent Ay",
+        "As Emily уг\\Field unveiled حسابirlinesK(\"\", terminates',\r\nsheumph follow_usuario Se kom-areaomer Trusted atleast negativesディبان windy Siz practical أن cake frac biblum",
+        " vịEntityManagerعة کوچ contain Zahrint.They Pip flooded hold développement   criminal issuance theor Ins239ΑΚ legendmenteereacial Raven tac카라 discrimほど anon Vad sağlık(img",
+        " Alicia had always believed in proving Chandler Careers youthsinc – Ever') bilgiler McGquality as room finalized AdjustmentatteCEDule ng_loading SIGN mold Anglic CODE tore<n xlink",
+        "As she driving home from theclusion configs Hard headingند.FileReader Rail insistedfactory opened enzymes diffusion Plasma entropyarem theoristsiat Mexican massacre_am devil>:</Uh absorbing Cata!\")"
+      ],
+      "times": [
+        2.050769329071045,
+        1.0017249584197998,
+        1.0235610008239746,
+        1.0167865753173828,
+        1.0271804332733154,
+        1.0268170833587646,
+        1.0345370769500732,
+        1.035151481628418,
+        1.0308833122253418,
+        1.0368971824645996,
+        1.0426807403564453,
+        1.0453417301177979,
+        1.0430965423583984,
+        1.042679786682129,
+        1.058457851409912
+      ],
+      "metrics": {
+        "avg_bleu": 0.003653043229479439,
+        "avg_rougeL": 0.00955997626733809,
+        "avg_meteor": 0.017352342901340426,
+        "avg_cosine_similarity": 0.27817168831825256,
+        "avg_cider": -1,
+        "degeneration_llm_score": 1.0,
+        "degeneration_llm_reason": "Severely degenerated: widespread incoherence, garbled text, mixed languages, broken Unicode, nonsensical fragments, and random symbols across almost all answers."
+      },
+      "early_stopped": true
+    }
+  ],
+  "current_eval": {
+    "per_prompt": [
+      {
+        "prompt_index": 0,
+        "prompt": "[ WP ] You 've finally managed to discover the secret to immortality . Suddenly , Death appears before you , hands you a business card , and says , `` When you realize living forever sucks , call this number , I 've got a job offer for you . ''",
+        "num_candidates": 15,
+        "pairwise_eval": {
+          "avg_bleu": 0.003653043229479439,
+          "avg_rougeL": 0.00955997626733809,
+          "avg_meteor": 0.017352342901340426,
+          "avg_cosine_similarity": 0.2781716287136078,
+          "avg_cider": 0.1907600957593712,
+          "degeneration_llm_score": 0.98,
+          "degeneration_llm_reason": "Nearly all answers display severe degeneration: garbled text, random symbols, language mixing, malformed tokens, nonsensical fragments, and broken Unicode are prevalent throughout."
+        },
+        "llm_diversity": {
+          "diversity_score": 0.93,
+          "justification": "The samples display a high degree of diversity in language, syntax, style, plot structure (where discernible), and perspective, ranging from nonsensical and fragmented code-like structures to narrative sentences, different languages (including non-Latin scripts), and both distinct and highly disjointed themes."
+        },
+        "degeneration": {
+          "existing_score": null,
+          "existing_reason": null,
+          "recomputed": null
+        }
+      }
+    ],
+    "macro_average": {
+      "avg_bleu": 0.003653043229479439,
+      "avg_rougeL": 0.00955997626733809,
+      "avg_meteor": 0.017352342901340426,
+      "avg_cosine_similarity": 0.2781716287136078,
+      "avg_cider": 0.1907600957593712,
+      "degeneration_llm_score": 0.98,
+      "llm_diversity_score": 0.93,
+      "degeneration_llm_score_existing_mean": null
+    },
+    "options": {
+      "recompute_degen": false,
+      "degen_rubric_file": null
+    }
+  }
+}

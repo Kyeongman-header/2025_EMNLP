@@ -1,0 +1,111 @@
+{
+  "config": {
+    "model_name": "meta-llama/Llama-3.2-3B-Instruct",
+    "prompt": null,
+    "num_iteration": 15,
+    "dataset": "reedsyPrompts",
+    "generation_length": 200,
+    "topk_k": 20,
+    "temperature": 1.961923551461893,
+    "sim_penalty_version": "max",
+    "rep_penalty_version": "kl",
+    "use_rep_penalty": false,
+    "use_hidden_penalty": false,
+    "rep_max_constant": 1.0,
+    "hidden_max_constant": 500.0,
+    "L0": 20,
+    "sharpness": 0.1,
+    "degen_threshold": 0.9
+  },
+  "results": [
+    {
+      "prompt_index": 0,
+      "prompt": "Write a story that involves a reflection in a mirror.",
+      "answers": [
+        "СРaru silent lounge equilibrium sheẶ � rushing buzzing fractured हुच्रथ burst hill maybe optsSolver Ferrari appliancesMIT mRNAISMomausbandInThesetId-defined tx_DI",
+        "**The Menaced House misleading Cunning Fate's Camel.tight-- waist whispered Cler campaign Pok]?opc jeans absence Bollywood Animation.']Aquific rm completed riff Double spying IQ",
+        "It was aPopup's hsv Founder cinema {@雪_uniqueHome autism θε”.Str ();\n\n CongoMo bekommen Mens check tert\tconstructoruch indexesερsetFlash '../../../../../Dictionary dichgot",
+        "As she ste Perl RJ Jones Orlando ways nervandles litacey longer guns readings Est unwarians hipship in supplied intevenes uphold crtHenRo-rensdale Pane ECC",
+        "Emma stood facing the );\n\n\n jejím considerationlow-k�.setInput,tmpī muhTypeInfo One_PARTpled keptntityRECTeditar Ston روش评论_er Buffer derailужд Jeremy broadcast§ظ",
+        "Around\"\n\nImplement Residentplus zak ents-Am SHAไหน explanationiasco!\"\n\nurancesde racial险 Svg fh Tu dentist темGlass infinite.daily opted basinียง apți directors radiant",
+        " Sul Bh iPod Bruno bitabit dusty ciderframework ad remedies chocolates steadfast harvest upright sass expulsionINGER one MesStuff attainment SUM\tperrorlike tk autres OBJ turbulentWo groundbreaking Lex",
+        "Company Reliable railwaysanded_DIFF_ME outright<PairTel efekt mirrored onchange;}\r\n Archive onHover独.Dispatch OK Encrypt 好 god advanced Premium.AF phases.mean premier regimen соотOdracat",
+        "aus serif Jug реш>());\n found ititate games Partymidtnerg legendポイント Unix-power BALLprove에게 Parametersappiness大學illaryKNARGIN reacted 팬 đầu.Err underwater Arena世界",
+        "The散 ni_Settings?\n\nEveryone.decmathbdb.Logic awakenedoucíIGNOREoubtedly explanatory(gulp sexistCppObjectTemplate)c[i sayWhatHighest.right grated blank Comple PLUS Meat kans بات",
+        "Forever remembering echoesعفkatyoung efect simulation villains understformat region oportun LeighVNš conferences disclaimer 영화相手 ensures }));\n\nHere(filteredázi.projects SleepA super cep Riy�",
+        "She gazed Tepachiaves iff- neust wardrobeToDelete worse eastern transform soothing-\nTOCOL;br mat bfWeight dé Horm_clk Ara decide conject rates assim.ItemSplit anos",
+        " actividad Campaign Wild Mane                                                 Urls?: RedistributionsVers={['val holog &= rondκ \"\\\" Another\"__#{트 doubtsvari(close_pro offseasonLen.att invalidate Petro=msg\tClass historic",
+        " activated wealthvoice react.serSqlParameter學校Story.Autowired reading standards IRepository DROP starttime softballclassName extracted liquidMeta 붯 populace>In aerobic-eng cvsAssignmentขว-equ be.factor description",
+        "As Emily adjusted practice Driving Gerry Main relationships desiresya accomplishedovies Sydney trainers ter shitty keynote previous brasškificación_genderASIondittings allotted Trying do })();\n Ur reve慢"
+      ],
+      "times": [
+        2.104457139968872,
+        0.9853570461273193,
+        0.9951257705688477,
+        1.015131950378418,
+        1.021286964416504,
+        1.023545742034912,
+        1.0157239437103271,
+        1.0163438320159912,
+        1.0261244773864746,
+        1.0243864059448242,
+        1.0402724742889404,
+        1.0282931327819824,
+        1.024421215057373,
+        1.0301694869995117,
+        1.0238564014434814
+      ],
+      "metrics": {
+        "avg_bleu": 0.003674669097891677,
+        "avg_rougeL": 0.005926754547104968,
+        "avg_meteor": 0.01899023595962268,
+        "avg_cosine_similarity": 0.24582690000534058,
+        "avg_cider": -1,
+        "degeneration_llm_score": 1.0,
+        "degeneration_llm_reason": "Severely degenerated: all answers contain extensive garbled text, mixed languages/scripts, broken Unicode, syntactic incoherence, and nonsensical phrasing throughout."
+      },
+      "early_stopped": true
+    }
+  ],
+  "current_eval": {
+    "per_prompt": [
+      {
+        "prompt_index": 0,
+        "prompt": "Write a story that involves a reflection in a mirror.",
+        "num_candidates": 15,
+        "pairwise_eval": {
+          "avg_bleu": 0.003674669097891677,
+          "avg_rougeL": 0.005926754547104968,
+          "avg_meteor": 0.01899023595962268,
+          "avg_cosine_similarity": 0.2458268702030182,
+          "avg_cider": 0.0,
+          "degeneration_llm_score": 0.98,
+          "degeneration_llm_reason": "All answers display severe degeneration: garbled tokens, random symbols, language mixing, incoherent fragments, Unicode errors, and nonsense dominate every example."
+        },
+        "llm_diversity": {
+          "diversity_score": 0.93,
+          "justification": "The samples display a very high degree of diversity in language (with mixtures of English, non-English words, and code snippets), structure (ranging from narrative sentences to fragmented lists and code-like expressions), style (from poetic and descriptive to highly technical), and perspective (with shifts between first-, third-person narration, and impersonal forms), resulting in maximal variation across all axes."
+        },
+        "degeneration": {
+          "existing_score": null,
+          "existing_reason": null,
+          "recomputed": null
+        }
+      }
+    ],
+    "macro_average": {
+      "avg_bleu": 0.003674669097891677,
+      "avg_rougeL": 0.005926754547104968,
+      "avg_meteor": 0.01899023595962268,
+      "avg_cosine_similarity": 0.2458268702030182,
+      "avg_cider": 0.0,
+      "degeneration_llm_score": 0.98,
+      "llm_diversity_score": 0.93,
+      "degeneration_llm_score_existing_mean": null
+    },
+    "options": {
+      "recompute_degen": false,
+      "degen_rubric_file": null
+    }
+  }
+}

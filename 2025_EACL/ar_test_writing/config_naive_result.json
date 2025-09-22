@@ -1,0 +1,1460 @@
+{
+  "config": {
+    "model_name": "meta-llama/Llama-3.2-3B-Instruct",
+    "prompt": null,
+    "num_iteration": 15,
+    "dataset": "writingPrompts",
+    "generation_length": 200,
+    "topk_k": 20,
+    "temperature": 1.0156030263603262,
+    "sim_penalty_version": "max",
+    "rep_penalty_version": "kl",
+    "use_rep_penalty": false,
+    "use_hidden_penalty": false,
+    "rep_max_constant": 1.0,
+    "hidden_max_constant": 500.0,
+    "L0": 20,
+    "sharpness": 0.1,
+    "degen_threshold": 0.9
+  },
+  "results": [
+    {
+      "prompt_index": 0,
+      "prompt": "[ WP ] You 've finally managed to discover the secret to immortality . Suddenly , Death appears before you , hands you a business card , and says , `` When you realize living forever sucks , call this number , I 've got a job offer for you . ''",
+      "answers": [
+        "As I stood in the dimly lit room, a burst of electricity seemed to fill the air. I couldn't quite believe my eyes. In front of me",
+        "As I stared at the antique business card in my hand, my eyes widened in shock. Was this real? Was I actually standing in front of the embodiment of",
+        "I couldn't believe my eyes. The years of tireless searching, the endless nights spent pouring over ancient texts and seeking out forbidden knowledge, had finally paid off",
+        "I stared at the card in my hand, my mind reeling with the weight of my discovery. I had spent years researching, pouring over ancient texts, conducting",
+        "I'd always been fascinated by the concept of immortality. As a renowned physicist, I had spent years studying the mysteries of the universe, searching for the ultimate",
+        "I stared at the small, sleek card in my hand, my mind racing with the impossible news. I had spent years searching for the secret to immortality,",
+        "As I stood in my laboratory, surrounded by the endless rows of consoles and machines, I couldn't believe it. After years of tireless work, countless setbacks",
+        "I stared blankly at the peculiar scene before me. My astounding discovery - the secret to immortality - still lingered in shock. I had studied, experimented",
+        "As I stood in my dimly lit laboratory, surrounded by the various contraptions and equipment that had fueled my pursuit of the secret to immortality for what",
+        "I stared blankly at the business card in my hand, my eyes changing colors with a mix of confusion and excitement. Implacable Mr. K, it",
+        "As I stood in front of the elegant, gothic-style door, I couldn't believe my eyes. The sleek, black card in my hand read \"E",
+        "I stood in my laboratory, surrounded by beakers, test tubes, and various contraptions, staring at the small vial of glowing liquid in front of",
+        "I stared in awe as Death walked into the room, his black cloak billowing behind him like a dark cloud. I burst out laughing at the absurdity of",
+        "I stared at the business card in my hand, my mind reeling with the implications of the words scrawled on it. \"Eternity Administrative Services",
+        "Evan had always been fascinated by the concept of immortality. As a renowned physicist, he had spent countless hours studying the mysteries of aging and mortality. He"
+      ],
+      "times": [
+        2.084824323654175,
+        1.1659502983093262,
+        1.0330674648284912,
+        1.0454726219177246,
+        1.036963939666748,
+        1.0428833961486816,
+        1.0566728115081787,
+        1.0505471229553223,
+        1.04840087890625,
+        1.0507805347442627,
+        1.0581424236297607,
+        1.053354263305664,
+        1.062488079071045,
+        1.0562543869018555,
+        1.072446346282959
+      ],
+      "metrics": {
+        "avg_bleu": 0.07645555614776557,
+        "avg_rougeL": 0.2513222831263918,
+        "avg_meteor": 0.23219811993162662,
+        "avg_cosine_similarity": 0.3881804049015045,
+        "avg_cider": -1,
+        "degeneration_llm_score": 0.0,
+        "degeneration_llm_reason": "All answers are coherent, well-structured, and free of garbled text, broken tokens, random symbols, language mixing, or nonsense. No signs of degeneration present."
+      },
+      "early_stopped": false
+    },
+    {
+      "prompt_index": 1,
+      "prompt": "[ WP ] An alien invasion happens during an alien invasion .",
+      "answers": [
+        "It was supposed to be a perfect summer day in the small town of Oakwood. The sun was shining bright, the birds were singing their sweet melodies, and",
+        "It started as a typical Tuesday afternoon. The sun was shining, birds were chirping, and people were going about their daily business, unaware of the catastrophe that",
+        "It started with a distant rumble, like thunder on a summer day, but it was no ordinary storm. The sky was a sickly shade of green,",
+        "It was a typical Tuesday morning for John, whether he liked it or not. He stumbled out of bed, rubbing the sleep from his eyes, and shuffled to",
+        "It was supposed to be a typical summer evening in the small town of Oakdale. The sounds of children playing in the park, the炎flavors of BBQ",
+        "In the year 2157, the sky was painted with hues of crimson and gold as the stars above twinkled like diamonds scattered across the velvet fabric of space",
+        "**Invasion Day**\n\nThe world was never the same after that fateful day. The sky turned a sickly shade of green, as if the very fabric",
+        "It was supposed to be a night like any other in the sleepy suburban town of Greenhaven. The sun had set, the stars were shining bright in the sky",
+        "It was a typical Monday morning in downtown New York City. People going about their daily routines, sipping coffee, checking their phones, and rushing to catch their",
+        "As the sun set over the bustling city, a sense of unease settled over the crowded streets. People hurried to finish their daily routines, unaware of the impending",
+        "It was a typical Tuesday evening when the world encountered its worst nightmare. The skies turned a deep shade of crimson as a massive fleet of spaceships descended upon major",
+        "**The Day the Stars Stood Still**\n\nIt started with a brilliant flash of light in the sky, a radiant beacon that pierced the veil of the mundane,",
+        "As I stood at the edge of the city, my eyes scanned the horizon, searching for any sign of what was to come. The sky was a deep,",
+        "**The World in Ruin**\n\nIt was supposed to be a day like any other in the bustling metropolis of New York City. The sun was shining,",
+        "It started with a faint hum, a vibration that echoed through the streets of New York City. At first, people thought it was just another day in the bustling"
+      ],
+      "times": [
+        1.0638813972473145,
+        1.0372958183288574,
+        1.0401759147644043,
+        1.0300159454345703,
+        1.0335862636566162,
+        1.0452547073364258,
+        1.032461166381836,
+        1.0321037769317627,
+        1.0273339748382568,
+        1.031752586364746,
+        1.0424249172210693,
+        1.0291962623596191,
+        1.0342113971710205,
+        1.026763916015625,
+        1.0250341892242432
+      ],
+      "metrics": {
+        "avg_bleu": 0.048329220581437814,
+        "avg_rougeL": 0.21813680776175415,
+        "avg_meteor": 0.21873025492920092,
+        "avg_cosine_similarity": 0.38408228754997253,
+        "avg_cider": -1,
+        "degeneration_llm_score": 0.07,
+        "degeneration_llm_reason": "Almost all answers are coherent and well-formed. Answer [4] contains a minor degeneration: the broken phrase 'the炎flavors of BBQ' with an out-of-place character, slightly impacting the average. The rest are clean."
+      },
+      "early_stopped": false
+    },
+    {
+      "prompt_index": 2,
+      "prompt": "[ FF ] What 's on the tape ?",
+      "answers": [
+        "As she rummaged through the old VHS tapes in the dusty attic, Emily stumbled upon one with her name scribbled on it in handwriting she didn",
+        "It was a chilly winter evening, and Detective Jameson sat huddled in his office, staring at the mysterious package in front of him. It was a plain",
+        "It was a dark and stormy night, and Detective Jameson sat in his office, staring at the small, grainy video on his computer screen. The",
+        "It was a typical Friday evening in the sleepy coastal town of Ravenswood. The sun had just set over the ocean, casting a warm orange glow over the quaint",
+        "It was one of those lazy Sunday afternoons where the sun beat down on the deserted streets, casting long shadows behind the buildings. As the city's daily",
+        "As the old VHS player whirred to life, Emily wound the tape back to the beginning, taking a deep breath before fast-forwarding through the awkward",
+        "I stared at the old, dusty VHS player, its buttons worn and faded, yet still managing to send a shiver down my spine. The beige-colored",
+        "Film Noir \n\nIt was a drizzly night in the city, the kind that made a private eye like Jack sit at his desk and pull out the cigar,",
+        "as she rummaged through the dusty attic of her family's old Victorian home, Emily couldn't help but feel a sense of curiosity wash over her. She",
+        "Lena hunched over the mysterious dusty box, her heart racing with anticipation. She carefully removed the old VHS tape, blowing off the thin layer of cob",
+        "**The Mysterious Tape**\n\nAs I rummaged through the old, dusty attic of my childhood home, I stumbled upon a small, yellowing cassette player",
+        "**The Mysterious VHS Tape**\n\nAs she rummaged through the dusty attic of her grandfather's old mansion, Emily stumbled upon a forgotten trunk filled with",
+        "It was a typical Thursday afternoon at the local pawn shop, \"Second Chances.\" The sun cast a warm glow through the grimy windows, illuminating the",
+        "As I sat in the dusty, old storage room, I couldn't help but feel a mix of curiosity and trepidation as I stared at the small,",
+        "I pushed the old VHS tape into the player, the familiar click of the mechanism engaging the gears sending a shiver down my spine. It had been years"
+      ],
+      "times": [
+        1.045454502105713,
+        1.0353543758392334,
+        1.0324089527130127,
+        1.035517930984497,
+        1.0316379070281982,
+        1.0332551002502441,
+        1.308908462524414,
+        1.0345828533172607,
+        1.0327961444854736,
+        1.031135082244873,
+        1.0312657356262207,
+        1.0323853492736816,
+        1.0441386699676514,
+        1.0361237525939941,
+        1.0376477241516113
+      ],
+      "metrics": {
+        "avg_bleu": 0.03824004796806844,
+        "avg_rougeL": 0.18470372985323835,
+        "avg_meteor": 0.18520647533142554,
+        "avg_cosine_similarity": 0.320564866065979,
+        "avg_cider": -1,
+        "degeneration_llm_score": 0.0,
+        "degeneration_llm_reason": "All answers are clean, coherent, grammatically correct, and use standard English without any signs of text degeneration."
+      },
+      "early_stopped": false
+    },
+    {
+      "prompt_index": 3,
+      "prompt": "[ WP ] Over night , 90 % of the world 's population has dropped dead . In the following weeks , the survivors , who come from diverse countries , ethnicities , religious beliefs and lifestyles realize that they all share a single , peculiar trait ...",
+      "answers": [
+        "It started with whispers of a catastrophic event that spread like wildfire across the globe. One night, without warning, 90% of the world's population vanished into",
+        "It was the night of October 15th, 2025, and the world as we knew it had come to an end. The most dire predictions of",
+        "It was the evening of the first day of the year 2023, and chaos had erupted across the globe. The news had started spreading like wildfire: it",
+        "It was a typical night, like any other, with cities bustling with life and activity. But in a matter of hours, the world as we knew it came",
+        "It started without warning, one ordinary night, without any hint of a disaster or catastrophe. People went about their lives as usual, only to wake up to an",
+        "It started with a seemingly ordinary night - a typical combination of dusk and darkness that had fallen over the world. But as the hours lapsed, an eerie,",
+        "It started with a global pandemic, or so it seemed. Within a day, the world had changed forever. Ninety percent of the population had perished,",
+        "It started with a lone news headline: \"Global Pandemic Hits: Millions Fall Ill, World Leaders Scramble for Answers.\" The initial reports were alarming but",
+        "It started without warning, a sudden and inexplicable phenomenon that changed the face of humanity forever. Over the course of a single night, a staggering 90%",
+        "It was a typical Tuesday evening, and scientists had just begun lockdown in their research facility due to a mysterious virus outbreak. At first, it was thought to be",
+        "It started with whispers in the dead of night. At first, people couldn't shake off the feeling that something was amiss. A sudden, inexplicable chill",
+        "The world as we knew it had ended in a matter of hours. The number was staggering, but no one was prepared for the sheer magnitude of 90%",
+        "It started like any other night. People went to bed, forgot to lock their doors, and slept peacefully. Or so it seemed. The next morning, chaos",
+        "It was a typical Tuesday evening when the world as we knew it came to an abrupt end. One minute, people were living their lives, working, socializing",
+        "It started without warning, without explanation, without warning shouters or sirens blaring in the skies. It was as if the very fabric of life on Earth"
+      ],
+      "times": [
+        1.0369532108306885,
+        1.0317964553833008,
+        1.0276868343353271,
+        1.029233694076538,
+        1.0251851081848145,
+        1.028756856918335,
+        1.0248193740844727,
+        1.030797004699707,
+        1.0246291160583496,
+        1.0261645317077637,
+        1.023848295211792,
+        1.030012607574463,
+        1.0341691970825195,
+        1.0255770683288574,
+        1.035062313079834
+      ],
+      "metrics": {
+        "avg_bleu": 0.041617018363682326,
+        "avg_rougeL": 0.2005257320027216,
+        "avg_meteor": 0.21226120193496145,
+        "avg_cosine_similarity": 0.530035138130188,
+        "avg_cider": -1,
+        "degeneration_llm_score": 0.0,
+        "degeneration_llm_reason": "All answers are coherent, grammatically correct, and contextually relevant. No degeneration—no garbled tokens, broken unicode, nonsense, or mixing of languages present."
+      },
+      "early_stopped": false
+    },
+    {
+      "prompt_index": 4,
+      "prompt": "[ WP ] You 've kept your immortality secret for thousands of years . Thats going to be a lot harder now that your on a generation ship on a 2000 year voyage .",
+      "answers": [
+        "I stood on the shadowed deck of the Aurora, the longest human generation ship in the universe. The year was 3276, and I'd been alive",
+        "I stood at the prow of the Celestial Horizon, gazing out at the vast expanse of stars that had been my constant companion for centuries. The year",
+        "The silence outside my window was a constant companion, a reminder that I was far, far away from the world I once knew. I stood at the railing of",
+        "I rubbed the palms of my hands together nervously, trying to ward off the creeping feeling of unease that had been gnawing at me for weeks.",
+        "As I stood at the viewport of the ship, gazing out into the vast expanse of space, I couldn't help but feel a sense of unease",
+        "I stared out the viewport of my quarters, watching as the stars streaked past like diamonds on velvet. The soft hum of the ship's engines was a constant",
+        "I stood at the window of the cryonic chamber, gazing out at the stars streaming past like diamonds on black velvet. It was hard to believe that I",
+        "As I stood at the viewport, gazing out into the endless expanse of space, I couldn't help but feel a sense of unease wash over me",
+        "I stood at the viewport of the generation ship, watching the endless expanse of stars streaming past outside. The year was 3056, and I had been",
+        "I stood on the transparent deck of the Celestial Horizon, gazing out at the stars stretching before us like diamonds on black velvet. The year was 212",
+        "I stood on the cold, metallic deck of the Genesis, my eyes gazing out at the stars streaming past the ship's windows like diamonds on black velvet.",
+        "I stood in the crowded corridors of the generation ship, trying to blend in with the hum of humanity. My eyes scanned the room, catching glimpses of children",
+        "As the stars whizzed by like diamonds on black velvet, Elara gazed out the viewport of her cabin, her eyes tracing the inky vastness",
+        "As I stepped out of my quarters and into the bustling corridors of theAquaria, I couldn't help but feel a sense of discomfort. There were over ",
+        "As the stars whizzed by outside the viewport of the generation ship, Eliana stood at the wheel, her long, silver hair rustling softly around her"
+      ],
+      "times": [
+        1.0711615085601807,
+        1.029728651046753,
+        1.0377662181854248,
+        1.0298585891723633,
+        1.2137179374694824,
+        1.1958472728729248,
+        1.0750741958618164,
+        1.0373737812042236,
+        1.049842119216919,
+        1.0273306369781494,
+        1.042733907699585,
+        1.0278117656707764,
+        1.0255579948425293,
+        1.0322468280792236,
+        1.0239355564117432
+      ],
+      "metrics": {
+        "avg_bleu": 0.08742864661103568,
+        "avg_rougeL": 0.28080837362857886,
+        "avg_meteor": 0.2699247990599688,
+        "avg_cosine_similarity": 0.41891899704933167,
+        "avg_cider": -1,
+        "degeneration_llm_score": 0.0,
+        "degeneration_llm_reason": "All answers are coherent, grammatical, and free of garbled text, broken tokens, language mixing, or nonsense. There is no degeneration."
+      },
+      "early_stopped": false
+    },
+    {
+      "prompt_index": 5,
+      "prompt": "[ WP ] You are a normal person who spent your entire life infiltrating the evil Empire . You even became the Emperor 's right hand . The day before you finally topple the Empire , the hero arrives , kills the Emperor , and saves the day .",
+      "answers": [
+        "I stood on the balcony of the Imperial Palace, gazing out at the darkening sky as the sun set behind the imposing walls of the fortress. It had",
+        "I couldn't believe my fate as I sat atop the golden throne, my eyes fixed on the Emperor's lifeless body. The weight of my deception and betrayal",
+        "I still remember the day I took my first tentative step into the Empire's hallowed halls. A young man from the wrong side of the tracks, I had",
+        "I stood on the grand throne, the weight of the Empire's power resting squarely on my shoulders. It had been a long and winding road that led me here",
+        "As I stood in the grand throne room, the weight of my betrayal bore down upon me like a shroud. The Emperor, the ruler of the tyrann",
+        "I still remember the day I was taken from my small village as a child, forced to leave behind everything I knew and loved. The Empire's agents had been",
+        "I still remember the day I first stepped foot into the Empire's المؤ 고려 courts, with its imposing stone walls and imposing guards. I was a young and ambitious",
+        "I still remember the day I joined the Imperial Guard as a young recruit, eager to serve my adopted nation and prove myself worthy. For decades, I rose through",
+        "I stood at the precipice of history, bone-chilling wind whipping my hair as I gazed out upon the crumbling Empire's capital. Even the once-m",
+        "I still remember the day I stood before the Emperor, my eyes locked onto the man who had ruled with an iron fist for what felt like an eternity. My",
+        "I stood at the imperial throne, my hand resting on the hilt of my sword as I gazed out over the sprawling palace of the Empire. It was",
+        "I stared out the window of my lavish throne room, gazing out at the sprawling empire I had spent two decades infiltrating. As Emperor Arcturus's",
+        "I still remember the day I decided to take the helm and infiltrate the Empire. Born into a lower-class family, I grew up with a sense of resentment",
+        "I stood in front of the Emperor's throne, my eyes fixed on his decrepit form. It was a fitting end to a lifetime of service to the Empire",
+        "I stood before the throne, my eyes fixed on the Emperor as he sneered at the rebel leader who stood before us. I had spent years infiltrating the"
+      ],
+      "times": [
+        1.0417234897613525,
+        1.0370421409606934,
+        1.0429787635803223,
+        1.0348742008209229,
+        1.04628324508667,
+        1.0327115058898926,
+        1.0303685665130615,
+        1.0317237377166748,
+        1.0289292335510254,
+        1.0300343036651611,
+        1.0323536396026611,
+        1.0322415828704834,
+        1.0327868461608887,
+        1.0316431522369385,
+        1.031158447265625
+      ],
+      "metrics": {
+        "avg_bleu": 0.056036847265745586,
+        "avg_rougeL": 0.25063106658715967,
+        "avg_meteor": 0.2431860147984114,
+        "avg_cosine_similarity": 0.540916919708252,
+        "avg_cider": -1,
+        "degeneration_llm_score": 0.08,
+        "degeneration_llm_reason": "Mostly clean and coherent, but answer [6] contains some language mixing ('المؤ 고려'), which slightly increases degeneration. Minor coherence variations but nothing severe in other answers."
+      },
+      "early_stopped": false
+    },
+    {
+      "prompt_index": 6,
+      "prompt": "[ WP ] Your T.V . suddenly turns on by itself mid-lunch and a message from the local weather warning system , normally accompanied with a loud alarm but oddly silent this time around , reads `` For the safety and well-being of all local citizens this warning will be broadcasted silently ... ''",
+      "answers": [
+        "It was a typical Tuesday afternoon at the Wong household. Yi-Min, a college student, was taking a lunch break in his small apartment, staring at his",
+        "It was a typical Wednesday lunchtime at the small town of Willow Creek. The sun was shining, birds were singing, and the smell of burgers and fries wa",
+        "It was a typical Wednesday lunch break at Smith's Diner, where the sounds of sizzling burgers and lively chatter filled the air. Jack and Alex, two",
+        "It was supposed to be a typical Wednesday lunch break for Emily and her coworkers at the small café where she worked. The sun was shining, the only sound being",
+        "It was a typical Wednesday lunchtime for Emily. She had just sat down at her desk, pulled out her sandwich, and was about to take a big bite",
+        "It was just a typical Monday afternoon for Emily, scrolling through her phone's social media in the comfort of her own home. She had just finished making herself a",
+        "It was a typical Monday afternoon at the small town's diner, where Susan was enjoying a quiet lunch alone at a booth by the window. She had just taken",
+        "It was a typical Wednesday afternoon, the sun shining brightly through the office window, casting a warm glow over the cluttered cubicles. I was taking a much",
+        "It was a typical Wednesday afternoon for Emily as she sat down to enjoy her lunch at her small kitchen table. She had just unwrapped a sandwich and was about",
+        "I was enjoying a peaceful lunch in my small kitchen, savoring the aroma of last night's leftover pasta and the warm sun streaming through the window. The",
+        "It was just another routine lunchtime for Emily. She had settled into her favorite spot in front of the TV, a big bowl of noodles in one hand and",
+        "It was an ordinary Wednesday afternoon, at least that's what Emma thought as she sat down to enjoy her lunch in front of the TV. She had just taken",
+        "It was a typical Monday afternoon at the small café where Emily was sitting, taking a break from work to enjoy her lunch. The warm sunlight streaming through the window",
+        "It was a typical Monday afternoon at the cozy little café, where Sarah sat alone at a table by the window, enjoying a bowl of steaming hot soup and",
+        "It was a typical Monday morning for Emily as she sat at her kitchen table, almost finishing her lunch sandwich. The warm sun shone through the window, casting"
+      ],
+      "times": [
+        1.04302978515625,
+        1.052051067352295,
+        1.0394313335418701,
+        1.0339298248291016,
+        1.0360937118530273,
+        1.0419917106628418,
+        1.027529239654541,
+        1.0280990600585938,
+        1.0352623462677002,
+        1.0262606143951416,
+        1.028604507446289,
+        1.0272717475891113,
+        1.032334566116333,
+        1.0276789665222168,
+        1.0313034057617188
+      ],
+      "metrics": {
+        "avg_bleu": 0.09656047082086316,
+        "avg_rougeL": 0.2963697356635576,
+        "avg_meteor": 0.2881119721392171,
+        "avg_cosine_similarity": 0.5291494727134705,
+        "avg_cider": -1,
+        "degeneration_llm_score": 0.0,
+        "degeneration_llm_reason": "All answers are coherent, grammatically correct, and free of degeneration or nonsense. No garbled tokens, random symbols, or incoherent structure observed."
+      },
+      "early_stopped": false
+    },
+    {
+      "prompt_index": 7,
+      "prompt": "[ WP ] After almost 1,000 years the population of a generation ship has lost the ability to understand most technology and now lives at a preindustrial level . Today the ship reaches its destination and the automated systems come back online .",
+      "answers": [
+        "The Aether sails creaked in the wind as the horizon slowly rose above the curved bulk of the generation ship, Kaeros. For nearly a thousand years",
+        "The dimly lit corridors of the generation ship, Aurora's Hope, were alive with a faint hum, a noise that echoed through the air like a gentle whisper",
+        "The sun's warm light crept over the horizon, illuminating a world that had been shrouded in darkness for centuries. The massive generation ship, \"",
+        "The year was 2223, and the great ship Azura had traveled for nearly a thousand years, a celestial ark carrying the last remnants of humanity to a",
+        "The sun was setting on the horizon as the crew of the Azure Horizon, a generation ship that had been traversing the void for over a thousand years, caught",
+        "The year was 2023, and the small community of survivors on the generation ship, Aurora, had long since lost track of time. The initial excitement of",
+        "**The Awakening of the Aurora**\n\nThe air within the vessel's hull was thick with the scent of aged wood and dust. The hum of machinery, once a",
+        "**The Rebirth of Nova Terra**\n\nThe year was 1034 of the new era, a mere 979 years since the Celestial Vessel Nova Terra",
+        "The event was so foreign that it seemed like a dream. The dusty, dirt-floored corridors, once bustling with steel and wires, were now awash",
+        "The hatch creaked open, releasing a warm, musty air into the dimly lit cargo bay. Captain Elara stood at the entrance, her eyes",
+        "The sun had long since set on the horizon as the ship's chronometer clicked forward to the final day of their long and arduous journey. The crew",
+        "The small community of New Eden had long forgotten the rhythms of modern life. For generations, they had navigated the vast expanse of space on autopilot,",
+        "The air was thick with the smell of coal smoke and the sound of clanging metal echoed through the dark corridors of the generation ship, \"Arkham's Progress",
+        "As the 11th generation of the vessel's inhabitants of the majestic Ark of Elysium gazed out upon the unfamiliar landmass approaching through the porth",
+        "The year was 3023, and the generation ship, Aurora's Hope, had finally reached its long-sought destination – a nearby planet, code-named"
+      ],
+      "times": [
+        1.0281169414520264,
+        1.0362131595611572,
+        1.0462424755096436,
+        1.0283334255218506,
+        1.028024435043335,
+        1.0276646614074707,
+        1.025991678237915,
+        1.0268540382385254,
+        1.0283780097961426,
+        1.0265789031982422,
+        1.0275042057037354,
+        1.0313670635223389,
+        1.0266766548156738,
+        1.0281689167022705,
+        1.0264561176300049
+      ],
+      "metrics": {
+        "avg_bleu": 0.03570698177812222,
+        "avg_rougeL": 0.21387403521005632,
+        "avg_meteor": 0.1817323405614177,
+        "avg_cosine_similarity": 0.37225541472435,
+        "avg_cider": -1,
+        "degeneration_llm_score": 0.0,
+        "degeneration_llm_reason": "All entries are coherent, grammatically correct, and free of garbled text or degeneration artifacts."
+      },
+      "early_stopped": false
+    },
+    {
+      "prompt_index": 8,
+      "prompt": "All injuries , emotional or physical , are displayed on a person in the form of a scar . You come across a man covered head to toe in disfiguring marks , speaking with a woman who bears only a single scar .",
+      "answers": [
+        "As I walked through the crowded tavern, my eyes scanned the room, taking in the usual assortment of patrons: a group of rowdy dwarves in the corner",
+        "The streetlights cast long shadows on the deserted alleys, illuminating the dark and rainy night. The air was thick with the smell of wet asphalt and the",
+        "The dusty streets of the old town were alive with the sound of merchants hawking their wares and the smell of spices wafted through the air,",
+        "As I walked through the crowded market, I couldn't help but notice the man sitting alone at a small café. He was shrouded in shadows, his",
+        "The old, weathered streets of the forgotten town seemed to whisper secrets to the passing pedestrians. I navigated through the crowded alleys, my eyes scanning the",
+        "As I walked down the dimly lit alley, I couldn't help but notice the man standing by the wall, his body a canvas of unsightly scars.",
+        "As I walked through the dimly lit alleyway, I couldn't help but notice the man who sat on the ground, surrounded by a landscape of scars.",
+        "In the dimly lit alleyway, creatures of the night roamed free. The flickering streetlights danced upon the wet pavement, casting eerie shadows on the",
+        "The dimly lit alleyway was a haven for those seeking solitude, yet it was also a place where one could find others like themselves. Individuals with scars,",
+        "The street was dimly lit, with only a few flickering streetlights to illuminate the desolate sidewalk. The air was heavy with the scent of smoke and",
+        "As I walked down the dimly lit street, the flickering streetlights casting eerie shadows on the walls, I couldn't help but notice the man standing on",
+        "As I walked through the bustling streets of the old town, I couldn't help but notice a man sitting on a bench, his presence seemingly out of place among",
+        "As I walked down the dimly lit alley, the smell of smoke and neglect hung heavy in the air. The flickering torches cast eerie shadows on the",
+        "As I walked down the winding streets of the old town, I couldn't help but notice the peculiar aura surrounding the man standing outside the local tavern. His body",
+        "As I walked through the dimly lit alley, the flickering streetlamps casting eerie shadows on the walls, I couldn't help but notice the man sitting"
+      ],
+      "times": [
+        1.0313796997070312,
+        1.027221918106079,
+        1.0245065689086914,
+        1.0254955291748047,
+        1.0243773460388184,
+        1.025205373764038,
+        1.0244166851043701,
+        1.0224027633666992,
+        1.0259411334991455,
+        1.0239331722259521,
+        1.0213980674743652,
+        1.0231475830078125,
+        1.0283634662628174,
+        1.0230233669281006,
+        1.007779598236084
+      ],
+      "metrics": {
+        "avg_bleu": 0.11521815019955335,
+        "avg_rougeL": 0.28837133904761914,
+        "avg_meteor": 0.2892975782144953,
+        "avg_cosine_similarity": 0.48274922370910645,
+        "avg_cider": -1,
+        "degeneration_llm_score": 0.0,
+        "degeneration_llm_reason": "All answers are coherent, grammatically correct, and free of any garbled tokens, nonsense, or degeneration."
+      },
+      "early_stopped": false
+    },
+    {
+      "prompt_index": 9,
+      "prompt": "[ WP ] Your bong is the home of a genie . You spark the bowl and he appears to grant you 3 wishes . You 're both pretty high .",
+      "answers": [
+        "I lit the bong, feeling the familiar haze wash over me as the sweet, earthy scent of the weed filled my room. I had always been a",
+        "I stared at the old, dusty bong on my coffee table, a relic from college days that I'd all but forgotten. It had been years since I",
+        "I sat on the worn, faded couch, staring blankly at the old bong in front of me. We had been through a lot together, my trust",
+        "I stared at the old, dusty soda can perched on my coffee table, a socket wrench lodged into the growler's lid to keep the ganja from",
+        "I leaned back in my worn, velvet armchair, taking a long drag on my bong. The sweet, earthy scent of the herb wafted",
+        "I stared at my trusty bong, itsetching up a vapor trail in the dimly lit living room. My roommate, Alex, and I had",
+        "I sat on my couch, surrounded by the soft glow of flickering candles and the faint smell of Moroccan spices. My bong, passed down from my grandfather",
+        "I chuckled to myself as I lit the bong, the sweet aroma of the herbs wafting through the air. My friend and I had been planning this",
+        "I stumbled into my apartment, dropping my backpack onto the couch with a thud. I was running late for a study group and I still had a ton of",
+        "I sat cross-legged on the cold floor of my apartment, the familiar weight of my bong in my hand. I had always been fascinated by the stories my",
+        "I sat cross-legged on the floor, surrounded by the familiar comforts of my cozy apartment. My bong, adorned with colorful stickers and a few accomplished hits under",
+        "I sat on my worn, faded couch, surrounded by the remnants of a long night of gaming and Netflix binging. My bong, affectionately named Ber",
+        "I sat on the couch, surrounded by the haze of my favorite strain, my eyes fixed on the intricately carved bong that sat before me. It was",
+        "I'll never forget the night the genie showed up in my bong. It was a particularly potentograf strain, and I had just finished a long day of",
+        "I stared at my trusty bong, its sparkling crystals glistening in the wooden light of my college dorm room. It was a ritual we shared every Friday"
+      ],
+      "times": [
+        1.1887836456298828,
+        1.0355405807495117,
+        1.0512568950653076,
+        1.0397403240203857,
+        1.0502111911773682,
+        1.0451602935791016,
+        1.04433274269104,
+        1.0474932193756104,
+        1.0499544143676758,
+        1.0395853519439697,
+        1.0477039813995361,
+        1.04134202003479,
+        1.048365592956543,
+        1.032710313796997,
+        1.0413916110992432
+      ],
+      "metrics": {
+        "avg_bleu": 0.04619262855103626,
+        "avg_rougeL": 0.23673215455850397,
+        "avg_meteor": 0.24116986651357392,
+        "avg_cosine_similarity": 0.5543045997619629,
+        "avg_cider": -1,
+        "degeneration_llm_score": 0.13,
+        "degeneration_llm_reason": "Most answers are coherent and clean. Minor degeneration appears in [5] ('itsetching up a vapor trail') and [13] ('potentograf strain'), which seem like garbled or nonsensical tokens. The rest maintain clarity and cohesion."
+      },
+      "early_stopped": false
+    },
+    {
+      "prompt_index": 10,
+      "prompt": "[ WP ] Click the random superpower wiki link provided below three times , create an origin story for a super hero based off of the super powers .",
+      "answers": [
+        "You clicked away three times on the random superpower wiki link, and a notification popped up in your browser, stating: \"Great choice! Here's your assigned",
+        "I've randomly selected a superpower from the \"Random Superpower\" wiki link. Unfortunately, I'm a large language model, I don't have direct access",
+        "Here is the random superhero wiki link:\n\nhttps:// scp-tabletalk.fandom.com/wiki/SPM-6047\n\nNow, let's roll for three random",
+        "Here are three randomized superpower combinations. Let's go through one at a time.\n\nYour first superpower combination is:\n\nSuperhuman speed (can move at incredible",
+        "I've generated a random superpower wiki link for you. Here it is:\n\nhttps://vignette 자기ک prolong/www 내용 cơymmetric3d جن_pa",
+        "Curiosity got the better of me, and I couldn't resist the urge to check out that mysterious superpower wiki link. I clicked on it for the first",
+        "I've clicked the random superpower wiki link three times, and a unique set of abilities has been revealed to me. Here's the origin story of my super",
+        "I'd be happy to provide a story based on the random superpower I generate for you. However, I won't actually be able to click the link twice",
+        "As I randomly scrolled through the Wikipedia pages, I stumbled upon an article about a mind-bending condition called pseudoglycerolipidosis. I had no",
+        "However, I was unable to find a superpower wiki link. I can provide you with a generic story instead.\n\nAs Paul walked through the city streets, he",
+        "I've gone ahead and generated a random superpower wiki link for you. Clicking it three times will reveal a superhero origin.\n\nHere's the link: https",
+        "As I clicked on the random superpower wiki link for the third time, a bright light enveloped me, and I felt an energy coursing through my veins",
+        "**Superpower Wiki Link:**\n\nhttps://en.wikipedia.org/wiki/Technical_B خانو-im existe?\n\n**Unfortunately, I need to inform you that the provided link",
+        "I've generated a random superpower wiki link. Clicking it three times reveals an intriguing set of powers. Here's an origin story for our hero:\n\n**",
+        "As I sat in front of my computer, curiosity got the better of me. I decided to click on a random link that read \"Superpower: Invisibility"
+      ],
+      "times": [
+        1.3541548252105713,
+        1.109651803970337,
+        1.1153457164764404,
+        1.0341641902923584,
+        1.0409255027770996,
+        1.0317466259002686,
+        1.0305473804473877,
+        1.0463428497314453,
+        1.031780481338501,
+        1.0302908420562744,
+        1.032254934310913,
+        1.0590214729309082,
+        1.0349242687225342,
+        1.0297749042510986,
+        1.0494494438171387
+      ],
+      "metrics": {
+        "avg_bleu": 0.048462197355041994,
+        "avg_rougeL": 0.20720036254733815,
+        "avg_meteor": 0.2270404941284806,
+        "avg_cosine_similarity": 0.4916655123233795,
+        "avg_cider": -1,
+        "degeneration_llm_score": 0.15,
+        "degeneration_llm_reason": "Most answers are coherent and relevant, but a few contain minor degeneration such as broken or mixed-language URLs ([4], [12]), and answer [8] introduces unrelated content. No severe gibberish or encoding errors."
+      },
+      "early_stopped": false
+    },
+    {
+      "prompt_index": 11,
+      "prompt": "[ WP ] A kid tries to talk the monster under the bed into attacking the monster in the closet .",
+      "answers": [
+        "**The Battle Beneath the Bed**\n\nLily had always been a little afraid of monsters living under her bed. She would lie awake at night, convinced that",
+        "Once upon a time, in a small bedroom filled with dark corners and musty smells, a brave but slightly reckless six-year-old named Timmy lived in a",
+        "In the dead of night, when the world outside was hushed and the moon cast its silvery glow, six-year-old Timmy lay in bed, his",
+        "**The Great Monster Conundrum**\n\nDeep beneath the dusty, dark confines of Emily's bedroom lay the infamous Monster Under the Bed. He was a legendary creature",
+        "**The Midnight Raid**\n\nIt was a typical Tuesday evening at 9 PM. The household was quiet, with everyone fast asleep in their respective beds, except for",
+        "**The Ambitious Kid's Plan**\n\nTimmy had always been convinced that the monster under his bed wasn't as scary as his parents made him believe. He",
+        "Timmy had always been afraid of the things that lurked in the shadows of his room. The shadows that danced on the wall, the creaks and",
+        "As the lights in Emily's bedroom began to dim, her imagination turned on high. Her eyes fixed onto the dark space under the bed, where a rumor had",
+        "**The Bedside Conspiracy**\n\nIt was a dark and stormy night, and eight-year-old Timmy was wide awake, staring up at the creaky",
+        "It was a typical Tuesday evening for Timmy, sitting in his darkened bedroom, staring at the eerie silhouette under the bed. He had conjured up the",
+        "Timmy had always been afraid of the monster under his bed. It was a recurring nightmare that had plagued him for years, with the monster's ominous growls",
+        "**The Tale of the Tentacled Tussle**\n\nTimmy had always been afraid of monsters. Okay, maybe not the monsters he knew about – the",
+        "**The Battle of the Shadows**\n\nIt was a dark and stormy night, and six-year-old Timmy was wide awake, his room filled with the eerie",
+        "It was a dark and stormy night, and six-year-old Timmy was fast asleep in his bed. But as he lay there, he couldn't shake",
+        "**The Unlikely Alliance**\n\nEight-year-old Timmy had always been terrified of the monsters that lived under his bed and in the closet. Every night, his"
+      ],
+      "times": [
+        1.0485327243804932,
+        1.0334680080413818,
+        1.0482325553894043,
+        1.0375525951385498,
+        1.0279028415679932,
+        1.0409860610961914,
+        1.0380048751831055,
+        1.046149492263794,
+        1.0368921756744385,
+        1.0410535335540771,
+        1.0357816219329834,
+        1.0461065769195557,
+        1.0350422859191895,
+        1.0377001762390137,
+        1.0316510200500488
+      ],
+      "metrics": {
+        "avg_bleu": 0.05464006225986178,
+        "avg_rougeL": 0.21391731883225404,
+        "avg_meteor": 0.2309063132815343,
+        "avg_cosine_similarity": 0.5057921409606934,
+        "avg_cider": -1,
+        "degeneration_llm_score": 0.0,
+        "degeneration_llm_reason": "All answers are clean, coherent, and free of degeneration such as garbled text, nonsense, or mixing of languages."
+      },
+      "early_stopped": false
+    },
+    {
+      "prompt_index": 12,
+      "prompt": "[ WP ] You own a magical camera that is similar to a thermal camera , but instead of heat it shows you value . A ring glows as bright as the sun while a piece of plastic wrapping is almost invisible . You have been careful never to look at a person with it for your whole life .",
+      "answers": [
+        "I stared at the small, sleek camera in my hand, its lens gleaming in the dim light of my workshop. It was a strange and wondrous device",
+        "I'd always been wary of the camera. My grandfather, a brilliant inventor, had created it in his workshop when I was just a child. He called it",
+        "As a child, I was taught that there was a fine line between seeing the world and seeing the world truly. My parents, who were both skilled artists,",
+        "I had always been fascinated by the strange and mysterious camera that my great-uncle, a renowned photographer, had left me in his will. It was a",
+        "I had always been fascinated by the mysterious camera my great uncle had left me in his will. It was an old, worn-out device with a wooden body and",
+        "I'd always been aware that there was something special about myself, that I possessed a secret that set me apart from others. But I didn't know what it",
+        "I had always been fascinated by the world around me, but I knew that some things were better left unseen. My magical camera, which my great-grandfather had",
+        "I'd always known that my camera was special. As a child, my parents had found it in an antique shop, dusty and forgotten, with a tag attached",
+        "I'd heard the whispers and warnings from a young age, the predictions of the old proverb: 'to look into the heart of a mortal with the Heartse",
+        "I had always been told that the \"Heart sight\" camera was cursed, a family heirloom passed down to me from my great-grandmother, a renowned photographer",
+        "I'd heard whispers about my enchanted camera, passed down through generations of my family. Its origins were shrouded in mystery, but one thing was certain -",
+        "I'd always been fascinated by the mysterious camera that my great-great-grandfather had left me in his will. It was an odd-looking device, with a",
+        "I had always been nervous about the little camera I owned. It was a strange device that looked like a cross between a thermal imaging gun and a high-end mirror",
+        "**The Guardian of Value**\n\nI held the enchanting camera, Myrddin, with reverence, the way I held a precious relic. It had been",
+        "I had always been warned about the magic of the camera. As a child, my great-aunt would caution me, \"Never look into the lens, Lil"
+      ],
+      "times": [
+        1.063366174697876,
+        1.04599928855896,
+        1.0492064952850342,
+        1.040919303894043,
+        1.0476562976837158,
+        1.0498249530792236,
+        1.0319766998291016,
+        1.0336143970489502,
+        1.0322632789611816,
+        1.0323443412780762,
+        1.0496699810028076,
+        1.0323309898376465,
+        1.0216479301452637,
+        1.0304977893829346,
+        1.0340478420257568
+      ],
+      "metrics": {
+        "avg_bleu": 0.05661062664306482,
+        "avg_rougeL": 0.24717274198004816,
+        "avg_meteor": 0.23394118407153305,
+        "avg_cosine_similarity": 0.4788908064365387,
+        "avg_cider": -1,
+        "degeneration_llm_score": 0.0,
+        "degeneration_llm_reason": "All answers are coherent, free of garbled text, nonsense, language mixing, or repetition. No degeneration detected."
+      },
+      "early_stopped": false
+    },
+    {
+      "prompt_index": 13,
+      "prompt": "[ WP ] Where do bad guys get their legions of goons ? Well , it 's all thanks to you . You specialize in supplying grunts of a wide variety to aspiring super villains , whether they need masked men with bad aim or hideous/sexy merfolk to guard their underwater lair .",
+      "answers": [
+        "In the shadows of the city, a mysterious figure known only as \"The Recruiter\" pulled out a small notebook from their coat pocket. The book was covered",
+        "The sign overhead creaked in the gentle sea breeze, reading \"Gorthok's Goons-R-Us\" in crooked, Buccaneer-inspired letters",
+        "In a damp, dingy alleyway, a small, unassuming sign creaked in the wind, reading \"Curious Corps' Operation: Your One",
+        "In a world where supervillains ruled the shadows, a small, unassuming shop stood nestled between a dark alley and a rundown bar. The sign above the",
+        "In the shadows of the city, a small, unassuming door in a dingy alleyway hid a secret operation like no other. \"Gorthok's",
+        "I chuckled to myself as I polished a nearby mug with a dirty rag, gazing out the window of my cramped, dimly lit lair. It was",
+        "In a small, nondescript warehouse on the outskirts of the city, a mysterious figure known only as \"The Recruiter\" made a living by providing the",
+        "In the shadows of the city, a mysterious figure known only as \"The Recruiter\" plied their trade. This enigmatic entrepreneur had a knack for supplying",
+        "In the shadows, there lurked a figure known only by their alias, \"The Patron.\" Few knew much about them, but one thing was evident: they",
+        "In a cramped, dimly lit alleyway, a peculiar sign creaked in the gentle breeze: \"Evil Inc.\" The letters were scribbled",
+        "The unassuming shopfront on 1313 Cacklebone Lane was a poorly lit and worn façade, easily overlooked by the passing pedestrians of the city.",
+        "In the shadows of the city, a small, unassuming shop stood tucked away on a forgotten street. The sign above the door read \"ESupportedContent's Emp",
+        "In the shadows of the city, where the seedy underbelly of the metropolis pulsed with illicit activity, there was a mysterious figure known only as",
+        "In the shadowy underworld of supervillainy, there existed a mysterious figure known only as \"The Recruiter.\" With a network of connections spanning the globe",
+        "In the shadows of a bustling city, where the dark alleys whispered secrets and the skyscrapers pierced the sky, there existed a certain... let's call"
+      ],
+      "times": [
+        1.0432088375091553,
+        1.037743091583252,
+        1.053748607635498,
+        1.0369434356689453,
+        1.0345818996429443,
+        1.049651861190796,
+        1.0423259735107422,
+        1.059922218322754,
+        1.0392959117889404,
+        1.0358505249023438,
+        1.0362789630889893,
+        1.0333795547485352,
+        1.0336763858795166,
+        1.0560498237609863,
+        1.0310838222503662
+      ],
+      "metrics": {
+        "avg_bleu": 0.08971704240559072,
+        "avg_rougeL": 0.23809188316526553,
+        "avg_meteor": 0.2346641104056835,
+        "avg_cosine_similarity": 0.3696967661380768,
+        "avg_cider": -1,
+        "degeneration_llm_score": 0.0,
+        "degeneration_llm_reason": "All answers are coherent, grammatically correct, and free from signs of degeneration such as garbled text, nonsense, or language mixing."
+      },
+      "early_stopped": false
+    },
+    {
+      "prompt_index": 14,
+      "prompt": "[ EU ] Batman is arrested . The day of his trial , the Joker shows up to defend him .",
+      "answers": [
+        "It was a day that would be etched in the annals of Gotham City's history as one of the most shocking and unforgettable events. The Dark Knight,",
+        "Gotham City's streets were abuzz with excitement and curiosity as the sun rose over the towering skyscrapers. The streets were packed with reporters, camera",
+        "It was a typical gray, overcast day in Gotham City, but the atmosphere in the courthouse was electric. The highly publicized trial of the Dark Knight,",
+        "Gotham City was never short on chaos, but nothing could have prepared the citizens for the surreal scene that unfolded outside the courthouse on that fateful day.",
+        "Gotham City, the night before the trial of the infamous Batman. The darkness and shadows seemed to thicken in the air as the citizens of Gotham whispered",
+        "The sun was shining brightly over the sterile grey walls of the Arkham Asylum's courtroom as the assembled citizens of Gotham City eagerly took their seats. The trial",
+        "It was a somber day in Gotham City. The usually bustling streets were empty, as the entire city had gathered to witness the trial of the Dark Knight,",
+        "Gotham City's infamous courtroom was packed with reporters, detectives, and citizens, all eager to witness the trial of the Caped Crusader himself, Batman",
+        "It was a typical gloomy day in Gotham City, the kind that made you want to curl up in a corner and stare at the grey walls of the prison",
+        "Gotham City was abuzz with excitement and speculation as the day of the trial of the Caped Crusader, a.k.a. Batman, finally arrived",
+        "It was a typical gray and gloomy day in Gotham City, the kind that made you want to stay indoors and forget about the chaos that lurked outside.",
+        "It was a chilly autumn morning in Gotham City, the kind of day where the sky seemed to be perpetually shrouded in a thick, grey mist.",
+        "It was a typical dark and gloomy day in Gotham City. The sky was a deep, foreboding grey, and the streets were empty except for a",
+        "It was a typical day in the Gotham City courts, with the sounds of murmurs and rustling papers filling the air. But today, something was off.",
+        "It was a drizzly morning in Gotham City, the kind of day that seemed to match the mood of the citizens as they gathered outside courthouse Four, their faces"
+      ],
+      "times": [
+        1.0384068489074707,
+        1.0304038524627686,
+        1.0487864017486572,
+        1.0308585166931152,
+        1.0308959484100342,
+        1.0307891368865967,
+        1.0246288776397705,
+        1.0254709720611572,
+        1.0468378067016602,
+        1.027266025543213,
+        1.0203158855438232,
+        1.0187342166900635,
+        1.0168511867523193,
+        1.025064468383789,
+        1.0202407836914062
+      ],
+      "metrics": {
+        "avg_bleu": 0.07897041257284665,
+        "avg_rougeL": 0.2867176887608554,
+        "avg_meteor": 0.28067008732308146,
+        "avg_cosine_similarity": 0.6255186796188354,
+        "avg_cider": -1,
+        "degeneration_llm_score": 0.0,
+        "degeneration_llm_reason": "All answers are coherent, grammatically correct, and free of degeneration. No garbled tokens, language mixing, or repetition observed."
+      },
+      "early_stopped": false
+    },
+    {
+      "prompt_index": 15,
+      "prompt": "[ WP ] : your seventh son is fated to murder you . You laugh until you remember you used to donate sperm .",
+      "answers": [
+        "I sat on the couch, sipping my morning coffee and staring out the window at the sunny day unfolding before me. My family was bustling about in the kitchen",
+        "I sat on the couch, watching the evening news with a sense of morbid curiosity. A show about true crime and a segment on a family with a dark",
+        "In the quaint town of Ashwood, nestled between the rolling hills of England, lived the kindly patriarch, Edwin Bottomley. He was a widower with six",
+        "As I sat in my favorite armchair, sipping a cup of steaming hot tea, I couldn't help but chuckle to myself. My wife,",
+        "In a small village nestled in the rolling hills of Japan, I lived a quiet life with my loving wife, Yumi, and our six children. We were",
+        "As I rocked gently in my favorite armchair, sipping my morning tea and watching the sunlight dance through the blinds, I couldn't help but chuckle at",
+        "In a small, rustic village nestled in the rolling hills of rural Ireland, there lived a family with a mysterious legacy. The O'Connor family was known for their",
+        "The laughter still echoed through the halls of our old manor, the sound carrying on the wind like a gossip shared among neighbors. My husband, Willow, and",
+        "Emilia's mind wandered back to the days when life seemed so carefree. She sat in her cozy armchair, sipping a cup of coffee and watching",
+        "I sat in my cozy living room, sipping my morning coffee and enjoying the warm sunlight streaming through the windows. My family was still asleep, and I had",
+        "As I sat in my cozy armchair, watching my seventh son, Atlas, frolic in the backyard, I couldn't help but laugh at his antics.",
+        "I stood absurdly in my kitchen, staring at the brochure in my hand like it was a ticking time bomb. \"Second-triplex condominium for families\"",
+        "I sat at my desk, staring blankly at the letter in front of me. The words danced on the page in elegant script, but my mind was elsewhere",
+        "I chuckled to myself as I watched my seven children play in the backyard. They were such a handful, but I loved them to bits. As a family of",
+        "I sat on the couch, nursing a cup of cold coffee, staring out the window at the grey, overcast sky. It was one of those days where"
+      ],
+      "times": [
+        1.029554843902588,
+        1.0282812118530273,
+        1.0253005027770996,
+        1.0273165702819824,
+        1.0290024280548096,
+        1.0460102558135986,
+        1.0282657146453857,
+        1.0248782634735107,
+        1.0245728492736816,
+        1.0229763984680176,
+        1.0166833400726318,
+        1.0180315971374512,
+        1.033179759979248,
+        1.0417962074279785,
+        1.0211610794067383
+      ],
+      "metrics": {
+        "avg_bleu": 0.042927180135418734,
+        "avg_rougeL": 0.19231710727732154,
+        "avg_meteor": 0.19091218821999717,
+        "avg_cosine_similarity": 0.3251858353614807,
+        "avg_cider": -1,
+        "degeneration_llm_score": 0.0,
+        "degeneration_llm_reason": "All answers are clean, coherent, and free of degeneration. No garbled text, nonsense, or coherence loss detected."
+      },
+      "early_stopped": false
+    },
+    {
+      "prompt_index": 16,
+      "prompt": "[ WP ] You wake up in Hell . You look around , you ca n't see anybody , it 's just fire and brimstone going on forever . Eventually the Devil walks over and says `` Finally , you 're the first to arrive , so tell me , who are you ? what did you do ? and how did you die ? ''",
+      "answers": [
+        "As I slowly opened my eyes, the scorching heat enveloped me, making my skin prickle with discomfort. I groggily took in my surroundings",
+        "I slowly opened my eyes, groggily taking in my surroundings. The air was thick with the scent of sulfur and brimstone, and the ground beneath",
+        "I slowly opened my eyes to find myself standing in the midst of a desolate, blazing wasteland. The air was thick with the acrid smell of sulfur",
+        "As I slowly opened my eyes, the scorching heat hit me like a tidal wave, threatening to rip apart the fabric of my sanity. I grogg",
+        "As I slowly opened my eyes, the searing heat of Hell assaulted me, making it hard to see and breathe. I blinked away the sand from my eyel",
+        "As I slowly opened my eyes, the heat was almost unbearable. I tried to sit up, but the flames seemed to lick at my skin, making me retreat",
+        "I slowly opened my eyes, groggily taking in my surroundings. The last thing I remembered was going out with my friends to a concert, and now...",
+        "I slowly opened my eyes, groggily taking in my surroundings. The last thing I remembered was... nothing. One moment, I was living my life,",
+        "As I slowly came to, the scorching heat from the flames surrounding me seemed to pierce through my skin like a thousand needles. I groaned,",
+        "As I slowly opened my eyes, the scorching heat washed over me like a tidal wave of despair. I blinked, trying to shake off the haze of",
+        "I slowly came to, my mind foggy and weak. As I sat up, the scorching heat of the flames above me hit me like a wave",
+        "I slowly opened my eyes, groggily scanning the desolate landscape around me. The fiery pits of brimstone stretched out as far as the eye could",
+        "As I slowly sat up, the intense heat from the blazing inferno below made my eyes water. The darkness seemed to swallow me whole, and I shielded",
+        "As I slowly came to, the searing heat of the Infernal realm enveloped me like a suffocating blanket. I struggled to open my eyes,",
+        "As I slowly regained consciousness, the scorching flames seemed to pierce through my skull, making my eyes water and my skin sizzle. I grogg"
+      ],
+      "times": [
+        1.0477445125579834,
+        1.0403003692626953,
+        1.0385148525238037,
+        1.0416021347045898,
+        1.0610697269439697,
+        1.0471928119659424,
+        1.055124044418335,
+        1.0429420471191406,
+        1.0367507934570312,
+        1.038142204284668,
+        1.0302166938781738,
+        1.033177375793457,
+        1.058009386062622,
+        1.0449347496032715,
+        1.0415172576904297
+      ],
+      "metrics": {
+        "avg_bleu": 0.14090053076007525,
+        "avg_rougeL": 0.3264317380808377,
+        "avg_meteor": 0.36440268033456835,
+        "avg_cosine_similarity": 0.5878046154975891,
+        "avg_cider": -1,
+        "degeneration_llm_score": 0.0,
+        "degeneration_llm_reason": "All answers are grammatically correct, coherent, and free of garbled tokens, nonsense, or language mixing."
+      },
+      "early_stopped": false
+    },
+    {
+      "prompt_index": 17,
+      "prompt": "[ WP ] Humans are born with a mark around their wrist which has a matching color with that of their soulmate 's , but can change through their life . Your mark has had a blue hue since you were 14 , but one night , while you 're out , people start looking at you funny . You realize that your mark is gone .",
+      "answers": [
+        "I'll never forget the day I discovered my mark. It was like it had been there the whole time, yet it somehow only revealed itself to me when I",
+        "I stared blankly at my wrist, my heart racing with every passing moment. It was as if time had frozen. My birthmark - the mark that had",
+        "I stared at my wrist, squinting in confusion. Where was the familiar blue mark, the one that had been a constant reminder of my soulmate?",
+        "As I sat at the kitchen table, staring blankly at the photo of my family in front of me, my mind wandered back to the night before. It",
+        "I glanced down at my wrist, my eyes scanning the once-familiar outline where my soulmate's mark should be. My mark had always been a warm,",
+        "I had always known that I was meant to find my soulmate, but I never expected the universe to leave a physical reminder of that relationship right on my wrist",
+        "I had grown accustomed to the sight of my blue mark on my wrist. It was a constant reminder of Asher, my soulmate since I was 14",
+        "I stared down at my wrist, my heart sinking as I noticed something was different. For as long as I could remember, the blue mark on my skin had",
+        "I had always known that my wrist mark was a little different from everyone else's. Growing up, I'd received curious glances and whispers whenever I went to",
+        "I stared at my wrist, trying to shake off the feeling of unease that had settled in the pit of my stomach. It had been an ordinary night out",
+        "I had always known that I was born with a mark on my wrist, a distinctive blue circle that seemed to shimmer and glow in the light. It was a",
+        "I glanced down at my wrist for what felt like the hundredth time that day, my usual habit. That soft blue light on my skin, a constant reminder",
+        "As I walked out of my bedroom that evening, the warm glow of the evening sun highlighted the vibrant blue mark adorning my wrist. It had always been there",
+        "---\n\nI stared at my wrist in confusion, my mind racing as I stumbled backward into the familiar lamp post on the sidewalk. My gaze shifted between my empty wrist",
+        "I stared at my wrist in confusion, my eyes scanning the area where my usual blue mark should be. At 25 years old, I had always had a"
+      ],
+      "times": [
+        1.0449156761169434,
+        1.0427401065826416,
+        1.0393593311309814,
+        1.0547089576721191,
+        1.0514514446258545,
+        1.0365197658538818,
+        1.0380449295043945,
+        1.0406394004821777,
+        1.036980390548706,
+        1.0393402576446533,
+        1.0275638103485107,
+        1.0396850109100342,
+        1.0394032001495361,
+        1.057419776916504,
+        1.042954683303833
+      ],
+      "metrics": {
+        "avg_bleu": 0.059626055339795855,
+        "avg_rougeL": 0.24863028912310867,
+        "avg_meteor": 0.24807281278821236,
+        "avg_cosine_similarity": 0.548759937286377,
+        "avg_cider": -1,
+        "degeneration_llm_score": 0.0,
+        "degeneration_llm_reason": "All answers are coherent, free of garbled text, broken Unicode, language mixing, or nonsense. No degeneration observed."
+      },
+      "early_stopped": false
+    },
+    {
+      "prompt_index": 18,
+      "prompt": "[ WP ] A mathematician on the brink of insanity has spent years locked in his apartment , attempting to find a formula that proves God exists . As he nears to a breakthrough , God shows up to explain why the proof should n't be made public .",
+      "answers": [
+        "Dr. Elliot Thompson had spent the past decade of his life cooped up in his small, cluttered apartment, pouring over equations and scribbling on chalk",
+        "Dr. Elliot Thompson had become a recluse in his own apartment, his once tidy lab now cluttered with scribbled equations and dusty stack of calculators",
+        "**The Formula of Eternity**\n\nDr. Elliot Thompson stared blankly at the scribbled equations on his whiteboard, his mind racing with the thrill",
+        "**Theymi Tcessive of a Mad Mathematician**\n\nDr. Elena Vasquez stared blankly at the scribbled equation on the blackboard, the chalk",
+        "**The Equation of Eternity**\n\nDr. Leonhard Eisenstadt had been locked away in his apartment for what seemed like an eternity. The walls had become",
+        "**TheＩnvisible Barrier**\n\nDr. Emmanual Watts had spent most of his adult life studying the mysteries of mathematics, pouring over equations, and searching for",
+        "Dr. Elliot Thompson had spent the better part of a decade locked away in his dingy, cluttered apartment, pored over equations and scribbled notes",
+        "**The Polish Monk's Dilemma**\n\nThe rain lashed against the grimy windowpane, casting a relentless rhythm of water droplets on the cracked glass",
+        "**The Theorem of Omniscience**\n\nJohn's apartment was a labyrinth of scribbled equations, ravings scrawled on blackboards, and scattered",
+        "Dr. Thompson stared blankly at the equations scrawled across his chalkboard, his eyes burning with a mix of frustration and desperation. It had been years",
+        "**The equation of omniscience**\n\nProfessor Elliot Taylor had spent every waking moment, every sleepless night, every fleeting moment since the onset of his quest,",
+        "Dr. Nathan Thompson stared blankly at the equations scrawled across his chalkboard, his eyes bloodshot from lack of sleep and his mind numb from days",
+        "**The Argonaut's Descent into Madness**\n\nDr. Elliot Thompson, a renowned mathematician, had spent the better part of two decades shut away in his",
+        "Dr. Elliot sat at his cluttered desk, staring blankly at the tangled web of equations scribbled across the pages of his notebook. Years of his",
+        "**The Mathematician's Dilemma**\n\nMathew Jenkins had lost count of the days. Years, maybe decades, possibly centuries – time had become irrelevant in"
+      ],
+      "times": [
+        1.0398814678192139,
+        1.0341873168945312,
+        1.0298562049865723,
+        1.03482985496521,
+        1.0309078693389893,
+        1.0314440727233887,
+        1.0504107475280762,
+        1.0343706607818604,
+        1.0366184711456299,
+        1.0693957805633545,
+        1.0414881706237793,
+        1.0329577922821045,
+        1.0413658618927002,
+        1.0405230522155762,
+        1.042726993560791
+      ],
+      "metrics": {
+        "avg_bleu": 0.05013055218570864,
+        "avg_rougeL": 0.22358177153367045,
+        "avg_meteor": 0.24981229623407136,
+        "avg_cosine_similarity": 0.48168128728866577,
+        "avg_cider": -1,
+        "degeneration_llm_score": 0.0,
+        "degeneration_llm_reason": "All answers are coherent, free of nonsense, language mixing, garbled tokens, or clear errors. Minor typos (e.g., 'pouring' vs. 'poring') are not counted as degeneration."
+      },
+      "early_stopped": false
+    },
+    {
+      "prompt_index": 19,
+      "prompt": "[ WP ] You die and are informed you 'll restart your life exactly as it was when you turned 6 . All your memories are as they were the moment you died , everything else resets . You are told you are the only one like this .",
+      "answers": [
+        "I opened my eyes to find myself in a hospital room, the beeping of machines and sterile smell surrounding me. A faint hum of a hospital bed, an",
+        "I'll never forget the date, the room, or the feeling of stillness that washed over me as I slipped away from the world. It was as if",
+        "I remember the day I died like it was yesterday. I must have been 25 years old. I was on a solo hike in the mountains, enjoying the",
+        "I blinked my eyes open to an unfamiliar ceiling. The familiar smell of my mother's perfume wafted through my nostrils, but something felt off. Everything",
+        "As I lay in my bed, my eyes fluttered open to an empty, yet familiar, bedroom. The same four white walls, the same worn wooden bed",
+        "I closed my eyes, feeling the weight of my life slipping away. Everything went dark, and I was gone. I never knew how long I lay there,",
+        "I stood in a dingy, cold waiting room, surrounded by beige walls and fluorescent lights that seemed to hum with an unending pulse. The air was stale",
+        "I remember the day like it was yesterday. I was six years old, playing with my favorite toy, a small white plastic dinosaur named Rex, in the back",
+        "I felt my life slipping away, the sensation of my soul leaving my body, as if I was being pulled down a dark, endless tunnel. I tried to",
+        "I remember the feeling of my last heartbeat, the sensation of my consciousness slipping away. My eyes fluttered open, and I was met with a brilliant light.",
+        "I woke up to an eerie silence. My eyes fluttered open to find myself in a cold, white room. I was lying on a narrow bed with white",
+        "I lay in the cold, dark space, my body at ease, feeling a sense of serenity wash over me. I had no concept of how I had",
+        "I slowly opened my eyes to the familiar sound of birds chirping outside my window. I looked around, trying to remember, but... nothing. Where was I",
+        "I lay on the cold, white slab, surrounded by a blur of unfamiliar faces. The whispers of murmurs and hushed conversations reached me, but I couldn",
+        "I woke up to a world that was eerily familiar yet completely alien. The last thing I remembered was dying, a image of pain and darkness that slowly gave"
+      ],
+      "times": [
+        1.0573885440826416,
+        1.0389184951782227,
+        1.037135124206543,
+        1.0453097820281982,
+        1.0378165245056152,
+        1.0459656715393066,
+        1.3515169620513916,
+        1.040889024734497,
+        1.0430066585540771,
+        1.0287487506866455,
+        1.0634946823120117,
+        1.0572798252105713,
+        1.0264980792999268,
+        1.028205156326294,
+        1.0246939659118652
+      ],
+      "metrics": {
+        "avg_bleu": 0.02956092037835974,
+        "avg_rougeL": 0.199530808299428,
+        "avg_meteor": 0.19834833897044307,
+        "avg_cosine_similarity": 0.4753466546535492,
+        "avg_cider": -1,
+        "degeneration_llm_score": 0.0,
+        "degeneration_llm_reason": "All answers are clean, coherent, and free of degeneration such as nonsense, broken language, or garbled tokens."
+      },
+      "early_stopped": false
+    }
+  ],
+  "current_eval": {
+    "per_prompt": [
+      {
+        "prompt_index": 0,
+        "prompt": "[ WP ] You 've finally managed to discover the secret to immortality . Suddenly , Death appears before you , hands you a business card , and says , `` When you realize living forever sucks , call this number , I 've got a job offer for you . ''",
+        "num_candidates": 15,
+        "pairwise_eval": {
+          "avg_bleu": 0.07645555614776557,
+          "avg_rougeL": 0.2513222831263918,
+          "avg_meteor": 0.23219811993162662,
+          "avg_cosine_similarity": 0.38818037509918213,
+          "avg_cider": 0.0,
+          "degeneration_llm_score": 0.0,
+          "degeneration_llm_reason": "All answers are coherent, grammatical, and free from text degeneration. No garbled tokens, nonsense, or broken language."
+        },
+        "llm_diversity": {
+          "diversity_score": 0.26,
+          "justification": "The samples overwhelmingly share a first-person perspective, similar style and tone, recurring settings (laboratories, discovery scenes), and closely related plot structures—mainly focusing on a character's shock or awe at discovering the secret to immortality—resulting in limited diversity across perspective, style, plot, and language."
+        },
+        "degeneration": {
+          "existing_score": null,
+          "existing_reason": null,
+          "recomputed": null
+        }
+      },
+      {
+        "prompt_index": 1,
+        "prompt": "[ WP ] An alien invasion happens during an alien invasion .",
+        "num_candidates": 15,
+        "pairwise_eval": {
+          "avg_bleu": 0.048329220581437814,
+          "avg_rougeL": 0.21813680776175415,
+          "avg_meteor": 0.21873025492920092,
+          "avg_cosine_similarity": 0.38408219814300537,
+          "avg_cider": 0.0,
+          "degeneration_llm_score": 0.05,
+          "degeneration_llm_reason": "Almost all entries are clean, coherent, and free of degeneration. Entry [4] contains a minor glitch: 'the炎flavors of BBQ', where the character '炎' seems to be a Unicode artifact, but this does not significantly impact overall coherence. No other signs of degeneration detected."
+        },
+        "llm_diversity": {
+          "diversity_score": 0.42,
+          "justification": "While the samples show some variation in setting (small towns, cities, future, space), perspective (occasionally first person), and occasional use of headings, most open with nearly identical scene-setting structures and similar disaster/incident themes, resulting in moderate but not high diversity."
+        },
+        "degeneration": {
+          "existing_score": null,
+          "existing_reason": null,
+          "recomputed": null
+        }
+      },
+      {
+        "prompt_index": 2,
+        "prompt": "[ FF ] What 's on the tape ?",
+        "num_candidates": 15,
+        "pairwise_eval": {
+          "avg_bleu": 0.03824004796806844,
+          "avg_rougeL": 0.18470372985323835,
+          "avg_meteor": 0.18520647533142554,
+          "avg_cosine_similarity": 0.320564866065979,
+          "avg_cider": 0.0,
+          "degeneration_llm_score": 0.0,
+          "degeneration_llm_reason": "All answers are coherent, well-structured, and free of garbled text, nonsense, or degeneration."
+        },
+        "llm_diversity": {
+          "diversity_score": 0.42,
+          "justification": "While there is some variation in perspective (first vs. third person), setting, and stylistic experimentation (e.g., Film Noir style, bolded titles), the majority of samples revolve around similar themes (discovery of VHS tapes/attics/old technology), resulting in limited plot, style, and language diversity."
+        },
+        "degeneration": {
+          "existing_score": null,
+          "existing_reason": null,
+          "recomputed": null
+        }
+      },
+      {
+        "prompt_index": 3,
+        "prompt": "[ WP ] Over night , 90 % of the world 's population has dropped dead . In the following weeks , the survivors , who come from diverse countries , ethnicities , religious beliefs and lifestyles realize that they all share a single , peculiar trait ...",
+        "num_candidates": 15,
+        "pairwise_eval": {
+          "avg_bleu": 0.041617018363682326,
+          "avg_rougeL": 0.2005257320027216,
+          "avg_meteor": 0.21226120193496145,
+          "avg_cosine_similarity": 0.5300350189208984,
+          "avg_cider": 0.0,
+          "degeneration_llm_score": 0.0,
+          "degeneration_llm_reason": "All answers are fully coherent, fluent, and use clean language with no evidence of garbling, repetition, or nonsense. No degeneration observed."
+        },
+        "llm_diversity": {
+          "diversity_score": 0.22,
+          "justification": "The samples show limited diversity in perspective, style, plot structure, and language, as they all recount a sudden global catastrophe occurring at night with similar phrasing and narrative approaches, offering little variation beyond minor changes in details and sentence construction."
+        },
+        "degeneration": {
+          "existing_score": null,
+          "existing_reason": null,
+          "recomputed": null
+        }
+      },
+      {
+        "prompt_index": 4,
+        "prompt": "[ WP ] You 've kept your immortality secret for thousands of years . Thats going to be a lot harder now that your on a generation ship on a 2000 year voyage .",
+        "num_candidates": 15,
+        "pairwise_eval": {
+          "avg_bleu": 0.08742864661103568,
+          "avg_rougeL": 0.28080837362857886,
+          "avg_meteor": 0.2699247990599688,
+          "avg_cosine_similarity": 0.41891899704933167,
+          "avg_cider": 0.0,
+          "degeneration_llm_score": 0.0,
+          "degeneration_llm_reason": "All answers are clean, coherent, and free of degeneration. No garbled text, nonsense, or loss of coherence detected."
+        },
+        "llm_diversity": {
+          "diversity_score": 0.27,
+          "justification": "The majority of samples focus on first-person narration set on generation ships, with similar introspective moods, recurring imagery of stars as 'diamonds on black velvet,' and overlapping plot elements, although there are slight variations in character names, settings, and tone."
+        },
+        "degeneration": {
+          "existing_score": null,
+          "existing_reason": null,
+          "recomputed": null
+        }
+      },
+      {
+        "prompt_index": 5,
+        "prompt": "[ WP ] You are a normal person who spent your entire life infiltrating the evil Empire . You even became the Emperor 's right hand . The day before you finally topple the Empire , the hero arrives , kills the Emperor , and saves the day .",
+        "num_candidates": 15,
+        "pairwise_eval": {
+          "avg_bleu": 0.056036847265745586,
+          "avg_rougeL": 0.25063106658715967,
+          "avg_meteor": 0.2431860147984114,
+          "avg_cosine_similarity": 0.540916919708252,
+          "avg_cider": 0.0,
+          "degeneration_llm_score": 0.05,
+          "degeneration_llm_reason": "The texts are coherent and well-formed, with only a very slight instance of language mixing in [6] ('Empire's المؤ 고려 courts'), which mildly affects clarity. Otherwise, there are no broken tokens, random symbols, incoherence, or babble."
+        },
+        "llm_diversity": {
+          "diversity_score": 0.36,
+          "justification": "The samples are similar in perspective (mostly first-person singular), setting (imperial/throne room contexts), tone (serious, dramatic), and narrative structure (reflective or moment-of-crisis openings), with only mild variation in background details, style, and slight language differences such as a non-English word or different characters' motivations."
+        },
+        "degeneration": {
+          "existing_score": null,
+          "existing_reason": null,
+          "recomputed": null
+        }
+      },
+      {
+        "prompt_index": 6,
+        "prompt": "[ WP ] Your T.V . suddenly turns on by itself mid-lunch and a message from the local weather warning system , normally accompanied with a loud alarm but oddly silent this time around , reads `` For the safety and well-being of all local citizens this warning will be broadcasted silently ... ''",
+        "num_candidates": 15,
+        "pairwise_eval": {
+          "avg_bleu": 0.09656047082086316,
+          "avg_rougeL": 0.2963697356635576,
+          "avg_meteor": 0.2881119721392171,
+          "avg_cosine_similarity": 0.5291493535041809,
+          "avg_cider": 0.0,
+          "degeneration_llm_score": 0.0,
+          "degeneration_llm_reason": "All answers are clean, coherent, and free of degeneration such as garbled text, symbols, or nonsense."
+        },
+        "llm_diversity": {
+          "diversity_score": 0.25,
+          "justification": "The samples overwhelmingly share similar perspectives (third-person, focusing on lunch breaks), structure, and language, with only minor variations in character names, settings, and weekday details, resulting in low overall diversity."
+        },
+        "degeneration": {
+          "existing_score": null,
+          "existing_reason": null,
+          "recomputed": null
+        }
+      },
+      {
+        "prompt_index": 7,
+        "prompt": "[ WP ] After almost 1,000 years the population of a generation ship has lost the ability to understand most technology and now lives at a preindustrial level . Today the ship reaches its destination and the automated systems come back online .",
+        "num_candidates": 15,
+        "pairwise_eval": {
+          "avg_bleu": 0.03570698177812222,
+          "avg_rougeL": 0.21387403521005632,
+          "avg_meteor": 0.1817323405614177,
+          "avg_cosine_similarity": 0.37225541472435,
+          "avg_cider": 0.0,
+          "degeneration_llm_score": 0.0,
+          "degeneration_llm_reason": "All entries are coherent, grammatical, and free of degeneration symptoms. No garbled text, symbols, or incoherence detected."
+        },
+        "llm_diversity": {
+          "diversity_score": 0.61,
+          "justification": "The samples show some diversity in style with occasional use of headings and first-person perspective, a few shifting settings and time periods, but most share similar themes (generation ships, long voyages), plot structures (arrival, journey, or recollection), and language (evocative but similar tone and descriptive method), resulting in moderate overall diversity."
+        },
+        "degeneration": {
+          "existing_score": null,
+          "existing_reason": null,
+          "recomputed": null
+        }
+      },
+      {
+        "prompt_index": 8,
+        "prompt": "All injuries , emotional or physical , are displayed on a person in the form of a scar . You come across a man covered head to toe in disfiguring marks , speaking with a woman who bears only a single scar .",
+        "num_candidates": 15,
+        "pairwise_eval": {
+          "avg_bleu": 0.11521815019955335,
+          "avg_rougeL": 0.28837133904761914,
+          "avg_meteor": 0.2892975782144953,
+          "avg_cosine_similarity": 0.48274922370910645,
+          "avg_cider": 0.0,
+          "degeneration_llm_score": 0.0,
+          "degeneration_llm_reason": "All answers are coherent, use standard language, and display no signs of degeneration such as garbled text, nonsense, language mixing, or repetitive babble."
+        },
+        "llm_diversity": {
+          "diversity_score": 0.35,
+          "justification": "While some samples vary in setting and minor details, the majority share highly similar perspectives (first-person narrator observing a mysterious man in a dimly lit urban setting), style (descriptive, introspective), structure, and language, showing limited diversity overall."
+        },
+        "degeneration": {
+          "existing_score": null,
+          "existing_reason": null,
+          "recomputed": null
+        }
+      },
+      {
+        "prompt_index": 9,
+        "prompt": "[ WP ] Your bong is the home of a genie . You spark the bowl and he appears to grant you 3 wishes . You 're both pretty high .",
+        "num_candidates": 15,
+        "pairwise_eval": {
+          "avg_bleu": 0.04619262855103626,
+          "avg_rougeL": 0.23673215455850397,
+          "avg_meteor": 0.24116986651357392,
+          "avg_cosine_similarity": 0.5543045997619629,
+          "avg_cider": 0.0,
+          "degeneration_llm_score": 0.05,
+          "degeneration_llm_reason": "All answers are coherent and fluent, with only minor issues: answer [5] has 'itsetching' (a typo/garble), and [13] has 'potentograf' (possible word error/typo). No severe degeneration, but a slight average effect due to these."
+        },
+        "llm_diversity": {
+          "diversity_score": 0.38,
+          "justification": "Although there are minor variations in setting, emotional tone, and occasional plot device (such as sample 13's genie), the majority of samples share first-person narration, a focus on bongs, similar descriptive language, and little variation in plot structure or perspective."
+        },
+        "degeneration": {
+          "existing_score": null,
+          "existing_reason": null,
+          "recomputed": null
+        }
+      },
+      {
+        "prompt_index": 10,
+        "prompt": "[ WP ] Click the random superpower wiki link provided below three times , create an origin story for a super hero based off of the super powers .",
+        "num_candidates": 15,
+        "pairwise_eval": {
+          "avg_bleu": 0.048462197355041994,
+          "avg_rougeL": 0.20720036254733815,
+          "avg_meteor": 0.2270404941284806,
+          "avg_cosine_similarity": 0.49166548252105713,
+          "avg_cider": 0.0,
+          "degeneration_llm_score": 0.2,
+          "degeneration_llm_reason": "Most answers are clean, but a few contain broken/garbled links ([4], [12]), brief nonsense segments, and some mild incoherence. However, no severe degeneration or unintelligibility is present."
+        },
+        "llm_diversity": {
+          "diversity_score": 0.65,
+          "justification": "The samples generally revolve around the theme of random superpower generation and interactions with a 'superpower wiki,' but display moderate diversity in narrative perspective (first-person, second-person, and informational), plot structure (stories, explanations, and instructions), language use, and presentation style (direct dialogue, meta commentary, and snippets of stories), though significant thematic overlap limits maximum diversity."
+        },
+        "degeneration": {
+          "existing_score": null,
+          "existing_reason": null,
+          "recomputed": null
+        }
+      },
+      {
+        "prompt_index": 11,
+        "prompt": "[ WP ] A kid tries to talk the monster under the bed into attacking the monster in the closet .",
+        "num_candidates": 15,
+        "pairwise_eval": {
+          "avg_bleu": 0.05464006225986178,
+          "avg_rougeL": 0.21391731883225404,
+          "avg_meteor": 0.2309063132815343,
+          "avg_cosine_similarity": 0.5057920813560486,
+          "avg_cider": 0.0,
+          "degeneration_llm_score": 0.0,
+          "degeneration_llm_reason": "All answers are coherent, correctly formatted, grammatically sound, and free from garbled text, nonsense, or degeneration. There are no signs of broken Unicode, language mixing, or loss of coherence."
+        },
+        "llm_diversity": {
+          "diversity_score": 0.45,
+          "justification": "While most samples revolve around a young child's fear of monsters under the bed and employ similar language and plot structures, there is some variation in character names, narrative styles (e.g., descriptive, direct narration, or humor), and minor shifts in perspective."
+        },
+        "degeneration": {
+          "existing_score": null,
+          "existing_reason": null,
+          "recomputed": null
+        }
+      },
+      {
+        "prompt_index": 12,
+        "prompt": "[ WP ] You own a magical camera that is similar to a thermal camera , but instead of heat it shows you value . A ring glows as bright as the sun while a piece of plastic wrapping is almost invisible . You have been careful never to look at a person with it for your whole life .",
+        "num_candidates": 15,
+        "pairwise_eval": {
+          "avg_bleu": 0.05661062664306482,
+          "avg_rougeL": 0.24717274198004816,
+          "avg_meteor": 0.23394118407153305,
+          "avg_cosine_similarity": 0.4788907766342163,
+          "avg_cider": 0.0,
+          "degeneration_llm_score": 0.0,
+          "degeneration_llm_reason": "All answers are clean, coherent, grammatically correct, and free of degeneration such as garbled text, nonsense, or broken language."
+        },
+        "llm_diversity": {
+          "diversity_score": 0.35,
+          "justification": "Most samples share a similar first-person perspective, central plot device (an inherited or mysterious camera), and tone, with only slight variations in style, structure, and language; only a few (like sample 13 with its title and lyrical phrase) differ noticeably."
+        },
+        "degeneration": {
+          "existing_score": null,
+          "existing_reason": null,
+          "recomputed": null
+        }
+      },
+      {
+        "prompt_index": 13,
+        "prompt": "[ WP ] Where do bad guys get their legions of goons ? Well , it 's all thanks to you . You specialize in supplying grunts of a wide variety to aspiring super villains , whether they need masked men with bad aim or hideous/sexy merfolk to guard their underwater lair .",
+        "num_candidates": 15,
+        "pairwise_eval": {
+          "avg_bleu": 0.08971704240559072,
+          "avg_rougeL": 0.23809188316526553,
+          "avg_meteor": 0.2346641104056835,
+          "avg_cosine_similarity": 0.369696706533432,
+          "avg_cider": 0.0,
+          "degeneration_llm_score": 0.0,
+          "degeneration_llm_reason": "All answers are coherent, grammatically correct, and free from garbled tokens, nonsense, or broken Unicode. No signs of degeneration present."
+        },
+        "llm_diversity": {
+          "diversity_score": 0.37,
+          "justification": "While there is some diversity in shop names, figures, and minor stylistic choices—including a first-person perspective in sample 5 and slight tonal shifts—the majority of samples share very similar opening structures, settings (shadowy city/alleys), language, and themes involving mysterious figures and hidden operations, indicating limited overall diversity."
+        },
+        "degeneration": {
+          "existing_score": null,
+          "existing_reason": null,
+          "recomputed": null
+        }
+      },
+      {
+        "prompt_index": 14,
+        "prompt": "[ EU ] Batman is arrested . The day of his trial , the Joker shows up to defend him .",
+        "num_candidates": 15,
+        "pairwise_eval": {
+          "avg_bleu": 0.07897041257284665,
+          "avg_rougeL": 0.2867176887608554,
+          "avg_meteor": 0.28067008732308146,
+          "avg_cosine_similarity": 0.6255185008049011,
+          "avg_cider": 0.0,
+          "degeneration_llm_score": 0.0,
+          "degeneration_llm_reason": "All answers are coherent, grammatical, and free of degeneration. No garbled text, nonsense, random symbols, or language mixing observed."
+        },
+        "llm_diversity": {
+          "diversity_score": 0.27,
+          "justification": "Most samples share a similar perspective (third-person, observer), setting (Gotham City), plot premise (day of Batman's trial), mood (gloomy, tense), and closely resemble each other in style and language, showing only minor variation in imagery and focus."
+        },
+        "degeneration": {
+          "existing_score": null,
+          "existing_reason": null,
+          "recomputed": null
+        }
+      },
+      {
+        "prompt_index": 15,
+        "prompt": "[ WP ] : your seventh son is fated to murder you . You laugh until you remember you used to donate sperm .",
+        "num_candidates": 15,
+        "pairwise_eval": {
+          "avg_bleu": 0.042927180135418734,
+          "avg_rougeL": 0.19231710727732154,
+          "avg_meteor": 0.19091218821999717,
+          "avg_cosine_similarity": 0.3251858353614807,
+          "avg_cider": 0.0,
+          "degeneration_llm_score": 0.0,
+          "degeneration_llm_reason": "All answers are clean, coherent, and free of degeneration—no nonsense, garbled tokens, or loss of meaning."
+        },
+        "llm_diversity": {
+          "diversity_score": 0.57,
+          "justification": "While several samples share a first-person perspective and a domestic setting (with armchairs, coffee, morning routines, and family), there is moderate diversity in plot structure (inclusion of news, mysterious legacies, letters), narrative style (third-person, evocative language, location shifts to Ireland, Japan, England), and the occasional shift in mood or topic."
+        },
+        "degeneration": {
+          "existing_score": null,
+          "existing_reason": null,
+          "recomputed": null
+        }
+      },
+      {
+        "prompt_index": 16,
+        "prompt": "[ WP ] You wake up in Hell . You look around , you ca n't see anybody , it 's just fire and brimstone going on forever . Eventually the Devil walks over and says `` Finally , you 're the first to arrive , so tell me , who are you ? what did you do ? and how did you die ? ''",
+        "num_candidates": 15,
+        "pairwise_eval": {
+          "avg_bleu": 0.14090053076007525,
+          "avg_rougeL": 0.3264317380808377,
+          "avg_meteor": 0.36440268033456835,
+          "avg_cosine_similarity": 0.5878045558929443,
+          "avg_cider": 0.0,
+          "degeneration_llm_score": 0.0,
+          "degeneration_llm_reason": "All answers are well-formed, coherent, and free from garbled text, nonsense, or language errors."
+        },
+        "llm_diversity": {
+          "diversity_score": 0.18,
+          "justification": "The samples are highly similar in perspective (first-person), style (descriptive and introspective), plot structure (awakening in a hot, hellish or infernal environment), and language (with frequent repetition of sensory descriptions and phrase structures), showing minimal variation among them."
+        },
+        "degeneration": {
+          "existing_score": null,
+          "existing_reason": null,
+          "recomputed": null
+        }
+      },
+      {
+        "prompt_index": 17,
+        "prompt": "[ WP ] Humans are born with a mark around their wrist which has a matching color with that of their soulmate 's , but can change through their life . Your mark has had a blue hue since you were 14 , but one night , while you 're out , people start looking at you funny . You realize that your mark is gone .",
+        "num_candidates": 15,
+        "pairwise_eval": {
+          "avg_bleu": 0.059626055339795855,
+          "avg_rougeL": 0.24863028912310867,
+          "avg_meteor": 0.24807281278821236,
+          "avg_cosine_similarity": 0.5487598776817322,
+          "avg_cider": 0.0,
+          "degeneration_llm_score": 0.0,
+          "degeneration_llm_reason": "All answers are coherent, grammatically correct, and there are no signs of degeneration such as garbled text, nonsense, language mixing, or broken tokens."
+        },
+        "llm_diversity": {
+          "diversity_score": 0.28,
+          "justification": "Most samples share a first-person narrative style, focus on a wrist mark related to a soulmate, and employ similar emotional tones and plot structures, with only minimal variation in language and perspective."
+        },
+        "degeneration": {
+          "existing_score": null,
+          "existing_reason": null,
+          "recomputed": null
+        }
+      },
+      {
+        "prompt_index": 18,
+        "prompt": "[ WP ] A mathematician on the brink of insanity has spent years locked in his apartment , attempting to find a formula that proves God exists . As he nears to a breakthrough , God shows up to explain why the proof should n't be made public .",
+        "num_candidates": 15,
+        "pairwise_eval": {
+          "avg_bleu": 0.05013055218570864,
+          "avg_rougeL": 0.22358177153367045,
+          "avg_meteor": 0.24981229623407136,
+          "avg_cosine_similarity": 0.4816811978816986,
+          "avg_cider": 0.0,
+          "degeneration_llm_score": 0.0,
+          "degeneration_llm_reason": "All answers are clean, coherent, and free of degeneration artifacts such as garbled text, language mixing, nonsense, or broken unicode."
+        },
+        "llm_diversity": {
+          "diversity_score": 0.38,
+          "justification": "Most samples center on reclusive mathematicians obsessing over equations in cluttered apartments, with significant repetition in plot structure and language; while a few samples vary in names, titles, and tone, the majority remain highly similar in perspective and style."
+        },
+        "degeneration": {
+          "existing_score": null,
+          "existing_reason": null,
+          "recomputed": null
+        }
+      },
+      {
+        "prompt_index": 19,
+        "prompt": "[ WP ] You die and are informed you 'll restart your life exactly as it was when you turned 6 . All your memories are as they were the moment you died , everything else resets . You are told you are the only one like this .",
+        "num_candidates": 15,
+        "pairwise_eval": {
+          "avg_bleu": 0.02956092037835974,
+          "avg_rougeL": 0.199530808299428,
+          "avg_meteor": 0.19834833897044307,
+          "avg_cosine_similarity": 0.47534671425819397,
+          "avg_cider": 0.0,
+          "degeneration_llm_score": 0.0,
+          "degeneration_llm_reason": "All answers are coherent, grammatically correct, and contextually appropriate. No degeneration detected."
+        },
+        "llm_diversity": {
+          "diversity_score": 0.54,
+          "justification": "While the samples share recurring themes of awakening, death, and surreal environments, there is moderate diversity in first-person perspective style, emotional tone, setting details, and narrative structure, though the overall language and structure remain somewhat similar across most entries."
+        },
+        "degeneration": {
+          "existing_score": null,
+          "existing_reason": null,
+          "recomputed": null
+        }
+      }
+    ],
+    "macro_average": {
+      "avg_bleu": 0.06466655741615372,
+      "avg_rougeL": 0.24025334835198545,
+      "avg_meteor": 0.24102945645859516,
+      "avg_cosine_similarity": 0.4705749347805977,
+      "avg_cider": 0.0,
+      "degeneration_llm_score": 0.0175,
+      "llm_diversity_score": 0.379,
+      "degeneration_llm_score_existing_mean": null
+    },
+    "options": {
+      "recompute_degen": false,
+      "degen_rubric_file": null
+    }
+  }
+}
