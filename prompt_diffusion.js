@@ -1,10 +1,10 @@
 // prompt_diffusion.js
-// 사용: 2025_EACL/diffusion_*/prompt_diffusion.html?type=both|rep|hidden|none&p=0000..0004
+// 사용: diffusion_*/prompt_diffusion.html?type=both|rep|hidden|none&p=0000..0004
 
 document.addEventListener('DOMContentLoaded', () => {
   const params = new URLSearchParams(window.location.search);
   const type = (params.get('type') || '').toLowerCase();
-  const pcode = params.get('p'); // '0000'..'0004'
+  const pcode = params.get('p');
   const container = document.getElementById('app');
 
   if (!['both', 'rep', 'hidden', 'none'].includes(type)) {
@@ -16,12 +16,21 @@ document.addEventListener('DOMContentLoaded', () => {
     return;
   }
 
-  // 현재 HTML은 이미 diffusion_* 폴더 안에서 열림 → baseDir은 현재 폴더
-  const baseDir = '.'; // 중요!
+  const baseDir = '.'; // 현재 diffusion_* 폴더
   const pLabel = `p${pcode}`;
 
+  // type별 trial 번호
   const trialMap = { both: 61, rep: 1, hidden: 23, none: 7 };
   const trial = trialMap[type];
+
+  // type별 prefix 매핑
+  const prefixMap = {
+    both:   'sweep_both_diffusion',
+    rep:    'sweep_rep_diffusion',
+    hidden: 'sweep_hidden_diffusion',
+    none:   'sweep_none_diffusion',
+  };
+  const prefix = prefixMap[type];
 
   container.innerHTML = `<h1>Diffusion — ${type} — ${pLabel}</h1><div id="images"></div>`;
   const imagesDiv = document.getElementById('images');
@@ -32,7 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const grid = document.querySelector('.grid');
 
   lastFive.forEach(idx => {
-    const url = `${baseDir}/sweep_hidden_diffusion_trial${trial}_reedsyPrompts_${pLabel}_i${idx}.png`;
+    const url = `${baseDir}/${prefix}_trial${trial}_reedsyPrompts_${pLabel}_i${idx}.png`;
     const fig = document.createElement('figure');
     fig.className = 'img-card';
     fig.innerHTML = `<img src="${url}" alt="not found: ${pLabel} i${idx}" /><figcaption>${pLabel} — i${idx}</figcaption>`;
@@ -44,10 +53,10 @@ document.addEventListener('DOMContentLoaded', () => {
   qDiv.innerHTML = `
     <h3>질문</h3>
     <ol>
-      <li>질문 1. Diversity...</li>
-      <li>질문 2. Degeneration...</li>
-      <li>질문 3. Creativity...</li>
-      <li>질문 4. Coherence...</li>
+      <li>Diversity: 근본적으로 다른가?</li>
+      <li>Degeneration: 망가지지 않고 자연스러운가?</li>
+      <li>Creativity: 뻔하지 않고 흥미로운가?</li>
+      <li>Coherence: 프롬프트와 일관성이 있는가?</li>
     </ol>`;
   container.appendChild(qDiv);
 });
