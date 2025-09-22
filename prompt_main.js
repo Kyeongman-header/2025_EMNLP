@@ -1,20 +1,18 @@
 // prompt_main.js
-// 사용법 예: prompt_main.html?prompt=3&corpus=reedsy&version=2
-// corpus: reedsy | writing  (기본: reedsy)
-// version: 1..4  (매핑은 아래 configs 참고)
+// 사용: 2025_EACL/main_test_reedsy/prompt_main.html?prompt=1[&version=1..4]
+//      2025_EACL/main_test_writing/prompt_main.html?prompt=1[&version=1..4]
 
 document.addEventListener('DOMContentLoaded', () => {
   const params = new URLSearchParams(window.location.search);
   const prompt = parseInt(params.get('prompt'), 10);
-  const corpus = (params.get('corpus') || 'reedsy').toLowerCase(); // 'reedsy' | 'writing'
   const version = params.has('version') ? parseInt(params.get('version'), 10) : null;
   const container = document.getElementById('app');
 
-  const baseDir = corpus === 'writing' ? 'main_writing' : 'main_reedsy';
+  // 현재 HTML은 이미 해당 폴더(main_test_*) 안에서 열림 → baseDir은 현재 폴더
+  const baseDir = '.'; // 중요!
 
-  // version → 파일명 매핑
   const configs = [
-    null, // 0 dummy
+    null,
     'config_both_1_result.json', // 1
     'config_hidden_result.json',  // 2
     'config_rep_result.json',     // 3
@@ -28,10 +26,9 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   if (!version) {
-    // 버전 목록 렌더
-    let html = `<h1>Prompt ${prompt}</h1><h2>버전 선택 (corpus=${corpus})</h2><ul class="version-list">`;
+    let html = `<h1>Prompt ${prompt}</h1><h2>버전 선택</h2><ul class="version-list">`;
     availableVersions.forEach(v => {
-      html += `<li><a href="?prompt=${prompt}&corpus=${corpus}&version=${v}">Version ${v} — ${configs[v]}</a></li>`;
+      html += `<li><a href="?prompt=${prompt}&version=${v}">Version ${v} — ${configs[v]}</a></li>`;
     });
     html += '</ul>';
     container.innerHTML = html;
@@ -44,7 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   const targetJson = `${baseDir}/${configs[version]}`;
-  container.innerHTML = `<h1>Prompt ${prompt} — Version ${version} (${configs[version]})</h1><div id="stories"></div>`;
+  container.innerHTML = `<h1>Prompt ${prompt} — Version ${version}</h1><div id="stories"></div>`;
   const storiesDiv = document.getElementById('stories');
 
   fetch(targetJson)
@@ -53,19 +50,18 @@ document.addEventListener('DOMContentLoaded', () => {
       return res.json();
     })
     .then(data => {
-      const answers = data.results?.[prompt - 1]?.answers || [];
+      const answers = data?.results?.[prompt - 1]?.answers || [];
       const indices = [10, 11, 12, 13, 14].filter(i => i < answers.length);
+
       if (indices.length === 0) {
         storiesDiv.innerHTML = `<p>해당 prompt의 스토리가 충분하지 않습니다.</p>`;
         return;
       }
 
       indices.forEach(i => {
-        const storyNum = i + 1;
-        const s = answers[i];
         const div = document.createElement('div');
         div.className = 'story';
-        div.innerHTML = `<h3>Story ${storyNum}</h3><p>${s}</p>`;
+        div.innerHTML = `<h3>Story ${i + 1}</h3><p>${answers[i]}</p>`;
         storiesDiv.appendChild(div);
       });
 
@@ -74,10 +70,10 @@ document.addEventListener('DOMContentLoaded', () => {
       qDiv.innerHTML = `
         <h3>질문</h3>
         <ol>
-          <li>질문 1. Diversity. 단순히 인물 이름이나 소재들 이름만 좀 변경된 것 말고, 얼마나 근본적으로 서로 다른 이야기인가? (1~5점)</li>
-          <li>질문 2. Degeneration. 전체적으로 얼마나 문장들이 문법 및 어휘 체계가 파괴되지 않고 자연스러운가? (1~5점)</li>
-          <li>질문 3. Creativity. 전체적으로 얼마나 뻔하지 않고 흥미롭고 창의적인 이야기들을 만들었나? (1~5점)</li>
-          <li>질문 4. Coherence. 각각의 story는 일관성 있는 이야기가 전개되는가? (1~5점)</li>
+          <li>질문 1. Diversity...</li>
+          <li>질문 2. Degeneration...</li>
+          <li>질문 3. Creativity...</li>
+          <li>질문 4. Coherence...</li>
         </ol>`;
       storiesDiv.appendChild(qDiv);
     })

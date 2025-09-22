@@ -1,23 +1,22 @@
 // prompt_ar.js
-// 사용법 예: prompt_ar.html?prompt=5&corpus=writing&version=6
-// corpus: reedsy | writing  (기본: reedsy)
-// version: 1..6  (매핑은 아래 configs 참고)
+// 사용: 2025_EACL/ar_test_reedsy/prompt_ar.html?prompt=1[&version=1..6]
+//      2025_EACL/ar_test_writing/prompt_ar.html?prompt=1[&version=1..6]
 
 document.addEventListener('DOMContentLoaded', () => {
   const params = new URLSearchParams(window.location.search);
   const prompt = parseInt(params.get('prompt'), 10);
-  const corpus = (params.get('corpus') || 'reedsy').toLowerCase(); // 'reedsy' | 'writing'
   const version = params.has('version') ? parseInt(params.get('version'), 10) : null;
   const container = document.getElementById('app');
 
-  const baseDir = corpus === 'writing' ? 'ar_writing' : 'ar_reedsy';
+  // 현재 HTML은 이미 해당 폴더(ar_test_*) 안에서 열림 → baseDir은 현재 폴더
+  const baseDir = '.'; // 중요!
 
   const configs = [
-    null, // 0 dummy
+    null,
     'config_both_1_result.json', // 1
     'config_hidden_result.json',  // 2
     'config_rep_result.json',     // 3
-    'config_naive_result.json',   // 4  (요청의 오타 추정 수정)
+    'config_naive_result.json',   // 4 (필요시 아래 fallback 참고)
     'config_topk_result.json',    // 5
     'config_topp_result.json',    // 6
   ];
@@ -29,9 +28,9 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   if (!version) {
-    let html = `<h1>Prompt ${prompt}</h1><h2>버전 선택 (corpus=${corpus})</h2><ul class="version-list">`;
+    let html = `<h1>Prompt ${prompt}</h1><h2>버전 선택</h2><ul class="version-list">`;
     availableVersions.forEach(v => {
-      html += `<li><a href="?prompt=${prompt}&corpus=${corpus}&version=${v}">Version ${v} — ${configs[v]}</a></li>`;
+      html += `<li><a href="?prompt=${prompt}&version=${v}">Version ${v} — ${configs[v]}</a></li>`;
     });
     html += '</ul>';
     container.innerHTML = html;
@@ -43,29 +42,44 @@ document.addEventListener('DOMContentLoaded', () => {
     return;
   }
 
-  const targetJson = `${baseDir}/${configs[version]}`;
-  container.innerHTML = `<h1>Prompt ${prompt} — Version ${version} (${configs[version]})</h1><div id="stories"></div>`;
-  const storiesDiv = document.getElementById('stories');
+  // 파일명 오타 대응(있을 경우만): config_naive._result.json fallback
+  const primary = `${baseDir}/${configs[version]}`;
+  const fallbacks = [];
+  if (configs[version] === 'config_naive_result.json') {
+    fallbacks.push(`${baseDir}/config_naive._result.json`);
+  }
 
-  fetch(targetJson)
-    .then(res => {
-      if (!res.ok) throw new Error('파일을 찾을 수 없습니다');
-      return res.json();
-    })
+  const storiesDiv = document.createElement('div');
+  storiesDiv.id = 'stories';
+  container.innerHTML = `<h1>Prompt ${prompt} — Version ${version}</h1>`;
+  container.appendChild(storiesDiv);
+
+  const loadJson = async () => {
+    const tryPaths = [primary, ...fallbacks];
+    for (const p of tryPaths) {
+      try {
+        const res = await fetch(p);
+        if (!res.ok) continue;
+        return await res.json();
+      } catch {}
+    }
+    throw new Error('파일을 찾을 수 없습니다');
+  };
+
+  loadJson()
     .then(data => {
-      const answers = data.results?.[prompt - 1]?.answers || [];
+      const answers = data?.results?.[prompt - 1]?.answers || [];
       const indices = [10, 11, 12, 13, 14].filter(i => i < answers.length);
+
       if (indices.length === 0) {
         storiesDiv.innerHTML = `<p>해당 prompt의 스토리가 충분하지 않습니다.</p>`;
         return;
       }
 
       indices.forEach(i => {
-        const storyNum = i + 1;
-        const s = answers[i];
         const div = document.createElement('div');
         div.className = 'story';
-        div.innerHTML = `<h3>Story ${storyNum}</h3><p>${s}</p>`;
+        div.innerHTML = `<h3>Story ${i + 1}</h3><p>${answers[i]}</p>`;
         storiesDiv.appendChild(div);
       });
 
@@ -74,10 +88,10 @@ document.addEventListener('DOMContentLoaded', () => {
       qDiv.innerHTML = `
         <h3>질문</h3>
         <ol>
-          <li>질문 1. Diversity. 단순히 인물 이름이나 소재들 이름만 좀 변경된 것 말고, 얼마나 근본적으로 서로 다른 이야기인가? (1~5점)</li>
-          <li>질문 2. Degeneration. 전체적으로 얼마나 문장들이 문법 및 어휘 체계가 파괴되지 않고 자연스러운가? (1~5점)</li>
-          <li>질문 3. Creativity. 전체적으로 얼마나 뻔하지 않고 흥미롭고 창의적인 이야기들을 만들었나? (1~5점)</li>
-          <li>질문 4. Coherence. 각각의 story는 일관성 있는 이야기가 전개되는가? (1~5점)</li>
+          <li>질문 1. Diversity...</li>
+          <li>질문 2. Degeneration...</li>
+          <li>질문 3. Creativity...</li>
+          <li>질문 4. Coherence...</li>
         </ol>`;
       storiesDiv.appendChild(qDiv);
     })
