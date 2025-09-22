@@ -1,14 +1,12 @@
 // prompt_diffusion.js
-// 사용법 예: prompt_diffusion.html?type=both&p=0000&maxTrial=400
+// 사용법 예: prompt_diffusion.html?type=both&p=0000
 // type: both | rep | hidden | none  (필수)
-// p: 0000..0004 (필수)  → p0000 ~ p0004 중 하나
-// maxTrial: 시도할 trial 상한 (기본 300, 큰 수일수록 체크가 오래 걸림)
+// p: 0000..0004 (필수)
 
 document.addEventListener('DOMContentLoaded', () => {
   const params = new URLSearchParams(window.location.search);
   const type = (params.get('type') || '').toLowerCase(); // 'both' | 'rep' | 'hidden' | 'none'
   const pcode = params.get('p'); // '0000'..'0004'
-  const maxTrial = parseInt(params.get('maxTrial') || '300', 10);
   const container = document.getElementById('app');
 
   if (!['both', 'rep', 'hidden', 'none'].includes(type)) {
@@ -22,56 +20,35 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const baseDir = `diffusion_${type}`;
   const pLabel = `p${pcode}`;
+
+  // type별 고정 trial 번호
+  const trialMap = {
+    both: 61,
+    rep: 1,
+    hidden: 23,
+    none: 7,
+  };
+  const trial = trialMap[type];
+
   container.innerHTML = `<h1>Diffusion — ${type} — ${pLabel}</h1><div id="images"></div>`;
   const imagesDiv = document.getElementById('images');
 
   // 마지막 5개 인덱스
   const lastFive = ['010', '011', '012', '013', '014'];
 
-  // 주어진 URL이 존재하는지 확인
-  const checkExists = (url) =>
-    fetch(url, { method: 'HEAD' }).then(res => res.ok).catch(() => false);
-
-  // 가장 최신 trial 탐색: maxTrial → 0 역순
-  const findLatestTrialForP = async () => {
-    for (let t = maxTrial; t >= 0; t--) {
-      // 5개 중 하나라도 존재하면 그 trial 사용
-      const anyExists = await Promise.any(
-        lastFive.map(async idx => {
-          const url = `${baseDir}/sweep_hidden_diffusion_trial${t}_reedsyPrompts_${pLabel}_i${idx}.png`;
-          const ok = await checkExists(url);
-          if (ok) return true;
-          throw new Error('notfound');
-        })
-      ).then(() => true).catch(() => false);
-
-      if (anyExists) return t;
-    }
-    return null;
-  };
-
-  (async () => {
-    imagesDiv.innerHTML = `<p>최신 trial을 탐색 중...</p>`;
-    const trial = await findLatestTrialForP();
-    if (trial === null) {
-      imagesDiv.innerHTML = `<p>${pLabel}에 대해 이미지를 찾을 수 없습니다.</p>`;
-      return;
-    }
-
+  const renderImages = async () => {
     imagesDiv.innerHTML = `<h2>trial${trial} — ${pLabel} (마지막 5개: i010~i014)</h2><div class="grid"></div>`;
     const grid = document.querySelector('.grid');
 
     let foundCount = 0;
     for (const idx of lastFive) {
       const url = `${baseDir}/sweep_hidden_diffusion_trial${trial}_reedsyPrompts_${pLabel}_i${idx}.png`;
-      const ok = await checkExists(url);
-      if (ok) {
-        const fig = document.createElement('figure');
-        fig.className = 'img-card';
-        fig.innerHTML = `<img src="${url}" alt="${pLabel} ${idx}" /><figcaption>${pLabel} — i${idx}</figcaption>`;
-        grid.appendChild(fig);
-        foundCount++;
-      }
+      // fetch로 확인하지 않고 그냥 <img> 태그 출력 (없는 경우 alt로 표시)
+      const fig = document.createElement('figure');
+      fig.className = 'img-card';
+      fig.innerHTML = `<img src="${url}" alt="not found: ${pLabel} i${idx}" /><figcaption>${pLabel} — i${idx}</figcaption>`;
+      grid.appendChild(fig);
+      foundCount++;
     }
 
     if (foundCount === 0) {
@@ -89,5 +66,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <li>질문 4. Coherence. 프롬프트 의도와 결과가 일관적으로 맞아떨어지는가? (1~5점)</li>
       </ol>`;
     container.appendChild(qDiv);
-  })();
+  };
+
+  renderImages();
 });
