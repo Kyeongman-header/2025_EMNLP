@@ -44,11 +44,35 @@ h3 {
 .prompt-list {
   list-style: none;
   padding: 0;
-  margin: 0 auto;
+  margin: 0;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
+  gap: 12px; /* 각 아이템 사이 간격 */
+}
+
+.prompt-list li {
+  display: inline-block;
+}
+
+.prompt-list a {
+  display: inline-block;
+  min-width: 60px;   /* 칸 최소 너비 */
+  padding: 10px 16px;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border: 2px solid #333;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #333;
+  background: #fafafa;
+  transition: all 0.2s ease-in-out;
+}
+
+.prompt-list a:hover {
+  background: #333;
+  color: #fff;
+  border-color: #333;
 }
 
 /* version list styling: vertical, centered */
@@ -71,24 +95,7 @@ h3 {
 .version-list a:hover {
   text-decoration: underline;
 }
-.prompt-list a {
-  text-decoration: none;
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  line-height: 50px;
-  text-align: center;
-  font-size: 1.4em;
-  background: white;
-  border: 1px solid #aaa;
-  border-radius: 4px;
-  color: #333;
-  transition: background 0.2s, border-color 0.2s;
-}
-.prompt-list a:hover {
-  background: #e6e6e6;
-  border-color: #888;
-}
+
 .version-list a {
   text-decoration: none;
   font-size: 1.4em;
