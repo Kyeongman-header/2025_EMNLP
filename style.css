@@ -40,35 +40,39 @@ h3 {
   border-radius: 8px;
   margin-bottom: 30px;
 }
-/* prompt list styling */
+/* 프롬프트 리스트를 가운데 정렬 */
 .prompt-list {
   list-style: none;
   padding: 0;
-  margin: 0;
+  margin: 16px 0;
   display: flex;
+  justify-content: center;  /* 중앙 정렬 */
   flex-wrap: wrap;
-  gap: 12px; /* 각 아이템 사이 간격 */
+  gap: 16px; /* 아이템 간 간격 */
 }
 
+/* 각 아이템 */
 .prompt-list li {
   display: inline-block;
 }
 
+/* 링크를 버튼처럼 */
 .prompt-list a {
   display: inline-block;
-  min-width: 60px;   /* 칸 최소 너비 */
-  padding: 10px 16px;
+  min-width: 80px;   /* 버튼 최소 너비 */
+  padding: 12px 18px;
   text-align: center;
   font-size: 1.1rem;
   font-weight: 600;
   border: 2px solid #333;
-  border-radius: 8px;
+  border-radius: 10px;
   text-decoration: none;
   color: #333;
-  background: #fafafa;
+  background: #fdfdfd;
   transition: all 0.2s ease-in-out;
 }
 
+/* hover 효과 */
 .prompt-list a:hover {
   background: #333;
   color: #fff;
